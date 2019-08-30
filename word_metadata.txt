@@ -1,0 +1,5 @@
+56370 distinct strings (words) from corpora
+52498 with single root
+3640 with 2 different roots
+224 with 3 different roots
+8 with 4 different roots 
