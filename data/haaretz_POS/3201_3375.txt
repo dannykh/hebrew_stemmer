@@ -1,0 +1,4659 @@
+
+
+tree #1
+(
+ (S
+    (SBAR-COM (COM *NONE*)
+        (S
+            (NP-ZR-H-SBJ (H ה) (NN-ZR םיאפור))
+            (VP (VB-ZR3H םירהממ))
+            (VP-INF (VB-M םושרל)
+                (NP-OBJ (NN-ZR םימשרמ))))) (yyCM yyCM)
+    (VP (VB-NY3H תרמוא))
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY תיגולוכיספ))
+        (ADJP-NY-H (H ה) (JJ-NY הייקרוט))
+        (NP
+            (NNP-NY (NNP-NY הלרק) (NNP-BY ןאראב)))) (yyDOT yyDOT)))
+
+tree #2
+*
+(
+ (S
+    (NP-SBJ (NNT-NR תויעב)
+        (NP (NN-NY הפש)))
+    (VP (VB-NR3H תושקמ))
+    (PP-COM (IN לע)
+        (NP
+            (NP (NN-ZY ןוחבא))
+            (ADJP (JJ-ZY ןוכנ)))) (yyDOT yyDOT)))
+
+tree #3
+*
+(
+ (S
+    (INTJ
+        (PP (IN ףסונ) (IN ל) (PRP-BB3 ךכ))) (yyCM yyCM)
+    (S (yyQUOT yyQUOT)
+        (S
+            (NP-NR-H-SBJ (H ה) (NN-NR םישנ))
+            (ADVP (RB-NR3 ןניא))
+            (VP (VB-NR3H תורבדמ))
+            (PP (IN לצא)
+                (NP-ZY-H (H ה) (NN-ZY אפור)))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #4
+*
+(
+ (S
+    (NP-SBJ (PRP-NR3 ןה))
+    (VP (VB-NR3H תובשוי))
+    (ADVP (RB םיתעל) (JJ-NR תובורק))
+    (PP-CNJ
+        (PP (IN ב)
+            (NP
+                (NP (NN-ZY שאר))
+                (ADJP (JJ-ZY ןכרומ)))) (CC ו)
+        (PP (IN ב)
+            (NP
+                (NP (NN-NR םייניע))
+                (ADJP (JJ-NR תולפשומ))))) (yyDOT yyDOT)))
+
+tree #5
+*
+(
+ (S
+    (NP-SBJ
+        (NP-ZY-H (H ה) (NN-ZY חתמ))
+        (PP (IN ןיב)
+            (NP-CNJ
+                (NP
+                    (NP-NY-H (H ה) (NN-NY תרוסמ))
+                    (ADJP-NY-H (H ה) (JJ-NY תינרמש))) (CC ו)
+                (NP-NY-H (H ה) (NN-NY הביבס)))))
+    (VP (VB-ZY3H ליטמ))
+    (NP-OBJ
+        (NP (NN-NY הסמעמ))
+        (ADJP (JJ-NY הדבכ)))
+    (PP-COM (IN לע)
+        (NP-ZR-H (H ה) (NN-ZR םידלי))) (yyDOT yyDOT)))
+
+tree #6
+(
+ (S-CNJ
+    (S
+        (SBAR-COM (COM *NONE*)
+            (S
+                (NP-NR-H-SBJ (H ה) (NN-NR תונב))
+                (ADVP (RB רקיעב))
+                (VP (VB-NR3H תולבוס))
+                (PP-COM (IN מ)
+                    (NP
+                        (NP (yyQUOT yyQUO)
+                            (NP
+                                (NP (NN-NR תויפיצ))
+                                (ADJP (JJ-NR תורתוס))) (yyQUOT yyQUOT))
+                        (PP (POS לש)
+                            (NP (NN-ZR-H-NR3 ןהירוה))))))) (yyCM yyCM)
+        (VP (VB-ZY3H רמוא))
+        (NP-SBJ
+            (NP
+                (NP-ZY-H (H ה) (NN-ZY ץעוי))
+                (ADJP-ZY-H (H ה) (JJ-ZY יגולוכיספ))
+                (PP (IN ב)
+                    (NP
+                        (NP (NNT-ZR יתב) (yyDASH yyDASH)
+                            (NP (NN-ZY רפס)))
+                        (PP (IN ב)
+                            (NP (NNP-NY ןילרב)))))) (yyCM yyCM)
+            (NP
+                (NNP-ZY (NNP-ZY רוהמוג) (NNP-BY ןרסאבקט))))) (yyCLN yyCLN)
+    (S
+        (NP-ZY-H-SBJ (H ה) (NN-ZY רסמ))
+        (PREDP (AGR-ZY אוה)
+            (S (yyQUOT yyQUOT)
+                (S-CNJ
+                    (S (NP-SBJ *PRO*)
+                        (VP (VB-BB3H רוסא))
+                        (PP (IN ל)
+                            (NP (PRP-NY2 תא)))
+                        (VP-INF (VB-M טולבל))) (CC לבא)
+                    (S
+                        (NP-SBJ (PRP-NY2 תא))
+                        (VP (VB-NY2H תבייח))
+                        (VP-INF (VB-M ראשיהל)
+                            (NP-OBJ (NN-NY הייקרוט))))) (yyQUOT yyQUOT)))
+        (PRN (yyLRB yyLRB)
+            (VP-INF-CNJ
+                (VP-INF (VB-M טולבל)
+                    (PP (IN ב)
+                        (NP-NY-H (H ה) (NN-NY הביבס)))) (CC ו)
+                (VP-INF (VB-M ררועל)
+                    (NP-OBJ (AT תא)
+                        (NP (NN-ZY-H-NY3 הגעל)))
+                    (PP (IN לע) (yyDASH yyDASH)
+                        (NP (NNT-NR ידי)
+                            (NP-CNJ
+                                (NP
+                                    (NP (NN-ZR םידגב))
+                                    (SBAR (REL ה)
+                                        (S (NP-SBJ *T*)
+                                            (VP (VB-ZR3H םיבשחנ))
+                                            (ADJP (JJ-ZR םיעונצ))))) (CC ו)
+                                (NP (NNT-NY תחפטמ)
+                                    (NP (NN-ZY שאר)))))))) (yyRRB yyRRB))
+        (PRN (yyCM yyCM)
+            (NP
+                (NP (NN-NY הריתס))
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (ADVP (RB-NY3 הניא))
+                        (VP (VB-NY3H תנתינ))
+                        (PP (IN ל)
+                            (NP (NN-ZY בושיי)))))))) (yyDOT yyDOT)))
+
+tree #7
+(
+ (S
+    (SBAR-COM (COM *NONE*)
+        (S
+            (NP-SBJ (MOD טעמכ)
+                (NP
+                    (NP (DT-BB-H לכ)
+                        (NP-ZR-H (H ה) (NN-ZR םידלי)))
+                    (PP (IN ב)
+                        (NP (NNT-ZR יאליג)
+                            (NP (NNT-ZY תיב) (yyDASH yyDASH)
+                                (NP (NN-ZY רפס)))))
+                    (SBAR (REL ה)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-ZR3H םיאב))
+                            (PP (IN ל)
+                                (NP
+                                    (NP
+                                        (NNP-ZY
+                                            (NP-ZY-H (H ה) (NN-ZY דרשמ))
+                                            (PP (IN ל)
+                                                (NP
+                                                    (NP (NN-ZY ץועיי))
+                                                    (ADJP (JJ-ZY יתחפשמ))))))
+                                    (PP (IN ב)
+                                        (NP (NNP-NY רגנידאוו)))))))))
+            (VP (VB-ZR3H םילבוס))
+            (PP-COM (IN מ)
+                (NP (NNT-NY תבטרה)
+                    (NP (NN-ZY הליל)))))) (yyCM yyCM)
+    (VP (VB-ZY3H רמוא))
+    (NP-SBJ (NNP-BY ןראסבקט)) (yyDOT yyDOT)))
+
+tree #8
+*
+(
+ (S
+    (NP-SBJ
+        (NP-CNJ
+            (NP (NN-NR תודלי)) (CC ו)
+            (NP (NN-NR תורענ)))
+        (ADJP (JJ-NR תויקרוט))
+        (SBAR (REL ה)
+            (S (NP-SBJ *T*)
+                (VP (VB-NR3H תוזפשואמ))
+                (PP (IN ב)
+                    (NP
+                        (NP (NN-NR תוקלחמ))
+                        (ADJP (JJ-NR תוירטאיכיספ)))))))
+    (VP (VB-NR3H תולבוס))
+    (ADVP (RB אל) (CD-NY תחא))
+    (PP-COM (IN מ)
+        (NP
+            (NP (NN-ZR םיפקתה))
+            (PP (POS לש)
+                (NP
+                    (NP (NN-NY תונפקות))
+                    (ADJP (JJ-NY תימצע)))))) (yyDOT yyDOT)))
+
+tree #9
+*
+(
+ (S
+    (S-CNJ
+        (S
+            (NP-SBJ (PRP-NR3 ןה))
+            (VP (VB-NR3H תושלות))
+            (NP-OBJ (AT תא)
+                (NP (NN-ZY-H-NR3 ןרעיש)))) (CC ו)
+        (S (NP-SBJ *NONE*)
+            (VP (VB-NR3H תועלוב))
+            (NP-OBJ (NN-NR םיטחמ)))) (yyCM yyCM)
+    (S
+        (NP-SBJ (NN-NR תובר))
+        (VP (VB-BR3V וסינ))
+        (VP-INF (VB-M דבאתהל))) (yyDOT yyDOT)))
+
+tree #10
+*
+(
+ (S
+    (NP-ZR-H-SBJ (H ה) (NN-ZR םיאפור))
+    (VP (VB-ZR3H םילוכי))
+    (VP-INF (VB-M רוזעל)
+        (PP (MOD קר)
+            (PP (IN ב)
+                (NP
+                    (NP (NN-ZR םירקמ))
+                    (ADJP (JJ-ZR םיינוציק)))))) (yyCM yyCM)
+    (SBAR (IN ןכש)
+        (S
+            (NP-SBJ
+                (NP (NN-NR תוחפשמ))
+                (ADJP (JJ-NR תובר)))
+            (VP (VB-NR3H תודגנתמ))
+            (PP-COM (IN ל)
+                (NP
+                    (NP (NN-ZY לופיט))
+                    (ADJP (JJ-ZY ךשוממ)))))) (yyDOT yyDOT)))
+
+tree #11
+*
+(
+ (S
+    (SBAR (IN רשאכ)
+        (S (NP-SBJ *PRO*)
+            (VP (VB-ZY3H רבודמ))
+            (PP (IN ב)
+                (NP (NNT-ZY דובכ)
+                    (NP-NY-H (H ה) (NN-NY החפשמ))))))
+    (VP (VB-NR3H תולוכי))
+    (NP-SBJ (NN-NR תוהמיא))
+    (VP-INF (VB-M תויהל)
+        (ADJP
+            (ADJP
+                (ADJP (JJ-NR תונכוסמ)) (MOD דחוימב))
+            (PP (IN ל)
+                (NP (NN-NR-H-NR3 ןהיתונב))))) (yyDOT yyDOT)))
+
+tree #12
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NN-NY השיא))
+            (NP (NNT-NY תב)
+                (NP (CD-BR 42))))
+        (VP (VB-NY3V האב))
+        (PP (IN ל)
+            (NP
+                (NP-NY-H (H ה) (NN-NY האפרמ))
+                (SBAR (REL *NONE*)
+                    (S
+                        (ADVP (RB םש))
+                        (VP (VB-NY3V הדמלתה))
+                        (NP-SBJ
+                            (NP (NN-NY-H-NY3 התב))
+                            (NP (NNT-NY תב)
+                                (NP-BR-H (H ה) (CD-BR 19))))
+                        (PP (IN כ)
+                            (NP
+                                (NP (NN-NY תיטנטסיסא))
+                                (ADJP (JJ-NY תיאופר))))))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3V התסינ))
+        (VP-INF (VB-M רוקדל)
+            (NP-OBJ (AT תוא)
+                (NP (PRP-NY3 איה)))
+            (PP (IN ב)
+                (NP (NNT-ZY ןיכס)
+                    (NP (NN-ZY םחל)))))) (yyDOT yyDOT)))
+
+tree #13
+*
+(
+ (S-CNJ
+    (S
+        (NP-NY-H-SBJ (H ה) (NN-NY הרענ))
+        (VP (VB-NY3V הבריס))
+        (VP-INF (VB-M תוטעל)
+            (NP-OBJ (NNT-NY תחפטמ)
+                (NP (NN-ZY שאר))))) (CC ו)
+    (S
+        (NP-SBJ (NN-ZR םינכש))
+        (VP (VB-BR3V וניכ))
+        (NP-OBJ (AT תוא)
+            (NP (PRP-NY3 איה)))
+        (NP (NN-NY הנוז))) (yyDOT yyDOT)))
+
+tree #14
+*
+(
+ (S
+    (FRAG
+        (NP-CNJ
+            (NP
+                (NP (NNT-ZY רסוח)
+                    (NP (NN-ZR םינוא)))
+                (PP (IN לומ)
+                    (NP
+                        (NP (NN-NR תונב))
+                        (SBAR (REL ש)
+                            (S
+                                (PREDP
+                                    (PP (IN ל)
+                                        (NP (NN-ZY-H-NR3 ןבור))))
+                                (NP-SBJ
+                                    (NP (NN-NY הלכשה))
+                                    (ADJP
+                                        (ADJP (JJ-NY הבוט)) (RBR רתוי)))))))) (yyCM yyCM)
+            (NP
+                (NP (NN-NY הלהב))
+                (PP (IN ל)
+                    (NP (NNT-ZY חכונ)
+                        (NP
+                            (NP (NN-ZY-H-NY3 ןנולשכ)) (yyDASH yyDASH)
+                            (NP (PRP-NR3 ןה)))))) (CC ו)
+            (NP
+                (NP (NN-ZY דחפ))
+                (PP (IN מ)
+                    (NP (NNT-NY תחכות)
+                        (NP-ZY-H (H ה) (NN-ZY לעב)))))))
+    (PP (IN ל)
+        (NP
+            (NP (NN-NR תוהמא))
+            (ADJP (JJ-NR תויקרוט))))
+    (VP (VB-BB3H שי))
+    (NP-SBJ
+        (NP (NN-NR תוביס))
+        (ADJP (JJ-NR תובר))
+        (VP-INF (VB-M ךנחל)
+            (NP-OBJ (AT תא)
+                (NP (NN-NR-H-NR3 ןהיתונב)))
+            (PP (IN ב)
+                (NP
+                    (NP (NN-NY הרמוח))
+                    (NP (MOD אל) (RBR תוחפ) (IN מ)
+                        (NP
+                            (NP (PRP-NY3 תאז))
+                            (SBAR (REL ש)
+                                (S (NP-SBJ *T*)
+                                    (VP (VB-NY3V התפכנ))
+                                    (PP-COM (IN ילע)
+                                        (NP (PRP-NR3 ןה))))))))))) (yyDOT yyDOT)))
+
+tree #15
+(
+ (S
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY תיגוגדפ))
+        (ADJP-NY-H (H ה) (JJ-NY תיאנילרב))
+        (NP
+            (NNP-NY (NNP-NY הטסירכ)
+                (NNP-BY (NNP-BY רלמ) (yyDASH yyDASH) (NNP-BY ןאמה)))))
+    (VP (VB-NY3H תרמוא))
+    (SBAR-COM (COM ש)
+        (S
+            (NP-SBJ (NN-ZR םירוה))
+            (ADVP (RB-ZR3 םניא))
+            (VP (VB-ZR3H םימשרתמ))
+            (PP (IN מ)
+                (NP
+                    (NP-NR-H
+                        (NP (NN-NR-H-NR3 ןהיתואירק)) (POS לש)
+                        (NP-NR-H (H ה) (NN-NR תונב)))
+                    (PP (IN ל)
+                        (NP (NN-NY הרזע))))))) (yyDOT yyDOT)))
+
+tree #16
+(
+ (S
+    (NP-SBJ
+        (NP
+            (NNP-BY (NNP-BY רלמ) (yyDASH yyDASH) (NNP-BY ןאמה))) (yyCM yyCM)
+        (NP (NNT-NY תלהנמ)
+            (NP
+                (NP (NNT-ZY זכרמ)
+                    (NP-CNJ
+                        (NP (NN-ZY עגמ)) (CC ו)
+                        (NP (NN-ZY ץועיי))))
+                (PP (IN ל)
+                    (NP
+                        (NP (NNT-ZR ינב)
+                            (NP (NN-ZY רעונ)))
+                        (SBAR (REL ה)
+                            (S (NP-SBJ *T*)
+                                (VP (VB-ZR3H םילולע))
+                                (VP-INF (VB-M דבאתהל))))))))) (yyCM yyCM)
+    (VP (VB-NY3V התאתשה))
+    (PP (IN לע)
+        (NP-NR-H
+            (NP (NN-NR-H-NY3 היתובוגת)) (POS לש)
+            (NP
+                (NP (NN-NY םא)) (yyCM yyCM)
+                (SBAR (REL ש)
+                    (S
+                        (NP-SBJ
+                            (NP (NN-NY-H-NY3 התב))
+                            (NP (NNT-NY תב)
+                                (NP-BR-H (H ה) (CD-BR 19))))
+                        (VP (VB-NY3V הצפק))
+                        (PP (IN מ)
+                            (NP-ZY-H (H ה) (NN-ZY ןולח)))))))) (yyDOT yyDOT)))
+
+tree #17
+*
+(
+ (S
+    (ADVP
+        (ADVP (RB רובעכ))
+        (NP
+            (NP (NN-ZY ןמז))
+            (ADJP (JJ-BB המ))))
+    (VP (VB-NY3V הרפיס))
+    (NP-NY-H-SBJ (H ה) (NN-NY תב))
+    (SBAR-COM (COM ש)
+        (S
+            (PP (IN ב)
+                (NP (NNT-ZY ליג)
+                    (NP (CD-NR עשת))))
+            (VP (VB-NY3V הרפת))
+            (NP-NY-H-SBJ (H ה) (NN-NY םא))
+            (NP-OBJ (AT תא)
+                (NP (NNT-NR תותפש)
+                    (NP
+                        (NP (NNT-ZY רבא)
+                            (NP-ZY-H (H ה) (NN-ZY ןימ)))
+                        (PP (POS לש)
+                            (NP (PRP-NY3 איה)))))) (yyCM yyCM)
+            (PP (IN ןוויכ)
+                (SBAR (COM ש)
+                    (S
+                        (NP-NY-H-SBJ (H ה) (NN-NY הדלי))
+                        (VP (VB-NY3V הרחיא))
+                        (VP-INF (VB-M רוזחל)
+                            (ADVP (RB התיבה)))
+                        (NP
+                            (NP (NN-ZY םוי)) (CDT-ZY דחא))))))) (yyDOT yyDOT)))
+
+tree #18
+*
+(
+ (S
+    (NP-NY-H-SBJ (H ה) (NN-NY הדלי))
+    (VP (VB-NY3V הדחפ))
+    (NP (NNT-ZY דחפ)
+        (NP (NN-ZY תוומ)))
+    (SBAR (COM ש)
+        (S
+            (NP-NY-H-SBJ (H ה) (NN-NY םא))
+            (VP (VB-NY3T רוזחת))
+            (PP-COM (IN לע)
+                (NP-ZY-H (H ה) (NN-ZY השעמ))))) (yyDOT yyDOT)))
+
+tree #19
+*
+(
+ (S
+    (NP-NY-H-SBJ (H ה) (NN-NY הרענ))
+    (VP (VB-NY3V האצוה))
+    (PP (IN מ)
+        (NP (NNT-NY תושר)
+            (NP-NY-H (H ה) (NN-NY םא)))) (yyDOT yyDOT)))
+
+tree #20
+*
+(
+ (S
+    (NP-ZY-H-SBJ (H ה) (NN-ZY בא))
+    (VP (VB-ZY3V שטנ))
+    (NP-OBJ (AT תא)
+        (NP-NY-H (H ה) (NN-NY החפשמ)))
+    (NP
+        (NP (NN-NR םינש))
+        (ADVP (RB םדוק) (IN ל) (H ה) (PRP-BB3 ןכ))) (yyDOT yyDOT)))
+
+tree #21
+*
+(
+ (S-CNJ
+    (S
+        (ADVP (RB םויכ))
+        (VP (VB-NY3H היח))
+        (NP-NY-H-SBJ (H ה) (NN-NY הריעצ))
+        (PP (IN ב)
+            (NP (NN-ZY ןועמ)))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3H תננוכתמ))
+        (PP (IN ל)
+            (NP (NNT-NR תוניחב)
+                (NP-NY-H (H ה) (NN-NY תורגב))))) (yyDOT yyDOT)))
+
+tree #22
+*
+(
+ (S
+    (ADVP (RB םיתעל) (JJ-NR תובורק))
+    (NP-SBJ (NN-ZR םירוה))
+    (ADVP (RB-ZR3 םניא))
+    (VP (VB-ZR3H םינתונ))
+    (NP-OBJ (NN-ZY יוכיס))
+    (PP-COM (IN ל)
+        (NP (NNT-NR תויושר)
+            (NP-ZY-H (H ה) (NN-ZY רעונ))))
+    (VP-INF (VB-M לפטל)
+        (PP-COM (IN ב)
+            (NP
+                (NP (NN-ZR םידלי))
+                (SBAR (REL ה)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZR3H םילבוס))
+                        (PP-COM (IN מ)
+                            (NP (NN-NY תוללעתה)))))))) (yyDOT yyDOT)))
+
+tree #23
+*
+(
+ (S
+    (NP-SBJ (PRP-ZR3 םה))
+    (VP (VB-ZR3H םיחלוש))
+    (NP-OBJ (AT תא)
+        (NP
+            (NP-NR-H (H ה) (NN-NR תונב))
+            (ADJP-NR-H (H ה) (JJ-NR תוינדרמ))))
+    (PP (IN ל)
+        (NP (NNP-NY היקרוט)))
+    (PP (IN ידכ)
+        (VP-INF (VB-M ןאישהל))) (yyDOT yyDOT)))
+
+tree #24
+(
+ (S
+    (PP-COM (IN מ)
+        (NP
+            (NP
+                (NNP-ZY (NNP-ZY ילע) (NNP-BY ס) (yyDOT yyDOT)))
+            (PRN (yyLRB yyLRB)
+                (NP (CD-BR 45)) (yyRRB yyRRB)) (yyCM yyCM)
+            (NP (NNT-ZY לעב)
+                (NP (NNT-NY תרבח)
+                    (NP
+                        (NP (NN-ZY אוביי)) (yyDASH yyDASH)
+                        (NP (NN-ZY אוציי))))))) (yyCM yyCM)
+    (VP (VB-NY3V החקלנ))
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY תוספורטופא))
+        (PP (IN לע)
+            (NP
+                (NP (CDT-NR יתש)
+                    (NP (NN-NR-H-ZY3 ויתונב))) (yyCM yyCM)
+                (NP-CNJ
+                    (NP
+                        (NP (NNP-NY ןמוסא))
+                        (NP (NNT-NY תב)
+                            (NP-BR-H (H ה) (CD-BR 16)))) (CC ו)
+                    (NP
+                        (NP (NNP-NY הלייע))
+                        (NP (NNT-NY תב)
+                            (NP-BR-H (H ה) (CD-BR 12)))))))) (yyCM yyCM)
+    (PP (IN ןוויכ)
+        (SBAR (COM ש)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-ZY3V גהנ))
+                (VP-INF (VB-M ןתוכהל)
+                    (PP (IN ב)
+                        (NP (NNT-ZY טומ)
+                            (NP (NN-NY תכתמ)))))))) (yyDOT yyDOT)))
+
+tree #25
+*
+( (yyDOT yyDOT))
+
+tree #26
+(
+ (S
+    (NP
+        (NP (CDT-ZR העברא)
+            (NP (NN-ZR תועובש)))
+        (PP (IN רחאל) (IN מ) (PRP-BB3 ןכ)))
+    (VP (VB-NY3V העיפוה))
+    (NP-SBJ
+        (NP (NN-NY-H-NR3 ןתדוד)) (yyCM yyCM)
+        (NP
+            (NNP-NY (NNP-NY רגאה) (NNP-BY י) (yyDOT yyDOT)))) (yyCM yyCM)
+    (PP (IN ב)
+        (NP
+            (NP (NN-ZY ןועמ))
+            (SBAR (REL ש)
+                (S
+                    (PP (IN ילא)
+                        (NP (PRP-ZY3 אוה)))
+                    (VP (VB-BR3V ורבעוה))
+                    (NP-NR-H-SBJ (H ה) (NN-NR תודלי)) (yyCM yyCM)
+                    (VP-INF (VB-M תחקל)
+                        (NP-OBJ (AT תוא)
+                            (NP (PRP-NR3 ןה)))
+                        (PP (IN ל)
+                            (NP (NN-NR תוינק)))))))) (yyDOT yyDOT)))
+
+tree #27
+(
+ (S (yyDOT yyDOT)))
+
+tree #28
+*
+(
+ (S-CNJ
+    (S
+        (PP (IN לצא)
+            (NP
+                (NP (NNT-NY תדגמ)
+                    (NP (NN-NR תודיתע)))
+                (ADJP (JJ-NY הייקרוט))))
+        (VP (VB-BR3V וטעלוה))
+        (NP-NR-H-SBJ (H ה) (NN-NR תורענ))
+        (NP-OBJ-CNJ
+            (NP (NN-ZY לוהוכלא)) (CC ו)
+            (NP (NNT-ZR ירודכ)
+                (NP (NN-NY הניש))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-BR3V וחקלנ))
+        (PP-COM (IN ל)
+            (NP-ZY-H (H ה) (NN-ZY בא)))) (yyDOT yyDOT)))
+
+tree #29
+*
+(
+ (S
+    (NP-SBJ (PRP-ZY3 אוה))
+    (VP (VB-ZY3V דמע))
+    (VP-INF (VB-M תחקל)
+        (NP-OBJ (AT תא)
+            (NP (NN-NR-H-ZY3 ויתונב)))
+        (PP (IN ב)
+            (NP (NN-NY תינוכמ)))
+        (PP-COM (IN ל)
+            (NP (NNP-NY היקרוט))))
+    (PP (IN ידכ)
+        (VP-INF (VB-M אישהל)
+            (NP-OBJ (AT תוא)
+                (NP (PRP-NR3 ןה)))
+            (ADVP (RB םש)))) (yyDOT yyDOT)))
+
+tree #30
+(
+ (S-CNJ
+    (S
+        (PP (IN ב)
+            (NP (NNT-ZY לובג)
+                (NP
+                    (NP
+                        (NP (NNP-NY הינמרג)) (yyDASH yyDASH)
+                        (NP (NNP-NY הירטסוא)))
+                    (NP
+                        (NP (NNP-NY ואדניל)) (yyDASH yyDASH)
+                        (NP (NNP-NY זואהלגיצ))))))
+        (VP (VB-NY3V הררועתה))
+        (NP-SBJ (NNP-NY ןמוסא))) (yyCM yyCM)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3V האצי))
+        (PP-COM (IN מ)
+            (NP
+                (NP-NY-H (H ה) (NN-NY תינוכמ))
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-NY3V העסנ))
+                        (ADVP (RB הטיאל))
+                        (PP (IN ב)
+                            (NP
+                                (NP-NY-H (H ה) (NN-NY הרובחת))
+                                (ADJP-NY-H (H ה) (JJ-NY הסומע))))))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3V הארק))
+        (PP (IN ל)
+            (NP (NNT-ZR ידבוע)
+                (NP-ZY-H (H ה) (NN-ZY סכמ)))) (yyCM yyCM)
+        (SBAR (COM *NONE*)
+            (S (yyQUOT yyQUOT)
+                (S
+                    (S (NP-SBJ *PRO*)
+                        (VP (VB-BR2H וליצה))
+                        (NP-OBJ (AT תוא)
+                            (NP (PRP-BR1 ונחנא)))) (yyCM yyCM)
+                    (S
+                        (NP-SBJ (NN-ZY אבא))
+                        (VP (VB-ZY3H ףטוח))
+                        (NP-OBJ (AT תוא)
+                            (NP (PRP-BR1 ונחנא))))) (yyQUOT yyQUOT)))) (yyDOT yyDOT)))
+
+tree #31
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ-CNJ
+            (NP-ZY-H (H ה) (NN-ZY בא)) (CC ו)
+            (NP-NY-H (H ה) (NN-NY הדוד)))
+        (VP (VB-BR3V ורצענ))) (CC ו)
+    (S
+        (NP-NR-H-SBJ (H ה) (NN-NR תונב))
+        (VP (VB-BR3V ורבע))
+        (NP-OBJ (NNT-NY תפיטש)
+            (NP (NN-NY הביק)))) (yyDOT yyDOT)))
+
+tree #32
+*
+(
+ (S
+    (NP-SBJ (NNT-NR תודבוע)
+        (NP
+            (NP (NNT-ZR יזכרמ)
+                (NP (NN-ZY םוריח)))
+            (PP (IN ל)
+                (NP
+                    (NP (NN-NR תודלי))
+                    (SBAR (REL ש)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-BR3V ולבס))
+                            (PP-COM (IN מ)
+                                (NP
+                                    (NP (NN-NY תוללעתה))
+                                    (ADJP (JJ-NY תינימ))))
+                            (PP (IN ב)
+                                (NP (NNP-NY ןילרב))))))))) (yyCM yyCM)
+    (VP (VB-NR3H תורפסמ))
+    (PP-COM (IN לע)
+        (NP
+            (NP (NNT-ZR ירקמ)
+                (NP
+                    (NP (NN-NY תוללעתה))
+                    (ADJP (JJ-NY תינימ))))
+            (ADJP (JJ-ZR םיבר))
+            (PP (POS לש)
+                (NP (NN-ZR תובא)))
+            (PP (IN ב)
+                (NP (NN-NR-H-ZR3 םהיתונב))))) (yyDOT yyDOT)))
+
+tree #33
+*
+(
+ (S
+    (ADVP (RB אל) (CD-NY תחא)) (yyCM yyCM)
+    (PP (IN ידכ)
+        (VP-INF (MOD אל)
+            (VP-INF (VB-M ןכסל)
+                (NP-OBJ (AT תא)
+                    (NP
+                        (NP (NNT-ZR ייוכיס)
+                            (NP-ZR-H (H ה) (NN-ZR םיאושינ)))
+                        (PP (POS לש)
+                            (NP-NR-H (H ה) (NN-NR תונב)))))))) (yyCM yyCM)
+    (VP (VB-ZR3H םיפידעמ))
+    (NP-ZR-H-SBJ (H ה) (NN-ZR תובא))
+    (NP-OBJ
+        (NP (NN-ZY ןימ))
+        (ADJP-CNJ
+            (ADJP (JJ-ZY ילארוא)) (CC ו)
+            (ADJP (JJ-ZY ילאנא)))) (yyDOT yyDOT)))
+
+tree #34
+*
+(
+ (S-CNJ
+    (S
+        (VP (VB-BB3H ןיא))
+        (NP-SBJ
+            (NP (NN-ZR םינותנ))
+            (ADJP (JJ-ZR םייטסיטטס))
+            (ADJP (JJ-ZR םיקיודמ)))
+        (PP (IN ב)
+            (NP-ZY-H (H ה) (NN-ZY אשונ)))) (yyCM yyCM) (CC לבא)
+    (S
+        (NP-SBJ
+            (NP (NN-ZR םידבוע))
+            (ADJP (JJ-ZR םיילאיצוס)))
+        (VP (VB-ZR3H םילוכי))
+        (VP-INF (VB-M תתל)
+            (NP-OBJ
+                (NP (NN-NY הכרעה))
+                (ADJP (JJ-NY תיריפמא))))) (yyDOT yyDOT)))
+
+tree #35
+*
+(
+ (S
+    (NP-SBJ (MOD טעמכ)
+        (NP
+            (NP (CDT-BR 400)
+                (NP-CNJ
+                    (NP
+                        (NP (NN-NR תודלי)) (CC ו)
+                        (NP (NN-NR תורענ)))
+                    (ADJP (JJ-NR תויקרוט))))
+            (PP (IN ב)
+                (NP (NNT-ZR יאליג)
+                    (NP
+                        (NP (CD-BR 13)) (yyDASH yyDASH)
+                        (NP (CD-BR 18)))))))
+    (VP (VB-BR3V ועיגה))
+    (PP (IN זאמ)
+        (NP (CD-BR 1985)))
+    (PP (IN ל)
+        (NP
+            (NP (NNT-ZY זכרמ)
+                (NP-ZY-H (H ה) (NN-ZY םוריח)))
+            (NP (NNP-BY היטפאפ))
+            (PP (IN ב)
+                (NP (NNP-NY ןילרב))))) (yyDOT yyDOT)))
+
+tree #36
+*
+(
+ (S
+    (ADVP (RB םג))
+    (NP-SBJ (NNT-ZY תיב) (yyDASH yyDASH)
+        (NP-ZY-H (H ה) (NN-ZY רפס)))
+    (ADVP (RB-ZY3 ונניא))
+    (VP (VB-ZY3H רזוע)) (yyDOT yyDOT)))
+
+tree #37
+*
+(
+ (S-CNJ
+    (SBAR-COM (COM *NONE*)
+        (S
+            (NP-ZR-H-SBJ (H ה) (NN-ZR םירומ)) (yyQUOT yyQUOT)
+            (VP (VB-ZR3H םימילעמ))
+            (NP-OBJ (NN-NY ןיע)) (yyQUOT yyQUOT))) (yyCM yyCM)
+    (VP (VB-NY3H תרמוא))
+    (NP-SBJ (NNT-NY תלהנמ)
+        (NP-ZY-H (H ה) (NN-ZY זכרמ))) (yyDOT yyDOT)))
+
+tree #38
+*
+(
+ (S
+    (NP-SBJ-CNJ
+        (NP
+            (NP (NN-NY תונעזג))
+            (PP (IN יפלכ)
+                (NP (NN-ZR םירז)))) (CC ו)
+        (NP
+            (NP
+                (NX (MOD יא) (yyDASH yyDASH) (NN-ZY ןוצר)))
+            (VP-INF (VB-M ןכתסהל))))
+    (VP (VB-ZR3H םימרות))
+    (NP-OBJ (AT תא)
+        (PP (POS לש)
+            (NP (PRP-ZR3 םה)))) (yyDOT yyDOT)))
+
+tree #39
+(
+ (S
+    (PP (IN ל)
+        (NP
+            (NP (NN-NR תורענ))
+            (ADJP (JJ-NR תויקרוט))
+            (PP (IN ב)
+                (NP
+                    (NP (NNT-ZR יתב) (yyDASH yyDASH)
+                        (NP (NN-ZY רפס)))
+                    (ADJP (JJ-ZR םיינמרג))))))
+    (VP (VB-BB3H שי))
+    (NP-SBJ
+        (NP (NN-NR תויעב))
+        (ADVP (RB יד) (CC ו) (RB רתוה))) (yyCM yyCM)
+    (PP (IN יפכ)
+        (SBAR (COM ש)
+            (S
+                (VP (VB-NY3H הלוכי))
+                (VP-INF (VB-M דיעהל))
+                (NP-SBJ
+                    (NP
+                        (NNP-NY (NNP-NY הילמ) (NNP-BY זאמליי))) (yyCM yyCM)
+                    (NP (NNT-NY תב)
+                        (NP (CD-BR 20))))))) (yyDOT yyDOT)))
+
+tree #40
+*
+(
+ (S-CNJ
+    (S
+        (PP (IN ב)
+            (NP (NNT-ZR ירועיש)
+                (NP
+                    (NP-ZY-H (H ה) (NN-ZY ךוניח))
+                    (ADJP-ZY-H (H ה) (JJ-ZY ינימ)))))
+        (VP (VB-ZY3V הנפ))
+        (NP-SBJ
+            (NP-ZY-H (H ה) (NN-ZY הרומ))
+            (PP (IN ל)
+                (NP (NN-NY היגולויב))))
+        (ADVP (RB דימת))
+        (ADVP (RB אקווד))
+        (PP (IN ילא)
+            (NP (PRP-NY3 איה)))
+        (PP (IN ב)
+            (NP (NN-NR תולאש)))) (yyCLN yyCLN)
+    (S (yyQUOT yyQUOT)
+        (S
+            (NP-SBJ (PRP-ZY3 הז))
+            (VP (VB-ZY3V קיחצה))
+            (NP-OBJ (AT תוא)
+                (NP (PRP-ZY3 אוה)))
+            (ADVP (RB דואמ))
+            (SBAR (COM ש)
+                (S
+                    (ADVP (RB דימת)) (NP-SBJ *PRO*)
+                    (VP (VB-BY1V יתקמסה))))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #41
+(
+ (S
+    (SBAR (IN רשאכ)
+        (S
+            (NP-SBJ (NNT-ZY להנמ)
+                (NP
+                    (NP (NNT-ZY תיב) (yyDASH yyDASH)
+                        (NP-ZY-H (H ה) (NN-ZY רפס)))
+                    (ADJP-ZY-H (H ה) (JJ-ZY ןוכית))
+                    (NP (NNP-BY הצמנאלק))
+                    (PP (IN ב)
+                        (NP (NNP-NY ןכנימ)))))
+            (VP (VB-ZY3V רסא))
+            (PP (IN לע)
+                (NP (NNP-NY הילמ)))
+            (VP-INF (VB-M עיפוהל)
+                (PP (IN ב)
+                    (NP (NNT-NY תחפטמ)
+                        (NP (NN-ZY שאר)))))))
+    (NP-SBJ (PRP-NY3 איה))
+    (VP (VB-NY3V הצלאנ))
+    (VP-INF (VB-M רובעל)
+        (PP-COM (IN ל)
+            (NP
+                (NP
+                    (NP (NNT-ZY תיב) (yyDASH yyDASH)
+                        (NP (NN-ZY רפס)))
+                    (ADJP (JJ-ZY ןוכית)))
+                (ADJP (JJ-ZY רחא))
+                (PP (IN ב)
+                    (NP (NNP-NY רזואהיונ)))))) (yyDOT yyDOT)))
+
+tree #42
+*
+(
+ (S-CNJ
+    (S
+        (ADVP (RB םש))
+        (ADVP (RB אל))
+        (VP (VB-BR3V ויה))
+        (PP (IN ל)
+            (NP (PRP-NY3 איה)))
+        (NP-SBJ
+            (NP (NN-NR תויעב))
+            (PP (IN ללגב)
+                (NP-NY-H (H ה) (NN-NY תחפטמ))))) (CC לבא)
+    (S
+        (VP (VB-NY3V התיה))
+        (NP-SBJ (NN-NY היעב))
+        (PP (IN ב)
+            (NP (NNT-ZR ירועיש)
+                (NP (NN-NY תולמעתה))))) (yyDOT yyDOT)))
+
+tree #43
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (NNP-NY הילמ))
+        (VP (VB-NY3V העיפוה))
+        (PP (IN ל)
+            (NP-ZR-H (H ה) (NN-ZR םירועיש)))
+        (PP-CNJ
+            (PP (IN ב)
+                (NP (NNT-NY תחפטמ)
+                    (NP (NN-ZY שאר)))) (CC ו)
+            (PP (IN ב)
+                (NP
+                    (NP (NN-NY תינומיא))
+                    (ADJP (JJ-NY הבחר)))))) (CC ו)
+    (S (NP-SBJ *NONE*) (AUX-NY3V התיה)
+        (PREDP
+            (NP
+                (NP (NN-ZY אשונ))
+                (PP-CNJ
+                    (PP (IN ל)
+                        (NP (NN-ZY געל))) (CC ו)
+                    (PP (IN ל)
+                        (NP (NN-NY תוחדבתה))))))) (yyDOT yyDOT)))
+
+tree #44
+(
+ (S
+    (INTJ
+        (ADVP (RB השעמל))) (yyCM yyCM)
+    (NP-SBJ
+        (NP (NN-ZY בתכמ))
+        (PP (POS לש)
+            (NP
+                (NP-ZY-H (H ה) (NN-ZY זכרמ))
+                (ADJP-ZY-H (H ה) (JJ-ZY ימלסיא))
+                (PP (IN ב)
+                    (NP (NNP-NY ןלק)))))
+        (PP (IN ל)
+            (NP
+                (NP (NN-ZR םירוה))
+                (ADJP (JJ-ZR םייקרוט)))))
+    (VP (VB-ZY3V רסא))
+    (PP-COM (IN לע)
+        (NP
+            (NP (NN-NR תודימלת))
+            (ADJP (JJ-NR תויקרוט))))
+    (NP-OBJ (DT-BB לכ)
+        (NP
+            (NP (NN-NY תופתתשה))
+            (PP-CNJ
+                (PP (IN ב)
+                    (NP (NNT-ZR ירועיש)
+                        (NP (NN-NY תולמעתה)))) (yyCM yyCM) (CC ו)
+                (PP (MOD רקיעב)
+                    (PP (IN ב)
+                        (NP (NNT-ZR ירועיש)
+                            (NP (NN-NY הייחש)))))))) (yyDOT yyDOT)))
+
+tree #45
+*
+(
+ (S
+    (PP (IN ב)
+        (NP (NNT-ZY ליג)
+            (NP (CD-BR 17))))
+    (VP (VB-ZY3V איצוה))
+    (NP-SBJ (NN-ZY-H-NY3 היבא))
+    (NP-OBJ (AT תא)
+        (NP (NNP-NY הילמ)))
+    (PP (IN מ)
+        (NP (NNT-ZY תיב) (yyDASH yyDASH)
+            (NP-ZY-H (H ה) (NN-ZY רפס)))) (yyCM yyCM)
+    (SBAR (IN ןכש)
+        (S
+            (ADVP (RB אל)) (NP-SBJ *PRO*)
+            (VP (VB-ZY3V הצר))
+            (VP-INF (VB-M ןכתסהל)
+                (ADVP (RB דוע))
+                (PP (IN ב)
+                    (NP
+                        (NP (NN-ZR-H-NY3 הידומיל))
+                        (PP (IN ב)
+                            (NP
+                                (NP (NN-NY התיכ))
+                                (ADJP (JJ-NY תברועמ))))))))) (yyDOT yyDOT)))
+
+tree #46
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (PRP-NY3 איה))
+        (VP (VB-NY3V האשינ))) (CC ו)
+    (S
+        (NP-SBJ (PRP-NY3 איה))
+        (ADVP (RB רבכ))
+        (NP
+            (NP (NN-NY םא))
+            (PP (IN ל)
+                (NP
+                    (NP (NN-ZY קונית))
+                    (NP (NNT-ZY ןב)
+                        (NP
+                            (NP (NN-NY הנש)) (CC ו)
+                            (NP (NN-ZY יצח)))))))) (yyDOT yyDOT)))
+
+tree #47
+*
+(
+ (S
+    (SBAR (IN םא)
+        (S
+            (VP (VB-BR3T ויהי))
+            (PP (IN ל)
+                (NP (PRP-NY3 איה)))
+            (NP-SBJ (NN-NR תונב))))
+    (PRN (yyCM yyCM)
+        (S (NP-SBJ *NONE*)
+            (VP (VB-NY3V הרמא))) (yyCM yyCM)) (NP-SBJ *NONE*)
+    (VP (VB-NY3T ןתת))
+    (PP-COM (IN ל)
+        (NP (PRP-NR3 ןה)))
+    (NP-OBJ (NN-ZY שפוח)) (yyDOT yyDOT)))
+
+tree #48
+*
+(
+ (FRAG (CC ו)
+    (NP (NNT-NY תחפטמ)
+        (NP-ZY-H (H ה) (NN-ZY שאר))) (yyQM yyQM)))
+
+tree #49
+(
+ (S
+    (INTJ (yyQUOT yyQUOT)
+        (INTJ
+            (INTJ
+                (ADVP (RB חא))) (yyCM yyCM)
+            (INTJ
+                (NP (NNP-ZY םיהולא)))) (yyQUOT yyQUOT))
+    (PRN (yyCM yyCM)
+        (S
+            (VP (VB-NY3V הרמא))
+            (NP-SBJ (NNP-NY הילמ))) (yyCM yyCM))
+    (S (yyQUOT yyQUOT)
+        (S-CNJ
+            (S
+                (NP-SBJ (PRP-NR3 ןה))
+                (VP (VB-BR3T וארקי))
+                (PP (IN ב)
+                    (NP (PRP-NR3 ןמצע)))
+                (PP (IN ב)
+                    (NP-ZY-H (H ה) (NNP-ZY ןארוק)))) (CC ו)
+            (S (NP-SBJ *NONE*)
+                (VP (VB-BR3T וטילחי))
+                (PP (IN ב)
+                    (NP (PRP-NR3 ןמצע))))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #50
+*
+(
+ (S
+    (SBAR (COM *NONE*)
+        (S
+            (ADVP (RB רקיעב)) (NP-SBJ *PRO*)
+            (VP (VB-ZY3H בושח))
+            (SBAR (COM ש)
+                (S-CNJ
+                    (S
+                        (NP-NR-H-SBJ (H ה) (NN-NR תונב))
+                        (VP (VB-BR3T וכלי))
+                        (PP (IN ל)
+                            (NP
+                                (NP (NNT-ZY תיב) (yyDASH yyDASH)
+                                    (NP (NN-ZY רפס)))
+                                (ADJP (JJ-ZY ינמרג))))) (CC ו)
+                    (S (NP-SBJ *NONE*)
+                        (VP (VB-BR3T ודמלי))
+                        (ADVP (RB הברה))))))) (yyCM yyCM)
+    (VP (VB-NY3V הרמא))
+    (NP-NY-H-SBJ (H ה) (NN-NY םא)) (yyDOT yyDOT)))
+
+tree #51
+*
+(
+ (S
+    (S (yyQUOT yyQUOT)
+        (S
+            (ADVP (DT-BB לכ) (RB ךכ)) (NP-SBJ *PRO*) (AUX-BY1V יתייה)
+            (VP (VB-BY1H הצור))
+            (VP-INF (VB-M תושעל)
+                (NP-OBJ (NNT-NR תוניחב)
+                    (NP (NN-NY תורגב))))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #52
+*
+(
+ (S
+    (NP-SBJ (NN-ZY-H-NY3 המולח)) (AUX-ZY3V היה)
+    (PREDP
+        (VP-INF (VB-M תויהל)
+            (NP-OBJ (NN-NY תטפוש)))) (yyDOT yyDOT)))
+
+tree #53
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NN-ZR םירוה))
+            (ADJP (JJ-ZR םייקרוט)))
+        (VP (VB-ZR3H םיסחיימ))
+        (INTJ
+            (ADVP (RB םנמא)))
+        (NP-OBJ
+            (NP (NN-NY תובישח))
+            (ADJP-CNJ
+                (ADJP (JJ-NY תרבוג)) (CC ו)
+                (ADJP (JJ-NY תכלוה))))
+        (PP-COM (IN ל)
+            (NP-NY-H
+                (NP (NN-NY-H-NR3 ןתלכשה)) (POS לש)
+                (NP-NR-H (H ה) (NN-NR תונב))))) (yyCM yyCM) (CC לבא)
+    (S
+        (NP-SBJ
+            (NP (NN-NY-H-NR3 ןתואמצע))
+            (ADJP-NY-H (H ה) (JJ-NY תרבוג)))
+        (VP (VB-NY3H הדיחפמ))
+        (NP-OBJ (AT תוא)
+            (NP (PRP-ZR3 םה)))) (yyDOT yyDOT)))
+
+tree #54
+*
+(
+ (S
+    (ADVP (RB רתי) (IN לע) (PRP-BB3 ןכ)) (yyCM yyCM)
+    (PP (IN ךלהמב)
+        (NP-ZR-H (H ה) (NN-ZR םידומיל)))
+    (VP (VB-NR3H תואב))
+    (NP-NR-H-SBJ (H ה) (NN-NR תונב))
+    (PP (IN ב)
+        (NP
+            (NP (NN-ZY עגמ))
+            (PP (IN םע)
+                (NP (NNT-ZR ינב)
+                    (NP
+                        (NP-ZY-H (H ה) (NN-ZY ןימ))
+                        (ADJP-ZY-H (H ה) (JJ-ZY ינש)))))))
+    (PP (IN אלל)
+        (NP (NNT-ZY חוקיפ)
+            (NP-ZR-H (H ה) (NN-ZR םירוה)))) (yyDOT yyDOT)))
+
+tree #55
+(
+ (S
+    (PP (IN ב)
+        (NP (NNP-NY ןכנימ)))
+    (VP (VB-ZY3V בשחתה))
+    (NP-SBJ
+        (NNP-ZY
+            (NP (NNT-ZY זכרמ)
+                (NP-NY-H (H ה) (NN-NY הדובע)))
+            (PP (IN ל)
+                (NP (NNT-ZR יניינע)
+                    (NP (NN-ZR םירז))))))
+    (PP-COM (IN ב)
+        (NP-ZR-H (H ה) (NN-ZR םירוה))) (yyDOT yyDOT)))
+
+tree #56
+*
+(
+ (S-CNJ
+    (S
+        (VP (VB-NY3V המקוה))
+        (NP-SBJ (NNT-NY תנדס)
+            (NP (NN-NY הריפת)))) (CC ו)
+    (S
+        (NP-ZR-H-SBJ (H ה) (NN-ZR םירוה))
+        (VP (VB-BR3V ולכי))
+        (VP-INF (VB-M חכוויהל)
+            (PP (IN ומב)
+                (NP (NN-NR-H-ZR3 םהיניע)))
+            (SBAR (COM ש)
+                (S
+                    (PP (IN ב)
+                        (NP-ZY-H (H ה) (NN-ZY םוקמ)))
+                    (VP (VB-BB3H ןיא))
+                    (NP-SBJ (NN-ZR םירבג)))))) (yyDOT yyDOT)))
+
+tree #57
+*
+(
+ (S
+    (PP (IN ךות)
+        (NP (CDT-NR שולש)
+            (NP (NN-NR םינש))))
+    (VP (VB-BR3T וכפהיי))
+    (NP-SBJ
+        (NP-NR-H (H ה) (NN-NR תורענ))
+        (ADJP-NR-H (H ה) (JJ-NR תויקרוט))
+        (SBAR (REL ה)
+            (S (NP-SBJ *T*)
+                (VP (VB-NR3H תודמול))
+                (ADVP (RB םש)))))
+    (PP-COM (IN ל)
+        (NP
+            (NP (NN-NR תורפות))
+            (ADJP (JJ-NR תונמוימ)))) (yyDOT yyDOT)))
+
+tree #58
+*
+(
+ (S
+    (ADVP (RB זא)) (NP-SBJ *NONE*)
+    (VP (VB-BR3T ולכוי))
+    (VP-INF (VB-M בוזעל)
+        (PP (IN ב)
+            (NP (NNT-NY תעש)
+                (NP-ZY-H (H ה) (NN-ZY ךרוצ))))
+        (NP-OBJ (AT תא)
+            (NP (NNT-ZY תיב)
+                (NP-ZR-H (H ה) (NN-ZR םירוה))))) (yyCM yyCM)
+    (SBAR (IN ןכש)
+        (S
+            (ADVP (RB אל)) (NP-SBJ *PRO*) (AUX-BR3T ויהי)
+            (VP (VB-NR3H תויולת))
+            (PP (IN ב)
+                (NP (PRP-ZR3 םה)))
+            (ADVP (DT-BB לכ) (yyDASH yyDASH) (RB ךכ))
+            (PP (IN מ)
+                (NP
+                    (NP (NN-NY הניחב))
+                    (ADJP (JJ-NY תיפסכ)))))) (yyDOT yyDOT)))
+
+tree #59
+(
+ (S
+    (NP-SBJ
+        (NP
+            (NP (NNP-NY המטפ))
+            (NP (NNT-NY תב)
+                (NP-BR-H (H ה) (CD-BR 20)))) (yyCM yyCM)
+        (NP
+            (NP (NN-NY תדמלתמ))
+            (PP (IN ב)
+                (NP-NY-H (H ה) (NN-NY הנדס)))) (yyCM yyCM)
+        (NP-CNJ
+            (NP (NNT-NY תלעב)
+                (NP
+                    (NP (NN-ZY ךוניח))
+                    (ADJP (JJ-ZY יסקודותרוא))
+                    (ADJP (JJ-ZY ינדפק)))) (CC ו)
+            (NP (MOD רבכ)
+                (NP (NP *NONE*)
+                    (ADJP (JJ-NY האושנ)))))) (yyCM yyCM)
+    (PREDP (AGR-NY איה)
+        (NP
+            (NP-NY-H (H ה) (NN-NY השא))
+            (ADJP
+                (ADJP-NY-H (H ה) (JJ-NY הנושאר))
+                (PP (IN ב)
+                    (NP (NN-NY-H-NY3 התחפשמ))))
+            (SBAR (REL ש)
+                (S
+                    (VP (VB-BB3H שי))
+                    (PP (IN ל)
+                        (NP (PRP-NY3 איה)))
+                    (NP-SBJ (NNT-ZY ןוישר)
+                        (NP (NN-NY הגיהנ))))))) (yyDOT yyDOT)))
+
+tree #60
+*
+(
+ (S
+    (PP (IN רחאל)
+        (NP-NR-H (H ה) (NN-NR תוניחב)))
+    (NP-SBJ (PRP-NY3 איה))
+    (VP (VB-NY3H הצור))
+    (VP-INF (VB-M חיוורהל)
+        (NP-OBJ (DT-BB הברה)
+            (NP (NN-ZY ףסכ))))
+    (PP (IN ידכ)
+        (SBAR (COM ש)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-NY3T לכות))
+                (VP-INF (VB-M תושרהל)
+                    (PP (IN ל)
+                        (NP (PRP-NY3 המצע)))
+                    (ADVP (RB ףוס) (RB ףוס))
+                    (NP-OBJ
+                        (NP (NN-NY הריד))
+                        (PP (IN מ)
+                            (PP (POS לש)
+                                (NP (PRP-NY3 איה))))))))) (yyDOT yyDOT)))
+
+tree #61
+*
+(
+ (S
+    (ADVP (RB קר))
+    (ADVP (RB זא))
+    (VP (VB-ZY3T השרוי))
+    (NP-SBJ
+        (NP (NN-ZY-H-NY3 הלעב)) (yyCM yyCM)
+        (PP (IN מ)
+            (NP (NNT-ZY זכרמ)
+                (NP (NNP-NY הילוטנא))))) (yyCM yyCM)
+    (VP-INF (VB-M אובל)
+        (PP-COM (IN ל)
+            (NP (NNP-NY ןכנימ)))) (yyDOT yyDOT)))
+
+tree #62
+(
+ (S
+    (NP-SBJ-CNJ
+        (NP
+            (NP (NNP-NY םלזא))
+            (NP (NNT-NY תב)
+                (NP-BR-H (H ה) (CD-BR 18)))) (CC ו)
+        (NP
+            (NP (NNP-NY ולטומ))
+            (NP (NNT-NY תב)
+                (NP-BR-H (H ה) (CD-BR 19)))))
+    (VP (VB-NR3H תוצור))
+    (NP (MOD םג)
+        (NP (PRP-NR3 ןה)))
+    (VP-INF-CNJ
+        (VP-INF (VB-M תאצל)
+            (PP-COM (IN מ)
+                (NP-ZY-H (H ה) (NN-ZY תיב)))) (CC ו)
+        (VP-INF (VB-M רוחבל)
+            (NP-OBJ (NN-ZR םירבח))
+            (PP (IN ב)
+                (NP (PRP-NR3 ןמצע))))) (yyDOT yyDOT)))
+
+tree #63
+*
+(
+ (S
+    (SBAR-COM (COM *NONE*)
+        (SQ (yyQUOT yyQUOT)
+            (SQ
+                (ADVP (QW המל))
+                (ADVP (RB אל)) (yyCM yyCM)
+                (INTJ
+                    (ADVP (RB םצעב))) (yyQM yyQM)) (yyQUOT yyQUOT)))
+    (VP (VB-NY3H תלאוש))
+    (NP-SBJ (NNP-NY ולטומ)) (yyDOT yyDOT)))
+
+tree #64
+*
+( (yyDOT yyDOT))
+
+tree #65
+(
+ (S
+    (NP-SBJ
+        (NNP-NY (NNP-NY הירקיפ) (NNP-BY ולוטיגמ)))
+    (VP (VB-NY3V התמ))
+    (PP (IN ןוויכ)
+        (SBAR (COM ש)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-NY3V הלאש))
+                (ADVP (RB קוידב))
+                (NP-OBJ (DT-NY התוא)
+                    (NP
+                        (NP (NN-NY הלאש))
+                        (NP (PRP-NY3 המצע))))))) (yyDOT yyDOT)))
+
+tree #66
+(
+ (S
+    (NP-SBJ
+        (NP
+            (NP (NN-NY תינכרצ))
+            (ADJP (JJT-NY תדח) (yyDASH yyDASH)
+                (NP (NN-NY ןיע)))
+            (PP (IN מ)
+                (NP (NNP-NY הפיח)))) (yyCM yyCM)
+        (NP
+            (NNP-NY (NNP-NY יזוס) (NNP-BY ארויג)))) (yyCM yyCM)
+    (VP (VB-NY3V הניחבה))
+    (SBAR-COM (COM יכ)
+        (S
+            (PP (IN לע)
+                (NP
+                    (NP-NY-H (H ה) (NN-NY הזירא))
+                    (PP (POS לש)
+                        (NP
+                            (NP
+                                (NP (NN-NY הטספ))
+                                (ADJP
+                                    (ADJP (JJ-NY תאבוימ))
+                                    (PP (IN מ)
+                                        (NP (NNP-NY ב"הרא))))) (yyCM yyCM)
+                            (NP (yyQUOT yyQUOT)
+                                (NP
+                                    (NP (NN-BY יניצוטפ))
+                                    (PP (IN םע)
+                                        (NP-CNJ
+                                            (NP (NN-ZY דרת)) (CC ו)
+                                            (NP (NN-NR םיציב))))) (yyQUOT yyQUOT)))))) (yyCM yyCM) (NP-SBJ *PRO*)
+            (VP (VB-ZY3V ןיוצ))
+            (SBAR-COM (COM יכ)
+                (S
+                    (NP-SBJ (PRP-NY3 איה))
+                    (PREDP
+                        (PP (yyQUOT yyQUOT)
+                            (PP (IN אלל)
+                                (NP (NN-ZY לורטסלוכ))) (yyQUOT yyQUOT))))))) (yyDOT yyDOT)))
+
+tree #67
+*
+(
+ (SQ
+    (ADVP (QW ךיא)) (NP-SBJ *PRO*)
+    (VP (VB-ZY3H ןכתיי))
+    (SBAR (COM ש)
+        (S
+            (FRAG
+                (NP
+                    (NP (NN-ZY רצומ))
+                    (SBAR (REL ה)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-ZY3H ליכמ))
+                            (NP-OBJ (NN-NR םיציב))))))
+            (S
+                (VP (VB-BB3H ןיא))
+                (PP (IN ב)
+                    (NP (PRP-ZY3 אוה)))
+                (NP-SBJ (NN-ZY לורטסלוכ))))) (yyQM yyQM)))
+
+tree #68
+(
+ (S
+    (NP-NY-H-SBJ (H ה) (NN-NY תינכרצ))
+    (VP (VB-NY3V התנפ))
+    (PP-COM (IN ל)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY ןאובי))
+            (PRN (yyLRB yyLRB)
+                (NP
+                    (NP (NNT-NY תרבח)
+                        (NP (yyQUOT yyQUOT)
+                            (NP (NNP-BY ץנה)) (yyQUOT yyQUOT))) (yyCM yyCM)
+                    (SBAR (REL ש)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-NY3H תכייש))
+                            (PP (IN ל)
+                                (NP (NNT-NY תשר)
+                                    (NP-BY-H (H ה) (NNP-BY לסרפוש))))))) (yyRRB yyRRB)))) (yyCM yyCM)
+    (PP (IN לע)
+        (NP (NNT-ZY יפ)
+            (NP
+                (NP (NNT-ZY רפסמ)
+                    (NP-ZY-H (H ה) (NN-ZY ןופלט)))
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZY3V עיפוה))
+                        (PP (IN לע)
+                            (NP-NY-H (H ה) (NN-NY הזירא)))))))) (yyDOT yyDOT)))
+
+tree #69
+*
+(
+ (S
+    (ADVP (RB ןאכ)) (NP-SBJ *PRO*)
+    (VP (VB-ZY3V רסמנ))
+    (PP (IN ל)
+        (NP (PRP-NY3 איה)))
+    (SBAR-COM-CNJ
+        (SBAR-COM (COM יכ)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-ZY3H רבודמ))
+                (PP (IN ב)
+                    (NP (NNT-NY תועט)
+                        (NP (NN-ZY שונא)))))) (yyCM yyCM) (CC ו)
+        (SBAR-COM (COM יכ)
+            (S
+                (NP-ZY-H-SBJ (H ה) (NN-ZY ןיינע))
+                (VP (VB-ZY3T רסמיי))
+                (PP-COM (IN ל)
+                    (NP (NN-ZY לופיט)))))) (yyDOT yyDOT)))
+
+tree #70
+(
+ (S
+    (PP (IN ןוויכ)
+        (SBAR (COM ש)
+            (S-CNJ
+                (S
+                    (VP (VB-BR3V ורבע))
+                    (NP-SBJ
+                        (NP (NN-ZR םימי))
+                        (ADJP (JJ-ZR םידחא)))) (CC ו)
+                (S
+                    (NP-NY-H-SBJ (H ה) (NN-NY תועט))
+                    (ADVP (RB אל))
+                    (VP (VB-NY3V הנקות)))))) (yyCM yyCM) (NP-SBJ *NONE*)
+    (VP (VB-NY3V התנפ))
+    (PP-COM (IN ל)
+        (NP
+            (NP
+                (NNP-NY
+                    (NP-NY-H (H ה) (NN-NY תושר))
+                    (PP (IN ל)
+                        (NP (NNT-NY תנגה)
+                            (NP-ZY-H (H ה) (NN-ZY ןכרצ))))))
+            (PP (IN ב)
+                (NP
+                    (NNP-NY (H ה) (NN-NY תורדתסה)))))) (yyDOT yyDOT)))
+
+tree #71
+(
+ (S
+    (PP (IN רחאל)
+        (NP-NY-H
+            (NP (NN-NY-H-ZY3 ותוברעתה)) (POS לש)
+            (NP
+                (NP (NNT-ZY ץעוי)
+                    (NP
+                        (NNP-NY
+                            (NP-NY-H (H ה) (NN-NY תושר))
+                            (PP (IN ל)
+                                (NP (NNT-ZR יניינע)
+                                    (NP (NN-ZY ןוזמ))))))) (yyCM yyCM)
+                (NP
+                    (NP (NN-BY ר"ד))
+                    (NP
+                        (NNP-ZY (NNP-ZY םרוי) (NNP-BY יקסבלמ))))))) (yyCM yyCM)
+    (VP (VB-NY3V העידוה))
+    (NP-SBJ (NNT-NY תלהנה)
+        (NP-BY-H (H ה) (NNP-BY לסרפוש)))
+    (SBAR-COM (COM יכ)
+        (S (NP-SBJ *PRO*)
+            (VP (VB-NY3T ףילחת))
+            (NP-OBJ (AT תא)
+                (NP (DT-BB-H לכ)
+                    (NP
+                        (NP-NR-H (H ה) (NN-NR תויוות))
+                        (ADJP-NR-H (H ה) (JJ-NR תויוגש)))))
+            (PP (IN ב)
+                (NP
+                    (NP (NN-NR תויוות))
+                    (ADJP (JJ-NR תונקותמ)))))) (yyDOT yyDOT)))
+
+tree #72
+(
+ (S
+    (NP-SBJ
+        (NP-CNJ
+            (NP (NNT-ZY להנמ)
+                (NP-ZY-H (H ה) (NN-ZY קוויש))) (CC ו)
+            (NP (NNT-BY ל"כנמס)
+                (NP-BY-H (H ה) (NNP-BY לסרפוש)))) (yyCM yyCM)
+        (NP
+            (NNP-ZY (NNP-ZY יכדרמ) (NNP-BY רניירק)))) (yyCM yyCM)
+    (VP (VB-ZY3V רשיא))
+    (PP (IN ב)
+        (NP
+            (NP (NN-NY הבוגת))
+            (PP (IN ל)
+                (NP (NN-NY-H-BR1 ונתיינפ)))))
+    (SBAR-COM (COM יכ)
+        (S-CNJ
+            (S
+                (INTJ
+                    (ADVP (RB ןכא)))
+                (VP (VB-NY3V התיה))
+                (NP-SBJ
+                    (NP (NN-NY תועט))
+                    (PP (IN ב)
+                        (NP-ZY-H (H ה) (NN-ZY םוגרת))))) (CC ו)
+            (S
+                (ADVP (RB רבכ))
+                (VP (VB-BR3V וחלשנ))
+                (PP (IN ל)
+                    (NP (DT-BB לכ)
+                        (NP (NNT-NR תודוקנ)
+                            (NP-NY-H (H ה) (NN-NY הריכמ)))))
+                (NP-SBJ
+                    (NP-NR-H (H ה) (NN-NR תויוות))
+                    (ADJP (JJ-NR תושדח))
+                    (SBAR (REL ו)
+                        (S
+                            (PP (IN ב)
+                                (NP (PRP-NR3 ןה)))
+                            (VP (VB-BR3V ואצוה))
+                            (NP-SBJ
+                                (NP-NR-H (H ה) (NN-NR םילמ))
+                                (NP (yyQUOT yyQUOT)
+                                    (PP (IN אלל)
+                                        (NP (NN-ZY לורטסלוכ))) (yyQUOT yyQUOT))))))))) (yyDOT yyDOT)))
+
+tree #73
+*
+(
+ (S
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY תינכרצ))
+        (NP (NNP-BY ארויג)))
+    (VP (VB-NY3V הריעה))
+    (NP-OBJ (AT תא)
+        (NP (NN-NR-H-BR1 ונינזוא)))
+    (PP (IN ל)
+        (NP
+            (NP (NN-ZY ןומיס))
+            (PP (IN ב)
+                (NP
+                    (NP (NN-ZY רצומ))
+                    (ADJP (JJ-ZY רחא)) (yyCM yyCM)
+                    (SBAR (REL ש)
+                        (S
+                            (INTJ
+                                (PP (IN ל)
+                                    (NP (NN-NY-H-NY3 התעד))))
+                            (NP-SBJ (MOD םג)
+                                (NP (PRP-ZY3 אוה)))
+                            (VP (VB-ZY3H העטמ)))))))) (yyDOT yyDOT)))
+
+tree #74
+(
+ (S (NP-SBJ *PRO*)
+    (VP (VB-ZY3H רבודמ))
+    (PP-COM (IN ב)
+        (NP
+            (NP (NN-NY הניבג))
+            (PP (IN מ)
+                (NP (NNT-ZY גוס)
+                    (NP (yyQUOT yyQUOT)
+                        (NP (NNP-BY הדוג)) (yyQUOT yyQUOT)))) (yyCM yyCM)
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-NY3H תאבוימ))
+                    (NP (MOD ףא)
+                        (NP (PRP-NY3 איה)))
+                    (PP-COM (IN מ)
+                        (NP (NNP-NY ב"הרא))) (yyCM yyCM)
+                    (PP (IN תרגסמב)
+                        (NP
+                            (NP (NNT-ZY שדוח)
+                                (NP (NNP-NY הקירמא)))
+                            (PP (IN ב)
+                                (NP-BY-H (H ה) (NNP-BY לסרפוש))))))))) (yyDOT yyDOT)))
+
+tree #75
+*
+(
+ (S
+    (PP (IN לע)
+        (NP-NY-H (H ה) (NN-NY הזירא)))
+    (VP (VB-ZY3V ןמוס))
+    (PP (IN ב)
+        (NP (NN-NY תילגנא))) (yyCLN yyCLN)
+    (NP-SBJ-CNJ
+        (PRN (yyLRB yyLRB)
+            (NP
+                (NP (NN-ZY בלח))
+                (ADJP (JJ-ZY שוחכ))
+                (PP (IN ב)
+                    (NP (NN-ZY-H-ZY3 וקלח)))) (yyRRB yyRRB)) (CC ו) (CC ןכ)
+        (NP
+            (PRN (yyLRB yyLRB)
+                (NP (NN-ZY ןמוש)) (yyRRB yyRRB))
+            (NP
+                (NP (NN-ZB %)) (CDT-BR 26)))) (yyDOT yyDOT)))
+
+tree #76
+*
+(
+ (S
+    (PP (IN לע)
+        (NP
+            (NP (NN-NY הזירא))
+            (ADJP (JJ-NY תרחא))))
+    (VP (VB-ZY3V ןמוס))
+    (PP (IN ב)
+        (NP (NN-NY תילגנא))) (yyCLN yyCLN)
+    (NP-SBJ
+        (PRN (yyLRB yyLRB)
+            (NP
+                (NP (NN-ZY בלח))
+                (ADJP (JJ-ZY שוחכ))
+                (ADJP (JJ-ZY רטסופמ))) (yyRRB yyRRB))
+        (PP (IN אלל)
+            (NP (NNT-ZY ןויצ)
+                (NP (NNT-ZY זוחא)
+                    (NP-ZY-H (H ה) (NN-ZY ןמוש)))))) (yyDOT yyDOT)))
+
+tree #77
+*
+(
+ (S
+    (PP (IN ב)
+        (NP (CDT-ZR ינש)
+            (NP-ZR-H (H ה) (NN-ZR םירקמ))))
+    (NP-SBJ
+        (NP-ZY-H (H ה) (NN-ZY ןומיס))
+        (PP (IN ב)
+            (NP (NN-NY תירבע)))) (AUX-ZY3V היה)
+    (PREDP (yyCLN yyCLN)
+        (NP (yyQUOT yyQUOT)
+            (S
+                (S (NP-SBJ *NONE*)
+                    (VP (VB-ZY3H יושע))
+                    (PP (IN מ)
+                        (NP
+                            (NP (NN-ZY בלח))
+                            (ADJP (JJT-ZY לד)
+                                (NP (NN-ZY ןמוש)))))) (yyCM yyCM)
+                (S
+                    (NP-SBJ (NNT-ZY זוחא)
+                        (NP (NN-ZY ןמוש)))
+                    (PREDP
+                        (NP
+                            (NP (NN-ZB %)) (CDT-BR 26))))) (yyQUOT yyQUOT))) (yyDOT yyDOT)))
+
+tree #78
+*
+(
+ (S
+    (VP (VB-NY3H תלאוש))
+    (NP-NY-H-SBJ (H ה) (NN-NY תארוק))
+    (SBAR-COM (yyCLN yyCLN)
+        (SQ
+            (SBAR (IN םא)
+                (S
+                    (NP-NY-H-SBJ (H ה) (NN-NY הניבג))
+                    (VP (VB-NY3H היושע))
+                    (PP-COM (IN מ)
+                        (NP
+                            (NP (NN-ZY בלח))
+                            (ADJP (JJT-ZY לד)
+                                (NP (NN-ZY ןמוש))))))) (yyCM yyCM)
+            (ADVP (QW ךיא)) (NP-SBJ *PRO*)
+            (VP (VB-ZY3H ןכתיי))
+            (SBAR (COM ש)
+                (S
+                    (NP-SBJ (PRP-NY3 איה))
+                    (VP (VB-NY3H הליכמ))
+                    (NP
+                        (NP (NN-ZY זוחא))
+                        (ADJP (MOD הכ)
+                            (ADJP (JJ-ZY הובג)))
+                        (PP (POS לש)
+                            (NP (NN-ZY ןמוש)))))) (yyQM yyQM)))))
+
+tree #79
+(
+ (S
+    (NP-SBJ
+        (NP (NNT-ZY להנמ)
+            (NP
+                (NP (NNT-ZY תוריש)
+                    (NP-ZY-H (H ה) (NN-ZY ןוזמ)))
+                (PP (IN ב)
+                    (NP
+                        (NNP-ZY (NNT-ZY דרשמ)
+                            (NP-NY-H (H ה) (NN-NY תואירב))))))) (yyCM yyCM)
+        (NP
+            (NNP-ZY (NNP-ZY לאינד) (NNP-BY ןמכייר))) (yyCM yyCM)
+        (SBAR (REL ש)
+            (S (NP-SBJ *T*)
+                (VP (VB-ZY3V קדב))
+                (NP-OBJ (AT תא)
+                    (NP-NR-H (H ה) (NN-NR תויוות)))))) (yyCM yyCM)
+    (VP (VB-ZY3V עבק))
+    (SBAR-COM (COM יכ)
+        (S
+            (PP (IN ב)
+                (NP
+                    (NP (NN-ZY הרקמ))
+                    (ADJP (JJ-ZY הז)))) (yyCM yyCM)
+            (NP-ZY-H-SBJ (H ה) (NN-ZY ןומיס))
+            (VP (VB-ZY3V השענ))
+            (PP (IN םאתהב)
+                (PP (IN ל)
+                    (NP
+                        (NP-ZY-H (H ה) (NN-ZY ןקת))
+                        (ADJP-ZY-H (H ה) (JJ-ZY ילארשי))))))) (yyDOT yyDOT)))
+
+tree #80
+*
+(
+ (S (NP-SBJ *PRO*)
+    (VP (VB-ZY3H ררבתמ)) (yyCM yyCM)
+    (SBAR (COM ש)
+        (S
+            (PP (IN דוגינב)
+                (PP (IN ל)
+                    (NP
+                        (NP-ZY-H (H ה) (NN-ZY ןקת))
+                        (ADJP-ZY-H (H ה) (JJ-ZY ילארשי))))) (yyCM yyCM)
+            (ADVP (RB ןיא))
+            (NP-SBJ
+                (NP-ZY-H (H ה) (NN-ZY ןקת))
+                (ADJP-ZY-H (H ה) (JJ-ZY יאקירמא)))
+            (VP (VB-ZY3H שרוד))
+            (VP-INF (VB-M ןמסל)
+                (NP-OBJ (AT תא)
+                    (NP
+                        (NP (NNT-ZY זוחא)
+                            (NP-ZY-H (H ה) (NN-ZY ןמוש)))
+                        (PP (IN ב)
+                            (NP (NN-NR תוניבג)))))))) (yyDOT yyDOT)))
+
+tree #81
+*
+(
+ (S
+    (VP (VB-NY3H תלאשנ))
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY הלאש)) (yyCM yyCM)
+        (SBAR-COM (COM *NONE*)
+            (SQ
+                (PREDP
+                    (PP (QW ןינמ)))
+                (NP-SBJ
+                    (NP-ZY-H (H ה) (NN-ZY זוחא))
+                    (ADJP-ZY-H (H ה) (JJ-ZY הובג))
+                    (PP (POS לש)
+                        (NP (NN-ZY ןמוש))))
+                (SBAR (IN םא)
+                    (S (NP-SBJ *PRO*)
+                        (VP (VB-ZR3H םישמתשמ))
+                        (PP (IN ב)
+                            (NP
+                                (NP (NN-ZY בלח))
+                                (ADJP (JJ-ZY הזר)))))) (yyQM yyQM))))))
+
+tree #82
+(
+ (S
+    (NP-SBJ (NNP-BY ןמכייר))
+    (VP (VB-ZY3H ריבסמ)) (yyCM yyCM)
+    (SBAR (COM יכ)
+        (S-CNJ
+            (S
+                (PP (IN ב)
+                    (NP (NNT-NY תע)
+                        (NP-ZY-H (H ה) (NN-ZY רוציי)))) (NP-SBJ *PRO*)
+                (VP (VB-ZR3H םיזכרמ))
+                (NP-OBJ (AT תא)
+                    (NP-ZY-H (H ה) (NN-ZY בלח)))) (CC ו)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-ZR3H םיבאוש))
+                (PP (IN ןממ)
+                    (NP (PRP-ZY3 אוה)))
+                (NP-OBJ (AT תא)
+                    (NP-ZY-H (H ה) (NN-ZY ןמוש))))
+            (PRN (yyLRB yyLRB)
+                (S-CNJ
+                    (S
+                        (PP (IN ב)
+                            (NP
+                                (NP (NN-ZY בלח))
+                                (ADJP (JJ-ZY הזר))))
+                        (VP (VB-BB3H שי))
+                        (PP (IN ב) (NNT-NY ךרד) (NN-ZY ללכ))
+                        (NP-SBJ
+                            (NP
+                                (NP (NN-ZB %)) (CDT-BY 1))
+                            (NP (NN-ZY ןמוש)))) (yyCM yyCM) (CC ו) (CC וליא)
+                    (S
+                        (PP (IN ב)
+                            (NP
+                                (NP (NN-ZY בלח))
+                                (ADJP (JJ-ZY אלמ)))) (VP *NONE*)
+                        (NP-SBJ (MOD כ)
+                            (NP
+                                (NP
+                                    (NP (NN-ZB %)) (CDT-BR 3))
+                                (NP (NN-ZY ןמוש)))))) (yyRRB yyRRB)) (yyCM yyCM) (CC ו)
+            (S
+                (ADVP (RB ךכ)) (NP-SBJ *PRO*)
+                (VP (VB-ZR3H םיעיגמ))
+                (PP (IN ל)
+                    (NP
+                        (NP-ZY-H (H ה) (NN-ZY זוחא))
+                        (ADJP-ZY-H (H ה) (JJ-ZY שורד))))))) (yyDOT yyDOT)))
+
+tree #83
+*
+(
+ (S
+    (NP-SBJ (NNP-BY ןמכייר))
+    (VP (VB-ZY3H םיכסמ)) (yyCM yyCM)
+    (SBAR (COM יכ)
+        (S
+            (PP (IN לע) (IN ףא)
+                (SBAR (COM ש)
+                    (S
+                        (NP-ZY-H-SBJ (H ה) (NN-ZY ןומיס))
+                        (VP (VB-ZY3V השענ))
+                        (PP (IN כ)
+                            (NP-ZY-H (H ה) (NN-ZY קוח)))))) (yyCM yyCM) (NP-SBJ *PRO*)
+            (VP (VB-BB3H שי))
+            (PP (IN ב)
+                (NP (PRP-ZY3 אוה)))
+            (ADVP (RB ילוא))
+            (PP (IN ידכ)
+                (VP-INF (VB-M תועטהל))))) (yyDOT yyDOT)))
+
+tree #84
+*
+(
+ (S
+    (NP-SBJ (NN-NY הנקסמ))
+    (PREDP
+        (SBAR (yyCLN yyCLN)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-ZY3H ךירצ))
+                (VP-INF (VB-M תונשל)
+                    (NP-OBJ (AT תא)
+                        (NP-ZY-H (H ה) (NN-ZY ןקת))))))) (yyDOT yyDOT)))
+
+tree #85
+*
+(
+ (FRAG
+    (PP (IN רחא) (yyDASH yyDASH)
+        (NP-ZR-H (H ה) (NN-ZR םיירהצ))) (yyDOT yyDOT)))
+
+tree #86
+*
+(
+ (S-CNJ
+    (S
+        (NP-ZR-H-SBJ (H ה) (NN-ZR םיפתתשמ))
+        (VP (VB-ZR3H םירייסמ))
+        (PP (IN ב)
+            (NP
+                (NP-ZR-H (H ה) (NN-ZR םירתא))
+                (ADJP-ZR-H (H ה) (JJ-ZR םינוש))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZR3H םילגמ))
+        (NP-OBJ (AT תא)
+            (NP (NNT-ZR ירוחאמ)
+                (NP
+                    (NP-ZR-H (H ה) (NN-ZR םיעלק))
+                    (PP (POS לש)
+                        (NP-CNJ
+                            (NP (NNT-ZY בוציע)
+                                (NP-ZR-H (H ה) (NN-ZR םיחטשמ))) (CC ו)
+                            (NP (NNT-ZY ןונכת)
+                                (NP-NY-H (H ה) (NN-NY הביבס))))))))) (yyDOT yyDOT)))
+
+tree #87
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NN-ZY רנימס)) (CDT-ZY דחא))
+        (VP (VB-ZY3H דקמתמ))
+        (PP-COM (IN ב)
+            (NP
+                (NP-NY-H (H ה) (NN-NY הייחמצ))
+                (PP (POS לש)
+                    (NP-ZY-H (H ה) (NN-ZY םוקמ)))))) (yyCM yyCM) (CC ו)
+    (S
+        (NP-SBJ (NN-ZY רחא)) (VP *NONE*)
+        (PP (IN ב)
+            (NP-ZY-H (H ה) (NN-ZY יח)))) (yyDOT yyDOT)))
+
+tree #88
+(
+ (S-CNJ
+    (S
+        (NP-ZR-H-SBJ (H ה) (NN-ZR םידלי))
+        (VP (VB-ZR3H םיפתתשמ))
+        (PP (IN ב)
+            (NP
+                (NP-NY-H (H ה) (NN-NY תוליעפ))
+                (ADJP-NY-H (H ה) (JJ-NY תימוי))
+                (PP (POS לש)
+                    (NP (NNT-ZR ידבוע)
+                        (NP-CNJ
+                            (NP-ZY-H (H ה) (NN-ZY בוציע)) (CC ו)
+                            (NP-ZY-H (H ה) (NN-ZY ןונכת)))))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZR3H םילבמ))
+        (ADVP (RB םג))
+        (PP (IN ב)
+            (NP
+                (NP (NNT-ZR ירדח)
+                    (NP-ZY-H (H ה) (NN-ZY דומיל)))
+                (PP (POS לש)
+                    (NP
+                        (NNP-NY (NNT-NY תטיסרבינוא)
+                            (NP (NNP-BY ינסיד)))))))) (yyDOT yyDOT)))
+
+tree #89
+*
+(
+ (S
+    (NP-ZY-H-SBJ (H ה) (NN-ZY רנימס))
+    (VP (VB-ZY3H ללוכ))
+    (NP-OBJ-CNJ
+        (NP
+            (NP (NN-ZY עסמ))
+            (PP (IN ל)
+                (NP (NNP-BY טוקפא)))) (CC ו)
+        (NP
+            (NP (NN-NY הדובע))
+            (ADJP (JJ-NY תישעמ))
+            (PP (IN ב)
+                (NP-CNJ
+                    (NP (NN-ZY רויצ)) (CC וא)
+                    (NP (NN-ZY םושיר)))))) (yyDOT yyDOT)))
+
+tree #90
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NN-ZY רנימס))
+            (ADJP (JJ-ZY ךשוממ))
+            (ADJP
+                (ADJP (JJ-ZY יעוצקמ)) (RBR רתוי)))
+        (VP (VB-ZY3V לחה))
+        (ADVP (RB הנשה))) (yyCM yyCM) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3V ךרענ))
+        (NP (CDT-ZR השולש)
+            (NP (NN-ZR םימי)))) (yyDOT yyDOT)))
+
+tree #91
+*
+(
+ (S-CNJ
+    (S
+        (PP (IN ףסונב)
+            (PP (IN ל)
+                (NP (NNT-NY תרכה)
+                    (NP-NY-H (H ה) (NN-NY הביבס))))) (yyCM yyCM)
+        (VP (VB-BR3T ודמלי))
+        (NP-ZR-H-SBJ (H ה) (NN-ZR םיפתתשמ))
+        (NP-OBJ (AT תא)
+            (NP
+                (NP (NNT-ZR תודוס)
+                    (NP-ZY-H (H ה) (NN-ZY לוהינ)))
+                (PP (POS לש)
+                    (NP-ZY-H (H ה) (NN-ZY םוקמ)))))) (yyCM yyCM) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-BR3V ומשיי))
+        (NP-OBJ (AT תא)
+            (NP (NN-ZY-H-ZR3 םקלח)))
+        (PP (IN ב)
+            (NP-ZY-H (H ה) (NN-ZY חטש)))) (yyDOT yyDOT)))
+
+tree #92
+*
+(
+ (S
+    (NP-SBJ
+        (NP (NN-NY תופתתשה))
+        (PP (IN ב)
+            (NP
+                (NP (NN-ZY רנימס))
+                (PP (IN כ)
+                    (NP-ZY-H (H ה) (PRP-ZY3 הז))))))
+    (VP (VB-NY3T הלעת))
+    (NP-OBJ (MOD כ)
+        (NP
+            (NP (CDT-BR 685)
+                (NP (NN-ZY רלוד)))
+            (PRN (yyLRB yyLRB)
+                (PP (IN ללוכ)
+                    (NP (NN-ZR םירמוח))) (yyRRB yyRRB)))) (yyDOT yyDOT)))
+
+tree #93
+*
+(
+ (S
+    (NP-SBJ
+        (NP (NN-ZR םירוה))
+        (SBAR (REL ה)
+            (S (NP-SBJ *T*)
+                (VP (VB-ZR3H םיאב))
+                (PP (IN ל)
+                    (NP
+                        (NP (NN-NY הפוקת))
+                        (ADJP (JJ-NY תכשוממ)))))))
+    (VP (VB-BR3T ולכוי))
+    (VP-INF-CNJ
+        (VP-INF (VB-M חונל)
+            (PP (IN מ)
+                (NP-ZR-H (H ה) (NN-ZR םיריעצ)))
+            (PP (IN ל)
+                (NP
+                    (NP (NN-NR תועש))
+                    (ADJP (JJ-NR תוכורא))))) (CC ו)
+        (VP-INF (VB-M תולבל)
+            (PP (IN ב)
+                (NP
+                    (NP (CDT-ZR תורשע)
+                        (NP (NNT-ZR ירתא)
+                            (NP-ZY-H (H ה) (NN-ZY שפונ))))
+                    (PP-CNJ
+                        (PP (IN ב)
+                            (NP-NY-H (H ה) (NN-NY הביבס))) (CC ו)
+                        (PP (IN ב)
+                            (NP (NNT-ZY תיב)
+                                (NP-ZY-H (H ה) (NN-ZY ןולמ))))))))) (yyDOT yyDOT)))
+
+tree #94
+(
+ (S
+    (ZVL (NN-ZY דוגינ))
+    (PP (IN ל)
+        (NP
+            (NP-NY-H (H ה) (NN-NY השיג))
+            (ADJP-NY-H (H ה) (JJ-NY תלבוקמ))
+            (PP (IN ב)
+                (NP (NNT-ZY יופיר)
+                    (NP (NN-NR םייניע)))) (yyCM yyCM)
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-NY3H תסרוג))
+                    (SBAR-COM (COM יכ)
+                        (S
+                            (NP-SBJ (DT-BB לכ)
+                                (NP
+                                    (NP (QW ימ))
+                                    (SBAR (REL ש)
+                                        (S
+                                            (VP (VB-ZY3V הלגתנ))
+                                            (PP (IN לצא)
+                                                (NP (PRP-ZY3 אוה)))
+                                            (NP-SBJ-CNJ
+                                                (NP (NNT-ZY רצוק) (NP *NONE*)) (CC וא)
+                                                (NP (NNT-ZY קחור)
+                                                    (NP (NN-NY הייאר))))))))
+                            (VP (VB-ZY3V ןודנ))
+                            (VP-INF (VB-M ביכרהל)
+                                (NP-OBJ (NN-ZR םייפקשמ))
+                                (PP (IN ךשמל)
+                                    (NP (DT-BB לכ)
+                                        (NP (NNT-ZR ימי)
+                                            (NP (NN-ZR-H-ZY3 וייח)))))))))))) (yyCM yyCM)
+    (VP (VB-NY3H תנעוט))
+    (NP-SBJ
+        (NP (NNT-NY תטיש)
+            (NP (NNP-BY סטייב))) (yyCM yyCM)
+        (SBAR (REL ש)
+            (S
+                (NP-SBJ (PRP-NY3 איה))
+                (PREDP
+                    (NP (NNT-NY תטיש)
+                        (NP
+                            (NP (NN-ZY יופיר))
+                            (ADJP (JJ-ZY יעבט)))))))) (yyCM yyCM)
+    (SBAR-COM (COM יכ)
+        (S
+            (PP (IN ב)
+                (NP (NNT-NY תרזע)
+                    (NP
+                        (NP (NN-ZR םיליגרת))
+                        (ADJP (JJ-ZR םינוכנ))))) (NP-SBJ *PRO*)
+            (VP (VB-ZY3H ןתינ))
+            (VP-INF (VB-M ןקתל)
+                (NP-OBJ (NNT-ZR ייוקיל)
+                    (NP (NN-NY הייאר)))))) (yyDOT yyDOT)))
+
+tree #95
+(
+ (S
+    (NP-SBJ
+        (NP
+            (NNP-NY (NNP-NY תימולש) (NNP-BY חצנ))) (yyCM yyCM)
+        (SBAR (REL ש)
+            (S
+                (NP-SBJ (NNT-ZY בצמ)
+                    (NP (NN-NY-H-NY3 התייאר)))
+                (VP (VB-ZY3V רדרדיה))
+                (PP (IN מ)
+                    (NP
+                        (NP (NNT-ZY ליג)
+                            (NP (CD-BR 19)))
+                        (ADVP (CC ו) (RB ךליא))))))) (yyCM yyCM)
+    (VP (VB-NY3V העדוותה))
+    (PP (IN ל)
+        (NP
+            (NP (NNT-NY תטיש)
+                (NP
+                    (NP-ZY-H (H ה) (NN-ZY יופיר))
+                    (ADJP-ZY-H (H ה) (JJ-ZY יעבט)))) (yyCM yyCM)
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-NY3H תללוש))
+                    (PP (IN ב)
+                        (NP (NN-ZY ףקות)))
+                    (NP-OBJ (AT תא)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY לופיט))
+                            (ADJP-ZY-H (H ה) (JJ-ZY יתרוסמ)))))))) (yyDOT yyDOT)))
+
+tree #96
+(
+ (S
+    (NP-SBJ (PRP-NY3 איה))
+    (VP (VB-NY3V הבאש))
+    (NP-OBJ (NN-ZY עדי))
+    (PP-COM-CNJ
+        (PP (IN מ)
+            (NP (NNT-NY תאירק)
+                (NP (NN-ZR םירפס)))) (CC ו)
+        (PP (IN מ)
+            (NP
+                (NP (NN-NR תושיגפ))
+                (PP (IN םע)
+                    (NP
+                        (NP (NN-ZR םישנא))
+                        (PP (IN ומכ)
+                            (NP-CNJ
+                                (NP
+                                    (NNP-ZY (NNP-ZY הטול) (NNP-BY סואד))) (CC ו)
+                                (NP
+                                    (NP
+                                        (NNP-ZY (NNP-ZY ריאמ) (NNP-BY רדיינש))) (yyCM yyCM)
+                                    (SBAR (REL ש)
+                                        (S-CNJ
+                                            (S (NP-SBJ *T*)
+                                                (VP (VB-ZY3V חילצה))
+                                                (PP (IN ב)
+                                                    (NP (NNT-ZR תוחוכ)
+                                                        (NP (PRP-ZY3 ומצע))))
+                                                (VP-INF (VB-M אפרתהל)
+                                                    (PP (IN מ)
+                                                        (NP
+                                                            (NP (NN-ZY בצמ))
+                                                            (PP (POS לש)
+                                                                (NP (MOD טעמכ)
+                                                                    (NP (NN-ZY ןורוויע)))))))) (CC ו)
+                                            (S
+                                                (ADVP (RB ףא)) (NP-SBJ *NONE*)
+                                                (VP (VB-ZY3V בתכ))
+                                                (PP (IN לע)
+                                                    (NP (PRP-BB3 ךכ)))
+                                                (NP-OBJ (NN-ZY רפס))))))))))))) (yyDOT yyDOT)))
+
+tree #97
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (NNP-BY חצנ))
+        (VP (VB-NY3V הדמל))
+        (NP-OBJ (AT תא)
+            (NP-NY-H (H ה) (NN-NY הטיש)))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3V המשיי))
+        (NP-OBJ (AT תוא)
+            (NP (PRP-NY3 איה)))
+        (NP
+            (NP (NN-NY הכלה))
+            (PP (IN ל)
+                (NP (NN-ZY השעמ)))) (yyCM yyCM)
+        (PP-COM-CNJ
+            (PP
+                (ADVP (RB הליחתב))
+                (PP (IN לע)
+                    (NP (PRP-NY3 המצע)))) (CC ו)
+            (PP
+                (PP (IN רחא) (yyDASH yyDASH) (PRP-BB3 ךכ))
+                (PP (IN לע)
+                    (NP-CNJ
+                        (NP (NN-ZR םירבח)) (CC ו)
+                        (NP (NN-ZR םירכמ))))))) (yyDOT yyDOT)))
+
+tree #98
+*
+(
+ (S-CNJ
+    (S
+        (PP (IN ב)
+            (NP (NN-NY הגרדה)))
+        (VP (VB-ZY3V בחרתה))
+        (NP-SBJ
+            (NP (NNT-ZY גוח)
+                (NP-ZR-H (H ה) (NN-ZR םינופ)))
+            (PP (IN ילא)
+                (NP (PRP-NY3 איה))))) (CC ו)
+    (S
+        (NP-SBJ (PRP-NY3 איה))
+        (VP (VB-NY3V הלחה))
+        (VP-INF (VB-M ךירדהל)
+            (NP-OBJ
+                (NP (NN-NR תוצובק))
+                (PP-CNJ
+                    (PP (IN ב)
+                        (NP
+                            (NP (NN-NR תונטייק)) (yyCM yyCM)
+                            (NP (NN-ZR םיס"נתמ)))) (CC ו)
+                    (PP (IN ב)
+                        (NP
+                            (NP (NN-ZR םיתב))
+                            (ADJP (JJ-ZR םייטרפ)))))))) (yyDOT yyDOT)))
+
+tree #99
+(
+ (S
+    (PP (IN רובעכ)
+        (NP
+            (NP (NN-ZY ןמז)) (yyDASH yyDASH)
+            (ADJP (JJ-BB המ)))) (NP-SBJ *NONE*)
+    (VP (VB-NY3V הנמזוה))
+    (VP-INF (VB-M עייסל)
+        (PP-COM
+            (PP (IN ל)
+                (NP
+                    (NP (NNT-ZY תווצ)
+                        (NP-NR-H (H ה) (NN-NR תורומ)))
+                    (PP (IN ב)
+                        (NP-NY-H (H ה) (NN-NY התיכ)))))
+            (PP (IN ל)
+                (NP
+                    (NP-ZR-H (H ה) (NN-ZR םידלי))
+                    (SBAR (REL ה)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-ZR3H םילבוס))
+                            (PP (IN מ)
+                                (NP
+                                    (NP (NNT-NR תויעב)
+                                        (NP (NN-NY הייאר)))
+                                    (ADJP (JJ-NR תושק))))))
+                    (PP (IN ב)
+                        (NP
+                            (NP (NNT-ZY תיב) (yyDASH yyDASH)
+                                (NP-ZY-H (H ה) (NN-ZY רפס)))
+                            (NP
+                                (NNP-ZY (NNP-ZY ףסוי) (NNP-BY וראק)))
+                            (PP (IN ב)
+                                (NP
+                                    (NNP-NY (NNT-NY ראב) (yyDASH yyDASH)
+                                        (NP (CD-NR עבש))))))))))) (yyDOT yyDOT)))
+
+tree #100
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (PRP-NY3 איה))
+        (VP (VB-NY3V הדבע))
+        (ADVP (RB םש))
+        (NP (NN-NR םייתנש))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3V העיגה))
+        (NP (AT תא)
+            (NP (PRP-ZR3 םה)))
+        (PP-COM (IN ל)
+            (NP
+                (NP (NN-ZR םיגשיה))
+                (ADJP (JJ-ZR םיתואנ))))) (yyDOT yyDOT)))
+
+tree #101
+*
+(
+ (S
+    (NP-SBJ (NNP-BY חצנ))
+    (VP (VB-NY3H תרמוא)) (yyCM yyCM)
+    (SBAR-COM (COM יכ)
+        (S
+            (VP (VB-BR3V ושרדנ))
+            (PP (IN ל)
+                (NP (PRP-NY3 איה)))
+            (NP-SBJ-CNJ
+                (NP (NN-NR םייתנש)) (CC ו)
+                (NP (NN-ZY יצח)))
+            (PP (IN דע)
+                (SBAR (COM ש)
+                    (S (NP-SBJ *NONE*)
+                        (VP (VB-NY3V העיגה))
+                        (PP (IN ל)
+                            (NP
+                                (NP (NN-NY הייאר))
+                                (ADJP (JJ-NY הניקת))))))) (yyCM yyCM)
+            (PP (IN ןוויכמ)
+                (SBAR (COM ש)
+                    (S-CNJ
+                        (S (NP-SBJ *NONE*)
+                            (VP (VB-NY3V התשע))
+                            (NP-OBJ (DT-BB הברה)
+                                (NP
+                                    (NP (NN-NR תוקספה))
+                                    (PP (IN ב)
+                                        (NP (NN-ZY לוגרת)))))) (CC ו)
+                        (S (NP-SBJ *NONE*)
+                            (ADVP (RB אל))
+                            (VP (VB-NY3V התיה))
+                            (PP (IN ב)
+                                (NP (NN-NY תרגסמ))))))))) (yyDOT yyDOT)))
+
+tree #102
+*
+(
+ (S
+    (NP-SBJ (NN-NY-H-NY3 התטיש))
+    (VP (VB-NY3H תססובמ))
+    (PP-COM (IN לע)
+        (NP (DT-BB המכ)
+            (NP
+                (NP (NN-ZR תונורקע))
+                (ADJP (JJ-ZR םיטושפ))))) (yyCM yyCM)
+    (SBAR (IN שכ)
+        (S
+            (PREDP
+                (PP (IN ב)
+                    (NP (NN-ZY-H-NY3 הסיסב))))
+            (NP-SBJ
+                (NP-NY-H (H ה) (NN-NY החנה))
+                (SBAR (COM ש)
+                    (S
+                        (NP-SBJ
+                            (NP-ZY-H (H ה) (NN-ZY בצמ))
+                            (ADJP-ZY-H (H ה) (JJ-ZY ישפנ)))
+                        (PREDP (AGR-ZY אוה)
+                            (NP
+                                (NP (PRP-ZY3 הז))
+                                (SBAR (REL ש)
+                                    (S (NP-SBJ *T*)
+                                        (VP (VB-ZY3H עיפשמ))
+                                        (PP-COM-CNJ
+                                            (PP (IN לע)
+                                                (NP-NR-H (H ה) (NN-NR םייניע))) (CC ו)
+                                            (PP (IN לע)
+                                                (NP (NNT-ZY רשוכ)
+                                                    (NP-NY-H (H ה) (NN-NY הייאר)))))))))))))) (yyDOT yyDOT)))
+
+tree #103
+*
+(
+ (S
+    (NP-SBJ-CNJ
+        (NP
+            (NP (NN-ZY חתמ))
+            (ADJP (JJ-ZY ישפנ))) (yyCM yyCM)
+        (NP
+            (NP (NN-NR תולחמ))
+            (ADJP (JJ-NR תושק))) (CC וא)
+        (NP (NN-NR תומוארט))) (yyCM yyCM)
+    (VP (VB-ZR3H םייושע))
+    (VP-INF (VB-M עיפשהל)
+        (PP (IN ל)
+            (NP (NN-NY הער)))
+        (PP-COM-CNJ
+            (PP (IN לע)
+                (NP (NNT-ZY בצמ)
+                    (NP-NR-H (H ה) (NN-NR םייניע)))) (CC ו)
+            (PP (IN לע)
+                (NP (NNT-ZY רשוכ)
+                    (NP-NY-H (H ה) (NN-NY הייאר)))))) (yyDOT yyDOT)))
+
+tree #104
+(
+ (S
+    (ADVP (RB םויה))
+    (VP (VB-NY3H האור))
+    (NP-SBJ
+        (NNP-NY (NNP-NY תימולש) (NNP-BY חצנ)))
+    (ADVP (RB בטיה)) (yyCM yyCM)
+    (PP (MOD םג)
+        (PP (IN ל)
+            (NP
+                (NP (NN-ZR םיקחרמ))
+                (ADJP (JJ-ZR םיכורא))))) (yyCM yyCM)
+    (PP (IN אלל)
+        (NP-CNJ
+            (NP (NN-ZR םייפקשמ)) (CC וא)
+            (NP (NNT-NR תושדע)
+                (NP (NN-ZY עגמ))))) (yyDOT yyDOT)))
+
+tree #105
+*
+(
+ (S
+    (NP-SBJ (PRP-NY3 איה))
+    (ADVP (RB םג))
+    (VP (VB-NY3H תלפטמ))
+    (PP (IN ב)
+        (NP
+            (NP (NN-NY הטיש))
+            (ADJP (JJ-NY וז))))
+    (PP (IN ב)
+        (NP (NN-NY החלצה)))
+    (PP-COM (IN ב)
+        (NP
+            (NP (NN-ZR םישנא))
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-ZR3H םילבוס))
+                    (PP-COM (IN מ)
+                        (NP
+                            (NP
+                                (NP (NNT-ZR ייוקיל)
+                                    (NP (NN-NY הייאר)))
+                                (ADJP (JJ-ZR םינוש)))
+                            (NP-CNJ
+                                (NP (NN-NY טקרטק)) (yyCM yyCM)
+                                (NP (NN-NY המוקואלג))
+                                (ADVP (CC ו) (RB דוע))))))))) (yyDOT yyDOT)))
+
+tree #106
+(
+ (S-CNJ
+    (S
+        (PP (yyQUOT yyQUOT)
+            (PP (IN יפל)
+                (NP
+                    (NP-NY-H (H ה) (NN-NY השיג))
+                    (ADJP-NY-H (H ה) (JJ-NY תיעבט)))) (yyQUOT yyQUOT))
+        (PRN (yyCM yyCM)
+            (S
+                (VP (VB-NY3H הפיסומ))
+                (NP-SBJ (NNP-BY חצנ))) (yyCM yyCM)) (yyQUOT yyQUOT)
+        (NP-SBJ (NNT-ZY רשוכ)
+            (NP-NY-H (H ה) (NN-NY הייאר)))
+        (PREDP (AGR-ZY וניה)
+            (NP
+                (NP (NN-NY האצות))
+                (PP (POS לש)
+                    (NP (NNT-ZY בצמ)
+                        (NP-NR-H (H ה) (NN-NR םייניע))))))) (CC ו)
+    (S (NP-SBJ *PRO*)
+        (VP (VB-BB3H ןיא))
+        (VP-INF (VB-M דירפהל)
+            (PP (IN ןיב)
+                (NP-ZR-H (H ה) (NN-ZR םיינש)))) (yyCM yyCM)
+        (PP (IN םשכ)
+            (SBAR (COM ש)
+                (S (NP-SBJ *PRO*)
+                    (VP (MOD יא) (VB-ZY3H רשפא))
+                    (VP-INF (VB-M דירפהל)
+                        (PP-COM (IN ןיב)
+                            (NP-CNJ
+                                (NP
+                                    (NP (NN-ZY רשוכ))
+                                    (ADJP (JJ-ZY ינפוג))) (CC ו)
+                                (NP (NNT-NY תלוכי)
+                                    (NP (NN-NY הציר)))))))))) (yyDOT yyDOT)))
+
+tree #107
+*
+(
+ (S-CNJ
+    (S
+        (PP (IN ב)
+            (NP
+                (NP-NY-H (H ה) (NN-NY השיג))
+                (ADJP-NY-H (H ה) (JJ-NY תילנויצנוונוק)))) (yyCM yyCM)
+        (INTJ
+            (PP (IN תמועל) (PRP-NY3 תאז))) (yyCM yyCM)
+        (NP-SBJ (NNT-ZY בצמ)
+            (NP-NR-H (H ה) (NN-NR םייניע)))
+        (VP (VB-ZY3V בשחנ))
+        (PP (IN ל)
+            (NP
+                (NP-ZY-H (H ה) (NN-ZY דצ))
+                (ADJP-ZY-H (H ה) (JJ-ZY יתואירב))))) (CC ו)
+    (S
+        (NP-SBJ (NNT-ZR ייוקיל)
+            (NP (NN-NY הייאר)))
+        (VP (VB-ZR3H םיבשחנ))
+        (PP (IN ל)
+            (NP
+                (NP-ZY-H (H ה) (NN-ZY דצ))
+                (ADJP-CNJ
+                    (ADJP-ZY-H (H ה) (JJ-ZY ידוקפת)) (CC ו)
+                    (ADJP (MOD וליפא)
+                        (ADJP-ZY-H (H ה) (JJ-ZY יטמסוק))))))) (yyQUOT yyQUOT) (yyDOT yyDOT)))
+
+tree #108
+*
+(
+ (S
+    (PP (IN ל)
+        (NP
+            (NP (NN-ZY ףועפע))
+            (PP (IN ב)
+                (NP-NR-H (H ה) (NN-NR םייניע)))))
+    (VP (VB-BB3H שי))
+    (NP-SBJ
+        (NP (NN-ZY דיקפת))
+        (ADJP (JJ-ZY יזכרמ))
+        (PP (IN ב)
+            (NP
+                (NP (NN-NY הרימש))
+                (PP (IN לע)
+                    (NP
+                        (NP (NN-NY הייאר))
+                        (ADJP (JJ-NY הניקת)))))))
+    (PRN (yyCM yyCM)
+        (S
+            (VP (VB-NY3H תרמוא))
+            (NP-SBJ (NNP-BY חצנ))) (yyCM yyCM))
+    (PP (IN ןוויכ)
+        (SBAR (COM ש)
+            (S
+                (NP-SBJ (PRP-ZY3 אוה))
+                (VP (VB-ZY3H רשפאמ))
+                (NP-OBJ
+                    (NP (NN-NY החונמ))
+                    (PP (IN ל)
+                        (NP-NY-H (H ה) (NN-NY ןיע)))
+                    (PRN (yyCM yyCM)
+                        (PP (IN ןיעמ)
+                            (NP
+                                (NP (NN-NY היפרה))
+                                (ADJP (JJ-NY תיעגר))
+                                (ADJP (JJ-NY הרצק))))))))) (yyDOT yyDOT)))
+
+tree #109
+*
+(
+ (S
+    (SBAR (IN רשאכ)
+        (S (NP-SBJ *PRO*)
+            (VP (VB-ZR3H םיפעפעמ)))) (yyCM yyCM)
+    (VP (VB-NR3H תוררחתשמ))
+    (NP-SBJ
+        (NP (NN-NR תועמד))
+        (SBAR (REL ש)
+            (S
+                (NP-SBJ (NN-ZY-H-NR3 ןדיקפת))
+                (PREDP
+                    (VP-INF-CNJ
+                        (VP-INF (VB-M ףוטשל)) (CC ו)
+                        (VP-INF (VB-M תוקנל)
+                            (NP-OBJ (AT תא)
+                                (NP-NR-H (H ה) (NN-NR םייניע))))))))) (yyDOT yyDOT)))
+
+tree #110
+*
+(
+ (S
+    (PP (IN רחאמ)
+        (SBAR (COM ש)
+            (S
+                (NP-NR-H-SBJ (H ה) (NN-NR םייניע))
+                (VP (VB-NR3H תורומא))
+                (VP-INF (VB-M תויהל)
+                    (PP (IN ב)
+                        (NP
+                            (NP (NN-NY העונת))
+                            (ADJP (JJ-NY תדמתמ)))))))) (yyCM yyCM)
+    (NP-SBJ (NNT-NY תכיס)
+        (NP-NY-H (H ה) (NN-NY ןיע)))
+    (VP (VB-NY3H תרשפאמ))
+    (NP-OBJ
+        (NP (NN-NY העונת))
+        (ADJP-CNJ
+            (ADJP (JJ-NY הכר)) (CC ו)
+            (ADJP (JJ-NY החונינ)))) (yyDOT yyDOT)))
+
+tree #111
+*
+(
+ (S (NP-SBJ *PRO*)
+    (VP (VB-ZY3H רשפא))
+    (VP-INF (VB-M תוושהל)
+        (NP-OBJ (PRP-NY3 תאז))
+        (PP-COM (IN ל)
+            (NP (NNT-ZY ןומיש)
+                (NP
+                    (NP (NNT-ZR יריצ)
+                        (NP (NN-NY תלד)))
+                    (ADJP (JJ-ZR םידולח)))))) (yyDOT yyDOT)))
+
+tree #112
+*
+(
+ (S
+    (SBAR (IN רשאכ)
+        (S
+            (VP (VB-BB3H שי))
+            (NP-SBJ
+                (NP (NNT-ZY יוקיל)
+                    (NP (NN-NY הייאר))) (yyCM yyCM)
+                (PP-CNJ
+                    (PP (IN מ)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY םגפ))
+                            (ADJP
+                                (ADJP-ZY-H (H ה) (JJ-ZY טועפ)) (MOD רתויב)))) (CC ו)
+                    (PP (IN דע)
+                        (PP (IN ל)
+                            (NP (NP *NONE*)
+                                (ADJP-ZY-H (H ה) (JJ-ZY ךבוסמ))))))))) (yyCM yyCM) (NP-SBJ *PRO*)
+    (VP (VB-ZY3V אצמנ))
+    (SBAR-COM (COM יכ)
+        (S-CNJ
+            (S
+                (NP-NR-H-SBJ (H ה) (NN-NR םייניע))
+                (ADVP (RB-NR3 ןניא))
+                (VP (VB-NR3H תודבוע))
+                (PP (IN ב)
+                    (NP
+                        (NP (NN-NY היפרה))
+                        (ADJP (JJ-NY תקפסמ))))) (CC ו)
+            (S-CNJ
+                (S
+                    (NP-ZY-H-SBJ (H ה) (NN-ZY ףועפע))
+                    (VP (VB-ZY3H הקול))
+                    (PP (IN ב)
+                        (NP (NN-ZY רסח)))) (CC וא)
+                (S (NP-SBJ *NONE*)
+                    (ADVP (RB אל))
+                    (VP (VB-ZY3H םייק))
+                    (ADVP (RB ללכב)))))) (yyDOT yyDOT)))
+
+tree #113
+*
+(
+ (S
+    (PP (IN ב)
+        (NP
+            (NP (NN-NY-H-NY3 התדובע))
+            (PP (IN םע)
+                (NP (NN-ZR םישנא))))) (yyCM yyCM)
+    (NP-SBJ-CNJ
+        (NP-ZY-H (H ה) (NN-ZY ףועפע)) (CC ו)
+        (NP (NNT-NR תועונת)
+            (NP-NY-H (H ה) (NN-NY ןיע))))
+    (VP (VB-ZR3H םיווהמ))
+    (NP-OBJ
+        (NP (NN-NY היצקידניא))
+        (PP (IN ל)
+            (NP (NNT-ZY בצמ)
+                (NP-NY-H (H ה) (NN-NY ןיע))))) (yyDOT yyDOT)))
+
+tree #114
+*
+(
+ (S
+    (NP-ZY-H-SBJ (H ה) (NN-ZY לופיט))
+    (PRN (yyCM yyCM)
+        (S
+            (VP (VB-NY3H תרמוא))
+            (NP-SBJ (NNP-BY חצנ))) (yyCM yyCM))
+    (VP (VB-ZY3H ךירצ))
+    (VP-INF (VB-M תויהל)
+        (ADJP
+            (ADJP (JJ-ZY םאתומ))
+            (PP-CNJ
+                (PP-CNJ
+                    (PP (IN ל)
+                        (NP-ZY-H (H ה) (NN-ZY םדא))) (CC ו)
+                    (PP (IN ל)
+                        (NP (NN-NY-H-ZY3 ותוישיא)))) (CC ו)
+                (PP (MOD אל) (MOD קר)
+                    (PP (IN ל)
+                        (NP
+                            (NP-NY-H (H ה) (NN-NY הנחבא))
+                            (ADJP-NY-H (H ה) (JJ-NY תיאופר)))))))) (yyDOT yyDOT)))
+
+tree #115
+*
+(
+ (S
+    (S (yyQUOT yyQUOT)
+        (NP-SBJ
+            (NP (NN-ZY לופיט))
+            (PP (IN ב)
+                (NP (NNT-ZY רופיש)
+                    (NP (NN-NY הייאר)))))
+        (VP (VB-ZY3H שרוד))
+        (NP-OBJ
+            (NP (NN-ZY בוליש))
+            (PP (POS לש)
+                (NP-CNJ
+                    (NP-ZY-H (H ה) (NN-ZY ףוג)) (CC ו)
+                    (NP-NY-H (H ה) (NN-NY שפנ)))))) (yyDOT yyDOT)))
+
+tree #116
+*
+(
+ (S
+    (SBAR (IN םא)
+        (S
+            (NP-SBJ (NN-ZY םדא))
+            (VP (VB-ZY3H גישמ))
+            (NP-OBJ (NNT-ZY רופיש)
+                (NP (NN-NY הייאר)))
+            (PP (MOD קר)
+                (PP (IN לע)
+                    (NP (NNT-NR ידי)
+                        (NP
+                            (NP (NN-ZY לוגרת))
+                            (ADJP (JJ-ZY ינכמ)))))))) (yyCM yyCM)
+    (NP-SBJ (PRP-ZY3 אוה))
+    (VP (VB-ZY3H ךירצ))
+    (VP-INF (VB-M ךישמהל)
+        (NP-OBJ (AT תא)
+            (NP-ZR-H (H ה) (NN-ZR םיליגרת)))
+        (NP (DT-BB-H לכ)
+            (NP-ZY-H (H ה) (NN-ZY ןמז)))
+        (PP (IN ידכ)
+            (VP-INF (VB-M רומשל)
+                (NP-OBJ (AT תא)
+                    (NP
+                        (NP (QW המ))
+                        (SBAR (REL ש)
+                            (S (NP-SBJ *NONE*)
+                                (VP (VB-ZY3V גישה)) (NP-OBJ *T*)))))))) (yyDOT yyDOT)))
+
+tree #117
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NN-NY הדובע))
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-NY3H תבלשמ))
+                    (ADVP (RB םג))
+                    (NP-OBJ
+                        (NP (NN-ZR םיטקפסא))
+                        (ADJP (JJ-ZR םיישפנ))))))
+        (VP (VB-NY3H תמרוג))
+        (PP (IN ל)
+            (NP-ZY-H (H ה) (NN-ZY םדא)))
+        (VP-INF (VB-M ריזחהל)
+            (PP (IN ל)
+                (NP (PRP-ZY3 ומצע)))
+            (NP-OBJ (AT תא)
+                (NP
+                    (NP-ZR-H (H ה) (NN-ZR םיטקניטסניא))
+                    (ADJP-ZR-H (H ה) (JJ-ZR םייעבט))
+                    (PP (IN ל)
+                        (NP
+                            (NP (NN-ZY שומיש))
+                            (ADJP (JJ-ZY ןוכנ))
+                            (PP (IN ב)
+                                (NP-NR-H (H ה) (NN-NR םייניע))))))))) (yyCM yyCM) (CC ו)
+    (S
+        (ADVP (RB זא))
+        (VP (VB-BB3H ןיא))
+        (NP-SBJ (MOD דוע)
+            (NP
+                (NP (NN-ZY ךרוצ))
+                (PP (IN ב)
+                    (NP (NN-ZR םיליגרת)))))) (yyDOT yyDOT)))
+
+tree #118
+*
+(
+ (S
+    (S
+        (NP-SBJ (PRP-BY1 ינא))
+        (VP (VB-NY1H תדמלמ))
+        (NP-OBJ (AT תא)
+            (NP-ZY-H (H ה) (NN-ZY םדא)))
+        (VP-INF (VB-M ליעפהל)
+            (NP-OBJ (AT תא)
+                (NP (NN-NR-H-ZY3 ויניע)))
+            (PP (IN יפכ)
+                (SBAR (COM ש)
+                    (S (NP-SBJ *NONE*)
+                        (VP (VB-ZY3V השע))
+                        (PP (IN ב)
+                            (NP-ZY-H (H ה) (NN-ZY רבע))) (yyCM yyCM)
+                        (SBAR (IN שכ)
+                            (S
+                                (VP (VB-NY3V התיה))
+                                (PP (IN ל)
+                                    (NP (PRP-ZY3 אוה)))
+                                (NP-SBJ
+                                    (NP (NN-NY הייאר))
+                                    (ADJP (JJ-NY הניקת))))))))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #119
+*
+(
+ (S
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY הטיש))
+        (ADJP-NY-H (H ה) (JJ-NY תיעבט))
+        (PP (IN ל)
+            (NP (NNT-ZY רופיש)
+                (NP-NY-H (H ה) (NN-NY הייאר)))))
+    (VP (VB-NY3H תללוכ))
+    (NP-OBJ (NNT-NY תרדס)
+        (NP
+            (NP (NN-ZR םיליגרת))
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-ZR3H םיעצובמ))
+                    (PP (IN ב)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY ריווא))
+                            (ADJP-ZY-H (H ה) (JJ-ZY חותפ))
+                            (PP (IN לומ)
+                                (NP
+                                    (NP-NY-H (H ה) (NN-NY שמש)) (yyCM yyCM)
+                                    (SBAR (REL ש)
+                                        (S
+                                            (PREDP
+                                                (PP (IN ל)
+                                                    (NP (PRP-NY3 איה))))
+                                            (NP-SBJ
+                                                (NP (NN-ZY דיקפת))
+                                                (ADJP (JJ-ZY בושח))
+                                                (PP (IN ב)
+                                                    (NP (NNT-NY תרזחה)
+                                                        (NP
+                                                            (NP-ZR-H (H ה) (NN-ZR םיטקניטסניא))
+                                                            (ADJP-ZR-H (H ה) (JJ-ZR םייעבט)))))))))))))))) (yyDOT yyDOT)))
+
+tree #120
+*
+(
+ (S
+    (S
+        (S (yyQUOT yyQUOT)
+            (S
+                (NP-SBJ (NNT-ZR יליגרת)
+                    (NP-NY-H (H ה) (NN-NY שמש)))
+                (PREDP (AGR-ZR םה)
+                    (ADJP-CNJ
+                        (ADJP (JJ-ZR םיבושח)) (CC ו)
+                        (ADJP (JJ-ZR םיליעי))))) (yyQUOT yyQUOT))
+        (PRN (yyCM yyCM)
+            (S
+                (VP (VB-NY3H תרמוא))
+                (NP-SBJ (NNP-BY חצנ))) (yyCM yyCM)))
+    (FRAG (yyQUOT yyQUOT)
+        (FRAG (CC לבא)
+            (S (NP-SBJ *PRO*)
+                (VP (VB-ZY3H ךירצ))
+                (VP-INF (VB-M רהזיהל)) (yyCM yyCM)
+                (PP (IN ןוויכ)
+                    (SBAR (COM ש)
+                        (S
+                            (NP-SBJ
+                                (NP (NN-NY הפישח))
+                                (ADJP (JJ-NY הבורמ)))
+                            (VP (VB-NY3H הלוכי))
+                            (VP-INF-CNJ
+                                (VP-INF (VB-M םורגל)
+                                    (NP-OBJ (NN-ZY ןויפר))) (CC ו)
+                                (VP-INF (VB-M *NONE*)
+                                    (PP (IN ב)
+                                        (NP
+                                            (NP (NN-ZR םירקמ))
+                                            (ADJP (JJ-ZR םיינוציק))))
+                                    (PP-COM (IN ל)
+                                        (NP (NNT-NY תורערעתה)
+                                            (NP (NNT-NY תכרעמ)
+                                                (NP-ZR-H (H ה) (NN-ZR םיבצע)))))))))))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #121
+(
+ (S
+    (FRAG
+        (NP-ZR-H (H ה) (NN-ZR םירטקסומ))) (yyQUOT yyQUOT) (yyCM yyCM) (NP-SBJ *NONE*)
+    (VP (VB-ZY3V ךלה))
+    (PP (IN ל)
+        (NP (NN-ZY-H-ZY3 ומלוע)))
+    (PP (IN ב)
+        (NP (NNT-NY תנש)
+            (NP (CD-BR 1870)))) (yyCM yyCM)
+    (PP (IN ב)
+        (NP (NNT-ZY ליג)
+            (NP (CD-BR םישש) (CC ו) (CD-BR הנומש)))) (yyCM yyCM)
+    (SBAR (IN שכ)
+        (S
+            (NP-SBJ (PRP-ZY3 אוה))
+            (VP (VB-ZY3H ריתומ))
+            (PP (IN ירחא)
+                (NP (PRP-ZY3 אוה)))
+            (NP-OBJ
+                (NP (NN-ZY לובי))
+                (ADJP (JJ-ZY יתורפס))
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZY3V סנוכ))
+                        (PP (IN ב)
+                            (NP (MOD אל) (RBR תוחפ) (IN מ)
+                                (NP (CDT-BR 300)
+                                    (NP (NN-ZR םיכרכ)))))))))) (yyDOT yyDOT)))
+
+tree #122
+*
+(
+ (S (NP-SBJ *PRO*)
+    (VP (VB-ZY3H עודי)) (yyCM yyCM)
+    (SBAR (COM יכ)
+        (S
+            (NP-OBJ (MOD אל)
+                (NP (DT-BB לכ)
+                    (NP
+                        (NP (QW המ))
+                        (SBAR (REL ש)
+                            (S (NP-SBJ *T*)
+                                (VP (VB-ZY3V םסרופ))
+                                (PP (IN ב)
+                                    (NP (NN-ZY-H-ZY3 ומש)))))))) (NP-SBJ *NONE*)
+            (ADVP (RB ןכא))
+            (VP (VB-ZY3V בתכ))
+            (PP (IN ומב)
+                (NP (NN-NR-H-ZY3 וידי))))) (yyDOT yyDOT)))
+
+tree #123
+(
+ (S
+    (NP-SBJ
+        (NP (NNP-BY אמויד)) (yyCM yyCM)
+        (SBAR (REL ש)
+            (S (NP-SBJ *T*) (AUX-ZY3V היה)
+                (PREDP
+                    (NP
+                        (NP (NN-ZY רפוס))
+                        (NP (NNT-ZY לעב)
+                            (NP (NN-ZY ןיטינומ)))))))) (yyCM yyCM)
+    (VP (VB-ZY3V ריכה))
+    (PP-COM (IN ב)
+        (NP
+            (NP (NN-NY-H-ZY3 ותוהבא))
+            (PP (IN לע)
+                (NP
+                    (NP (NN-ZR םירפס))
+                    (ADJP (JJ-ZR םיבר)))))) (yyCM yyCM)
+    (ADVP (RB הארנכ))
+    (PP (IN ב)
+        (NP
+            (NP (NN-NY הרומת))
+            (ADJP (JJ-NY המיאתמ)) (yyCM yyCM)
+            (PP-CNJ
+                (PP (IN ל)
+                    (NP (NN-NY-H-ZR3 םתחוור))) (CC ו)
+                (PP (IN ל)
+                    (NP-NY-H
+                        (NP (NN-NY-H-ZR3 םתחמש)) (POS לש)
+                        (NP
+                            (NP-CNJ
+                                (NP
+                                    (NP (NN-ZR םיאיצומ))
+                                    (PP (IN ל)
+                                        (NP-ZY-H (H ה) (NN-ZY רוא)))) (CC ו)
+                                (NP (NN-ZR םיארוק)))
+                            (ADVP (RB דחאכ)))))))) (yyDOT yyDOT)))
+
+tree #124
+*
+(
+ (S-CNJ
+    (S
+        (NP-OBJ (NN-ZY קלח) (IN ןמ)
+            (NP
+                (NP-ZR-H (H ה) (NN-ZR םירפס))
+                (ADJP (JJ-BR-H וללה)))) (NP-SBJ *NONE*)
+        (VP (VB-ZY3V בתכ))
+        (PP (IN יפל)
+            (NP-ZR-H
+                (NP (NN-ZR-H-ZR3 םהיתונויער)) (POS לש)
+                (NP (NN-ZR םירחא))))) (yyCM yyCM)
+    (S
+        (NP-OBJ (NN-ZY קלח)) (NP-SBJ *NONE*)
+        (VP-CNJ
+            (VP (VB-ZY3V ךרע)) (CC ו)
+            (VP (VB-ZY3V ץפיש)))
+        (PP (IN לע) (yyDASH yyDASH)
+            (NP (NNT-ZY יפ)
+                (NP
+                    (NP (NNT-ZR יבתכ)
+                        (NP (NN-NY די)))
+                    (SBAR (REL ש)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-BR3V ורסמנ))
+                            (PP (IN ל)
+                                (NP (PRP-ZY3 אוה))))))))) (yyCM yyCM) (CC ו)
+    (S
+        (NP-OBJ (NN-ZY קלח)) (yyCM yyCM)
+        (INTJ
+            (ADVP (RB הארנכ))) (yyCM yyCM) (NP-SBJ *PRO*)
+        (ADVP (RB אל))
+        (VP (VB-ZY3V האר))
+        (ADVP (RB םלועמ))) (yyDOT yyDOT)))
+
+tree #125
+(
+ (S
+    (PP (IN ב)
+        (NP
+            (NP (NN-NY הפוקת))
+            (ADJP (JJ-NY תמיוסמ))))
+    (VP (VB-ZY3V קיסעה))
+    (NP-SBJ (NNP-BY אמויד))
+    (NP-OBJ
+        (NP (NN-ZY תווצ))
+        (ADJP (JJ-ZY םלש))
+        (PP (POS לש)
+            (NP
+                (NP (NN-ZR םירזוע))
+                (PP (IN ב)
+                    (NP-NY-H
+                        (NP (NN-NY-H-ZY3 ותושאר)) (POS לש)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY ןוירוטסיה))
+                            (NP
+                                (NNP-ZY (NNP-ZY טסוגוא) (NNP-BY אקימ))))))))) (yyDOT yyDOT)))
+
+tree #126
+*
+(
+ (S-CNJ
+    (S
+        (NP-ZY-H-SBJ (H ה) (NN-ZY תווצ)) (AUX-ZY3V היה)
+        (VP (VB-ZY3H ןיכמ))
+        (PP (IN ל)
+            (NP (NN-ZY-H-ZY3 ונעמ)))
+        (NP-OBJ-CNJ
+            (NP (NN-ZR םיאשונ)) (CC ו)
+            (NP
+                (NP (NN-ZY דלש))
+                (PP (POS לש)
+                    (NP (NN-NY הלילע)))))) (CC ו)
+    (S
+        (NP-SBJ (PRP-ZY3 אוה)) (AUX-ZY3V היה)
+        (VP (VB-ZY3H ףיסומ))
+        (NP-OBJ (AT תא)
+            (NP-ZY-H (H ה)
+                (NP (yyQUOT yyQUOT)
+                    (NP (NN-ZY רשב)) (yyQUOT yyQUOT))))
+        (PP (IN ב)
+            (NP
+                (NP (NN-ZY-H-ZY3 ונונגס))
+                (ADJP-ZY-H (H ה) (JJ-ZY ידוחיי))))) (yyDOT yyDOT)))
+
+tree #127
+*
+(
+ (S-CNJ
+    (S
+        (PP (IN ב)
+            (NP
+                (NP (NN-ZY ברע))
+                (ADJP (JJ-ZY יתורפס)) (yyCM yyCM)
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZY3V ךרענ))
+                        (PP (IN ב)
+                            (NP (CDT-ZY דחא) (IN מ)
+                                (NP (NNT-ZR תומלוא)
+                                    (NP (NNP-NY סיראפ)))))
+                        (PP (IN ב)
+                            (NP
+                                (NP (NNT-NR תונש)
+                                    (NP-BR-H (H ה) (CD-BR םישימח)))
+                                (PP (POS לש)
+                                    (NP
+                                        (NP-NY-H (H ה) (NN-NY האמ))
+                                        (ADJP-NY-H (H ה) (JJ-NY תמדוק)))))))))) (yyCM yyCM)
+        (VP (VB-BR3V ונד))
+        (NP-ZR-H-SBJ (H ה) (NN-ZR םיפתתשמ))
+        (PP (IN ב)
+            (NP (NN-NY תובהלתה)))
+        (PP (IN ב)
+            (NP (CD-ZY דחא) (IN מ)
+                (NP-ZR-H
+                    (NP (NN-ZR-H-ZY3 וירפס)) (POS לש)
+                    (NP (NNP-BY אמויד)))))) (CC ו)
+    (S
+        (PP (IN דע)
+            (ADVP (RB הרהמ))) (NP-SBJ *NONE*)
+        (VP (VB-BR3V ועיגה))
+        (PP (IN ל)
+            (NP
+                (NP (NN-ZR םינוט))
+                (ADJP (JJ-ZR םיהובג))))) (yyDOT yyDOT)))
+
+tree #128
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP
+                (NP
+                    (NNP-ZY (NNP-ZY רדנסכלא) (NNP-BY אמויד)))
+                (NP-ZY-H (H ה) (NN-ZY ןב))) (yyCM yyCM)
+            (NP (NNT-ZY רבחמ)
+                (NP (yyQUOT yyQUOT)
+                    (NP
+                        (NP-NY-H (H ה) (NN-NY תרבג))
+                        (PP (IN םע)
+                            (NP-NR-H (H ה) (NN-NR תוילמק)))) (yyQUOT yyQUOT)))) (yyCM yyCM)
+        (VP (VB-ZY3V בשי))
+        (PP (IN ב)
+            (NP-ZY-H (H ה) (NN-ZY להק)))) (yyCM yyCM) (CC ו)
+    (S
+        (PP (IN ב)
+            (NP (NNT-ZY טהל)
+                (NP-ZY-H (H ה) (NN-ZY חוכיו)))) (NP-SBJ *NONE*)
+        (VP (VB-ZY3V ארק))
+        (PP (IN רבעל)
+            (NP
+                (NP (NN-ZY-H-ZY3 ויבא)) (yyCM yyCM)
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZY3V היה))
+                        (PP (IN לע)
+                            (NP-NY-H (H ה) (NN-NY המב)))))))
+        (SBAR-COM (yyCLN yyCLN)
+            (S (yyQUOT yyQUOT)
+                (S
+                    (S
+                        (NP-SBJ (PRP-NY3 וז))
+                        (PREDP
+                            (NP
+                                (NP-NY-H (H ה) (NN-NY הריצי))
+                                (ADJP (MOD יכה)
+                                    (ADJP (JJ-NY העורג)))
+                                (PP (POS לש)
+                                    (NP (PRP-ZY2 התא)))))) (yyCM yyCM)
+                    (FRAG
+                        (NP (NN-ZY אפאפ)))) (yyQUOT yyQUOT)))) (yyDOT yyDOT)))
+
+tree #129
+*
+(
+ (S-CNJ
+    (S
+        (NP-ZY-H-SBJ (H ה) (NN-ZY בא))
+        (ADVP (RB אל))
+        (VP (VB-ZY3V דביא))
+        (NP-OBJ (AT תא)
+            (NP (NNT-NY תוולש)
+                (NP (NN-NY-H-ZY3 וחור))))) (yyCM yyCM)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3V חלש))
+        (NP-OBJ
+            (NP (NN-NY עבצא))
+            (ADJP (JJ-NY הכורא)))
+        (PP (IN רבעל)
+            (NP (NN-ZY-H-ZY3 ונב)))) (yyCM yyCM) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3V ארק))
+        (SBAR (yyCLN yyCLN)
+            (S (yyQUOT yyQUOT)
+                (S-CNJ
+                    (S
+                        (VP (VB-BB3H שי))
+                        (PP (IN ל)
+                            (NP (PRP-BY1 ינא)))
+                        (NP-SBJ (MOD קר)
+                            (NP
+                                (NP
+                                    (NP (NN-NY הריצי)) (CDT-NY תחא))
+                                (ADJP
+                                    (ADJP (JJ-NY העורג))
+                                    (PP (IN ןממ)
+                                        (NP (PRP-NY3 איה))))))) (yyCM yyCM) (CC ו)
+                    (S
+                        (NP-SBJ (PRP-ZY3 הז))
+                        (PREDP
+                            (NP (PRP-ZY2 התא))))) (yyQUOT yyQUOT)))) (yyDOT yyDOT)))
+
+tree #130
+*
+(
+ (S
+    (NP-SBJ
+        (NP (NNP-BY אמויד))
+        (NP-ZY-H (H ה) (NN-ZY ןב)))
+    (VP (VB-ZY3V ןיתמה))
+    (PP (IN ב)
+        (NP (NN-NY תונלבס)))
+    (PP (IN דע)
+        (S (COM ש)
+            (S
+                (VP (VB-BR3T ועווגי))
+                (NP-SBJ
+                    (NP (NNT-ZR ילג)
+                        (NP-ZY-H (H ה) (NN-ZY קוחצ)))
+                    (SBAR (REL ש)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-BR3V ואלימ))
+                            (NP-OBJ (AT תא)
+                                (NP-ZY-H (H ה) (NN-ZY םלוא))))))))) (yyDOT yyDOT)))
+
+tree #131
+*
+(
+ (S
+    (S (yyQUOT yyQUOT)
+        (S
+            (S (NP-SBJ *PRO*)
+                (VP (VB-ZY3H רשפא))
+                (VP-INF (VB-M ןיבהל)
+                    (NP (PRP-NY3 תאז)))) (yyCM yyCM)
+            (FRAG
+                (NP (NN-ZY אפאפ)))) (yyQUOT yyQUOT))
+    (PRN (yyCM yyCM)
+        (S
+            (NP-SBJ (PRP-ZY3 אוה))
+            (VP (VB-ZY3V ארק))
+            (PP (IN ב)
+                (NP (NN-NY הרזח)))) (yyCM yyCM))
+    (S (yyQUOT yyQUOT)
+        (S
+            (INTJ
+                (PP (IN ירחא) (NN-ZY-H לכה))) (yyCM yyCM)
+            (NP-OBJ (AT תוא)
+                (NP (PRP-BY1 ינא))) (NP-SBJ *PRO*)
+            (VP (VB-ZY3V רזגנ))
+            (PP (IN ילע)
+                (NP (PRP-ZY2 התא)))
+            (VP-INF (VB-M תושעל)
+                (PP (IN ב)
+                    (NP (NNT-ZR תוחוכ)
+                        (NP
+                            (NP (PRP-ZY2 ךמצע)) (MOD דבלב)))))) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #132
+(
+ (S
+    (PP (IN ב)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY רפס))
+            (NP (yyQUOT yyQUOT)
+                (NP (NNT-ZY העור)
+                    (NP-ZR-H (H ה) (NN-ZR םיבאז))) (yyQUOT yyQUOT)) (yyCM yyCM)
+            (PP (IN תאמ)
+                (NP
+                    (NP
+                        (NNP-ZY (NNP-ZY רדנסכלא) (NNP-BY אמויד)))
+                    (NP-ZY-H (H ה) (NN-ZY בא)))))) (yyCM yyCM)
+    (VP (VB-ZY3H תרוכ))
+    (NP-SBJ
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY רלדנס))
+            (NP (NNP-ZY וביט))) (yyCM yyCM)
+        (NP
+            (NP (NN-ZY םדא))
+            (SBAR (REL ש)
+                (S
+                    (NP-SBJ (NN-ZY-H-ZY3 ויבא))
+                    (VP (VB-ZY3V גאד))
+                    (VP-INF (VB-M קינעהל)
+                        (PP-COM (IN ל)
+                            (NP (PRP-ZY3 אוה)))
+                        (NP-OBJ
+                            (NP (NN-ZY ךוניח))
+                            (NP (yyQUOT yyQUOT)
+                                (NP (RBR הלעמל) (IN מ)
+                                    (NP (NN-ZY-H-ZY3 ודמעמ))) (yyQUOT yyQUOT)))))))) (yyCM yyCM)
+    (NP-OBJ
+        (NP (NN-NY תירב))
+        (PP (IN םע)
+            (NP
+                (NP
+                    (NNP-ZY (H ה) (NN-ZY ןטש))) (yyCM yyCM)
+                (SBAR (REL ה)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZY3H עיפומ))
+                        (PP (IN ב)
+                            (NP (NNT-NY תומד)
+                                (NP
+                                    (NP (NN-ZY באז))
+                                    (ADJP-CNJ
+                                        (ADJP (JJ-ZY רוחש)) (CC ו)
+                                        (ADJP (JJ-ZY ינתמיא))))))))))) (yyDOT yyDOT)))
+
+tree #133
+(
+ (S
+    (NP-SBJ
+        (NNP-ZY (H ה) (NN-ZY ןטש)))
+    (PRN (yyCM yyCM)
+        (PP (IN ב)
+            (NP
+                (NP (NN-NY-H-ZY3 ותוניגה))
+                (ADJP-NY-H (H ה) (JJ-NY הבר)))) (yyCM yyCM))
+    (VP (VB-ZY3H ריהבמ))
+    (ADVP (RB שארמ)) (yyCM yyCM)
+    (SBAR-COM (COM יכ)
+        (S (NP-SBJ *PRO*)
+            (ADVP (RB אל))
+            (VP (VB-ZY3T לכוי))
+            (VP-INF-CNJ
+                (VP-INF (VB-M קינעהל)
+                    (PP-COM (IN ל)
+                        (NP (NNP-ZY וביט)))
+                    (NP-OBJ (AT תא)
+                        (NP (DT-BB-H לכ)
+                            (NP
+                                (NP-ZY-H (H ה) (NN-ZY בוט))
+                                (SBAR (REL ש)
+                                    (S (NP-SBJ *PRO*)
+                                        (VP (VB-ZY3T ץופחי))
+                                        (PP (IN ב)
+                                            (NP (PRP-ZY3 אוה))))))))) (yyCM yyCM) (CC אלא)
+                (VP-INF (MOD קר)
+                    (VP-INF (VB-M גואדל)
+                        (PP-COM (IN ל)
+                            (NP
+                                (NP (PRP-BB3 ךכ))
+                                (SBAR (COM ש)
+                                    (S
+                                        (NP-SBJ (DT-BB-H לכ)
+                                            (NP
+                                                (NP-ZY-H (H ה) (NN-ZY ער))
+                                                (SBAR (REL ש)
+                                                    (S (NP-SBJ *NONE*)
+                                                        (VP (VB-ZY3T לחאי)) (NP-OBJ *T*)
+                                                        (PP (IN ל)
+                                                            (NP (NN-ZY-H-ZY3 ותלוז)))))))
+                                        (ADVP (RB םנמא))
+                                        (VP (VB-ZY3T םשגתי))))))))))) (yyDOT yyDOT)))
+
+tree #134
+(
+ (S
+    (PP (IN ב)
+        (NP (NN-NY הרומת)))
+    (VP (VB-ZY3H שרוד))
+    (NP-SBJ
+        (NNP-ZY (H ה) (NN-ZY ןטש)))
+    (NP-OBJ-CNJ
+        (NP
+            (NP
+                (NP (NN-NY הרעש)) (CDT-NY תחא))
+            (PP (IN מ)
+                (NP (NNT-NR תורעש)
+                    (NP-ZY-H
+                        (NP (NN-ZY-H-ZY3 ושאר)) (POS לש)
+                        (NP (NNP-ZY וביט)))))
+            (PP (IN םע)
+                (NP (NNT-NY תומשגתה)
+                    (NP
+                        (NP-ZY-H (H ה) (NN-ZY לוחיא))
+                        (ADJP-ZY-H (H ה) (NN-ZY ער))
+                        (ADJP-ZY-H (H ה) (JJ-ZY ןושאר)))))) (yyCM yyCM)
+        (NP
+            (NP (CD-NR םייתש))
+            (PP (IN םע)
+                (NP (NP *NONE*)
+                    (ADJP-ZY-H (H ה) (JJ-ZY ינש))))) (yyCM yyCM)
+        (NP
+            (NP (CD-NR עברא))
+            (PP (IN םע)
+                (NP (NP *NONE*)
+                    (ADJP-ZY-H (H ה) (JJ-ZY ישילש)))))
+        (ADVP (CC ו) (CC ןכ) (RB האלה))) (yyDOT yyDOT)))
+
+tree #135
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (NNP-ZY וביט))
+        (VP (VB-ZY3H חנוז))
+        (NP-OBJ (AT תא)
+            (NP (NNT-NY תונמוא)
+                (NP-NY-H (H ה) (NN-NY תורלדנס))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3H םייקתמ))
+        (PP (IN לע)
+            (NP
+                (NP-ZY-H (H ה) (NN-ZY דיצ))
+                (SBAR (REL ש)
+                    (S
+                        (VP (VB-ZR3H םידצ)) (NP-OBJ *T*)
+                        (PP (IN ל)
+                            (NP (NN-ZY-H-ZY3 ונעמ)))
+                        (NP-SBJ
+                            (NP (NNT-ZR יבאז)
+                                (NP-ZY-H (H ה) (NN-ZY רעי)))
+                            (SBAR (REL ה)
+                                (S (NP-SBJ *T*)
+                                    (VP (VB-ZR3H םיפופכ))
+                                    (ADVP (RB ןבומכ))
+                                    (ADVP (RB תורישי))
+                                    (PP (IN ל)
+                                        (NP
+                                            (NNP-ZY (H ה) (NN-ZY ןטש)))))))))))) (yyDOT yyDOT)))
+
+tree #136
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (PRP-ZY3 אוה))
+        (VP (VB-ZY3H שכור))
+        (PP (IN ל)
+            (NP (PRP-ZY3 ומצע)))
+        (NP-OBJ
+            (NP (NN-ZR םידגב))
+            (ADJP (JJ-ZR םיאנ)))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3V הנהנ))
+        (PP (IN מ)
+            (NP-NY-H
+                (NP (NN-NY-H-NR3 ןתרבח)) (POS לש)
+                (NP
+                    (NP (NN-NR םישנ))
+                    (ADJP (JJ-NR תופי)) (yyCM yyCM)
+                    (NP (RBR הלעמל) (IN מ)
+                        (NP (NN-ZY-H-ZY3 ודמעמ))))))) (yyDOT yyDOT)))
+
+tree #137
+(
+ (S
+    (NP-SBJ (NNP-BY אמויד))
+    (VP (VB-ZY3H ליבומ))
+    (NP-OBJ (AT תא)
+        (NP (NN-ZY-H-ZY3 ורוביג)))
+    (PP (IN ב)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY לועשמ))
+            (ADJP-ZY-H (H ה) (JJ-ZY רצ))
+            (SBAR (REL ש)
+                (S (NP-SBJ *T*)
+                    (PREDP
+                        (PP (IN ןיב)
+                            (NP-CNJ
+                                (NP
+                                    (NP (yyQUOT yyQUOT)
+                                        (NP (NNP-BY טסואפ)) (yyQUOT yyQUOT)) (yyCM yyCM)
+                                    (PP (IN מ)
+                                        (NP
+                                            (NP (NN-ZY דצ))
+                                            (ADJP (JJ-ZY דחא))))) (yyCM yyCM) (CC ו)
+                                (NP
+                                    (NP (yyQUOT yyQUOT)
+                                        (NP-CNJ
+                                            (NP
+                                                (NP (NN-ZY רוטקוד))
+                                                (NP (NNP-BY ליקג))) (CC ו)
+                                            (NP
+                                                (NP (NN-ZY רטסימ))
+                                                (NP (NNP-BY דייה)))) (yyQUOT yyQUOT)) (yyCM yyCM)
+                                    (PP (IN מ)
+                                        (NP
+                                            (NP (NN-ZY דצ))
+                                            (ADJP (JJ-ZY ינש)))))))))))) (yyDOT yyDOT)))
+
+tree #138
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NNP-ZY וביט)) (yyCM yyCM)
+            (SBAR (REL ש)
+                (S (NP-SBJ *T*) (AUX-ZY3V היה)
+                    (PREDP
+                        (NP (NN-ZY ןקפס)))
+                    (ADVP (RB הליחתכלמ))))) (yyCM yyCM)
+        (VP (VB-ZY3H בהאתמ))
+        (PP-CNJ
+            (PP (IN ב)
+                (NP-ZY-H (H ה) (NN-ZY עור))) (CC ו)
+            (PP (IN ב)
+                (NP
+                    (NP-NR-H (H ה) (NN-NR תויורשפא))
+                    (ADJP-NR-H (H ה) (JJ-NR תומוצע))
+                    (SBAR (REL ה)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-NR3H תומולג))
+                            (PP (IN ב)
+                                (NP (PRP-ZY3 אוה))))))))) (yyCM yyCM) (CC ו)
+    (S
+        (NP-SBJ (NN-ZY-H-ZY3 ופוס))
+        (PREDP
+            (SBAR (COM ש)
+                (S
+                    (NP-SBJ (PRP-ZY3 אוה))
+                    (VP (VB-ZY3H ףילחמ))
+                    (NP-OBJ (AT תא)
+                        (NP
+                            (NP
+                                (NNP-ZY (H ה) (NN-ZY ןטש)))
+                            (NP (PRP-ZY3 ומצע)))))))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3H שבול))
+        (NP-OBJ (AT תא)
+            (NP (NNT-NY תומד)
+                (NP
+                    (NP-ZY-H (H ה) (NN-ZY באז))
+                    (ADJP-CNJ
+                        (ADJP-ZY-H (H ה) (JJ-ZY ינתמיא)) (CC ו)
+                        (ADJP-ZY-H (H ה) (JJ-ZY רוחש))))))) (yyDOT yyDOT)))
+
+tree #139
+*
+(
+ (S
+    (NP-SBJ
+        (NP (NN-ZY באז))
+        (ADJP (JJ-ZY הז)))
+    (VP (VB-ZY3H ןיסח))
+    (PP (IN ינפמ)
+        (NP-ZR-H
+            (NP (NN-ZR-H-ZR3 םהירודכ)) (POS לש)
+            (NP-ZR-H (H ה) (NN-ZR םידייצ))))
+    (PP (IN ב)
+        (NP (DT-BB לכ)
+            (NP (NNT-ZR תומי)
+                (NP-NY-H (H ה) (NN-NY הנש))))) (yyCM yyCM)
+    (PP (IN טרפ)
+        (PP (IN ל)
+            (NP
+                (CDT (CDT-BR םירשע) (CC ו) (CDT-NR עברא))
+                (NP
+                    (NP (NN-NR תועש))
+                    (SBAR (REL ש)
+                        (S
+                            (PP (IN ב)
+                                (NP (PRP-NR3 ןה)))
+                            (NP-SBJ (PRP-ZY3 אוה))
+                            (PREDP
+                                (NP
+                                    (NP (NNT-ZY ןב) (yyDASH yyDASH)
+                                        (NP (NN-NY התומת)))
+                                    (PP (IN כ)
+                                        (NP (DT-BB לכ)
+                                            (NP
+                                                (NP (NN-NY היח))
+                                                (ADJP (JJ-NY תרחא))))))))))))) (yyDOT yyDOT)))
+
+tree #140
+*
+(
+ (S
+    (ADVP (RB אקווד))
+    (PP (IN ב)
+        (NP
+            (NP (NN-ZY םוי))
+            (ADJP (JJ-ZY הז))))
+    (VP (VB-ZR3H םיעגופ))
+    (PP (IN ב)
+        (NP (PRP-ZY3 אוה)))
+    (NP-ZR-H-SBJ
+        (NP (NN-ZR-H-ZY3 וירודכ)) (POS לש)
+        (NP
+            (NP (NNT-ZY לעב)
+                (NP-NY-H (H ה) (NN-NY הזוחא))) (yyCM yyCM)
+            (SBAR (REL ש)
+                (S (NP-SBJ *T*)
+                    (VP (VB-ZY3V הברה))
+                    (VP-INF (VB-M לובסל)
+                        (PP (IN מ)
+                            (NP (NNT-ZR יללעמ)
+                                (NP (NNP-ZY וביט))))))))) (yyDOT yyDOT)))
+
+tree #141
+*
+(
+ (S-CNJ
+    (S
+        (NP-ZY-H-SBJ (H ה) (NN-ZY בוט))
+        (VP (VB-ZY3H רבוג))
+        (PP-COM (IN לע)
+            (NP-ZY-H (H ה) (NN-ZY ער)))) (CC ו)
+    (S (NP-SBJ *PRO*)
+        (VP (VB-ZY3H רשפא))
+        (VP-INF (VB-M ךישמהל)
+            (VP-INF (VB-M תויחל)))) (yyDOT yyDOT)))
+
+tree #142
+*
+(
+ (S
+    (PP (IN לע)
+        (NP (NNP-BY אמויד))) (NP-SBJ *PRO*)
+    (VP (VB-ZY3H רפוסמ)) (yyCM yyCM)
+    (SBAR (COM יכ)
+        (S-CNJ
+            (S (NP-SBJ *NONE*) (AUX-ZY3V היה)
+                (VP (VB-ZY3H לבקמ))
+                (NP-OBJ (AT תא)
+                    (NP (NN-ZY-H-ZY3 ורכש)))
+                (PP (IN יפל)
+                    (NP (NN-NR תורוש)))) (CC ו)
+            (S
+                (PP (IN לע) (PRP-BB3 ןכ)) (NP-SBJ *NONE*)
+                (VP (VB-ZY3V הברה))
+                (VP-INF (VB-M ץבשל)
+                    (PP (IN ב)
+                        (NP (NN-ZR-H-ZY3 וירפס)))
+                    (NP-OBJ
+                        (NP (NN-ZR םיגולאיד))
+                        (ADJP (JJ-ZR םירצק))))))) (yyDOT yyDOT)))
+
+tree #143
+*
+(
+ (FRAG
+    (NP (yyQUOT yyQUOT)
+        (NP (NN-NY אמא)) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #144
+*
+(
+ (SQ (yyQUOT yyQUOT)
+    (SQ
+        (PREDP
+            (NP (QW המ)))
+        (NP-ZY-H-SBJ (H ה) (NN-ZY רבד))) (yyDOT yyDOT)))
+
+tree #145
+*
+(
+ (FRAG
+    (INTJ (yyQUOT yyQUOT)
+        (INTJ (NN-BB ההא)) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #146
+*
+(
+ (FRAG
+    (NP (yyQUOT yyQUOT)
+        (NP (NN-ZY-H-BY1 ינב)) (yyQUOT yyQUOT)) (yyDOT yyDOT)))
+
+tree #147
+*
+(
+ (S-CNJ
+    (S
+        (ADVP (RB זא))
+        (VP (VB-ZY3V הניש))
+        (NP-ZY-H-SBJ (H ה) (NN-ZY ל"ומ))
+        (NP-OBJ (AT תא)
+            (NP (NN-ZY-H-ZY3 ומעט)))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3V לחה))
+        (VP-INF (VB-M םלשל)
+            (PP (IN ל)
+                (NP (PRP-ZY3 אוה)))
+            (PP (IN יפל)
+                (NP (NN-NR תורבה))))) (yyCM yyCM) (CC ו)
+    (S
+        (ADVP (RB דימ))
+        (VP (VB-NY3V העיפוה))
+        (PP (IN ב)
+            (NP-ZY-H (H ה) (NN-ZY רפס)))
+        (NP-SBJ
+            (NP (NN-NY תומד))
+            (ADJP (JJ-NY השדח))
+            (PP (POS לש)
+                (NP
+                    (NP (NN-ZY רוביג))
+                    (ADJP (JJ-ZY םגמגמ)))))) (yyDOT yyDOT)))
+
+tree #148
+*
+(
+ (S
+    (PP (IN ירחא)
+        (NP
+            (NP (NN-NY החיש))
+            (ADJP (JJ-NY תמעזנ))
+            (PP (IN ב)
+                (NP (CDT-NR עברא)
+                    (NP (NN-NR םייניע))))))
+    (VP (VB-BR3V ועיגה))
+    (NP-SBJ
+        (NP (NNP-BY אמויד)) (CC ו)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY ל"ומ))
+            (PP (IN ל)
+                (NP
+                    (NP (NNT-ZY םכסה)
+                        (NP (NN-ZY רכש)))
+                    (ADJP (JJ-ZY שדח)))))) (yyDOT yyDOT)))
+
+tree #149
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ (NNT-ZY ביט)
+            (NP-ZY-H (H ה) (NN-ZY םכסה)))
+        (ADVP (RB אל))
+        (VP (VB-ZY3V עדונ))) (yyCM yyCM) (CC ךא)
+    (S
+        (NP-SBJ
+            (NP-ZY-H (H ה) (NN-ZY רוביג))
+            (ADJP-ZY-H (H ה) (JJ-ZY םגמגמ)))
+        (VP (VB-ZY3V תמ))
+        (NP
+            (NP (NN-NY התימ))
+            (ADJP (JJ-NY הנושמ))
+            (PP (MOD דוע)
+                (PP (IN ב)
+                    (NP (DT-ZY ותוא)
+                        (NP (NN-ZY קרפ))))))) (yyDOT yyDOT)))
+
+tree #150
+(
+ (S
+    (PP (IN ב)
+        (NP
+            (NP-NY-H (H ה) (NN-NY ךרד))
+            (PP (IN ל)
+                (NP-ZR-H (H ה) (NN-ZR םינכוד)))))
+    (VP (VB-ZY3V הרק))
+    (ADVP (RB הארנכ))
+    (NP-SBJ (NN-ZY והשמ))
+    (PP (IN ל)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY רפס))
+            (ADJP-ZY-H (H ה) (JJ-ZY הז)) (yyCM yyCM)
+            (SBAR (REL ש)
+                (S
+                    (NP-SBJ
+                        (NP (NN-ZY-H-ZY3 ומוגרת))
+                        (PP (IN ל)
+                            (NP (NN-NY תירבע))))
+                    (VP (VB-ZY3V האר))
+                    (NP-OBJ (NN-ZY רוא))
+                    (PP (IN ב)
+                        (NP (CD-BR 1955))))))) (yyCM yyCM)
+    (SBAR (IN ןכש)
+        (S
+            (NP-SBJ (PRP-ZY3 אוה))
+            (ADVP (RB-ZY3 וניא))
+            (VP (VB-ZY3H עיפומ))
+            (ADVP (RB ללכ))
+            (PP-CNJ
+                (PP (IN ב)
+                    (NP
+                        (NP-ZY-H (H ה) (NN-ZY גולטק))
+                        (PP (POS לש)
+                            (NP
+                                (NP-NY-H (H ה) (NN-NY היירפס))
+                                (ADJP-NY-H (H ה) (JJ-NY תימואל))
+                                (PP (IN ב)
+                                    (NP (NNP-NY םילשורי)))
+                                (PRN (yyLRB yyLRB)
+                                    (S
+                                        (NP-SBJ (DT-BB לכ)
+                                            (NP
+                                                (NP (QW ימ))
+                                                (SBAR (REL ש)
+                                                    (S
+                                                        (VP (VB-ZY3V היה))
+                                                        (PP (IN ל)
+                                                            (NP (PRP-ZY3 אוה)))
+                                                        (NP-SBJ
+                                                            (NP (NN-ZY קסע))
+                                                            (PP (IN ב)
+                                                                (NP
+                                                                    (NP (NN-ZY ןמז))
+                                                                    (ADJP-CNJ
+                                                                        (ADJP (JJ-ZY הז)) (CC וא)
+                                                                        (ADJP (JJ-ZY רחא)))))
+                                                            (PP (IN םע)
+                                                                (NP
+                                                                    (NP-NY-H (H ה) (NN-NY היירפס))
+                                                                    (ADJP-NY-H (H ה) (JJ-NY תימואל))))))))) (yyCM yyCM)
+                                        (VP (VB-ZY3H עדוי))
+                                        (SBAR-COM (COM ש)
+                                            (S-CNJ
+                                                (S
+                                                    (VP (VB-BB3H שי))
+                                                    (ADVP (RB םש))
+                                                    (NP-SBJ
+                                                        (NP (NN-ZY רעפ))
+                                                        (ADJP (JJ-ZY םוצע))
+                                                        (PP
+                                                            (PP (IN ןיב)
+                                                                (ADJP
+                                                                    (NP-ZY-H (H ה) (NN-ZY םושר))
+                                                                    (PP (IN ב)
+                                                                        (NP-ZY-H (H ה) (NN-ZY גולטק)))))
+                                                            (PP (IN ל)
+                                                                (PP (IN ןיב)
+                                                                    (NP
+                                                                        (NP-ZR-H (H ה) (NN-ZR םירפס))
+                                                                        (SBAR (REL ש)
+                                                                            (S (NP-SBJ *T*)
+                                                                                (VP (VB-ZY3H ןתינ))
+                                                                                (VP-INF (VB-M גישהל)
+                                                                                    (PP (IN ב)
+                                                                                        (NP-ZY-H (H ה) (NN-ZY לעופ)))))))))))) (CC yySCLN) (CC ךא)
+                                                (S
+                                                    (NP-SBJ
+                                                        (NP-ZY-H (H ה) (NN-ZY גולטק))
+                                                        (NP (PRP-ZY3 ומצע))) (yyCM yyCM)
+                                                    (INTJ
+                                                        (ADVP (RB תוחפל))) (yyCM yyCM)
+                                                    (VP (VB-ZY3H רומא))
+                                                    (VP-INF (VB-M תויהל)
+                                                        (ADJP (JJ-ZY םלשומ))))))) (yyRRB yyRRB)))))) (CC ו)
+                (PP (MOD ףא) (MOD אל)
+                    (PP (IN ב)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY ןוקיסקל))
+                            (PP (POS לש)
+                                (NP
+                                    (NNP-ZY (NNP-ZY לאירוא) (NNP-BY קפוא))))
+                            (PP (IN ל)
+                                (NP (NNT-NY תורפס)
+                                    (NP (NN-ZR םידלי)))))))))) (yyDOT yyDOT)))
+
+tree #151
+*
+(
+ (FRAG
+    (NP
+        (NP (NNT-ZY רפס)
+            (NP (NN-NY הבוח)))
+        (PP (IN ל)
+            (NP (DT-BB לכ)
+                (NP (NNT-ZY רחוש)
+                    (NP
+                        (NP (NN-NY תורפס))
+                        (ADJP (JJ-NY תאז))))))) (yyDOT yyDOT)))
+
+tree #152
+*
+(
+ (FRAG
+    (FRAG
+        (PP (IN ב)
+            (NP
+                (NP (NNT-ZY םוחת)
+                    (NP-ZY-H (H ה) (NN-ZY בוציע)))
+                (PP (IN ב)
+                    (NP-NY-H (H ה) (NN-NY ץרא)))))) (yyCM yyCM) (CC ו)
+    (S
+        (NP-SBJ
+            (NP (NNT-ZR ילעב)
+                (NP (NN-ZR םילעפמ)))
+            (ADJP (JJ-ZR םיבר)))
+        (VP (VB-ZR3H םיעדומ))
+        (PP-COM (IN ל)
+            (NP (NNT-NY תובישח)
+                (NP
+                    (NP (NNT-NY תפסות)
+                        (NP-ZY-H (H ה) (NN-ZY עבצ)))
+                    (PP (IN ל)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY לעפמ))
+                            (ADJP-ZY-H (H ה) (JJ-ZY חנזומ)))))))) (yyDOT yyDOT)))
+
+tree #153
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP
+                (NNP-NY (NNP-NY תידוהי) (NNP-BY גרבנטור))) (yyCM yyCM)
+            (NP
+                (NP (NN-NY תיטקטיכרא))
+                (NP (NNT-NY תרגוב)
+                    (NP
+                        (NP
+                            (NNP-ZY (H ה) (NN-ZY ןוינכט)))
+                        (PP (IN ב)
+                            (NP (NNP-NY הפיח))))))) (yyCM yyCM)
+        (VP (VB-NY3V התחמתה))
+        (PP (IN ב)
+            (NP-ZY-H (H ה) (NN-ZY אשונ)))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-ZY3V העבצ))
+        (NP-OBJ
+            (NP (NN-ZR םילעפמ))
+            (PP (IN ומכ)
+                (NP-CNJ
+                    (NP
+                        (NP (yyQUOT yyQUOT)
+                            (NP (NNP-BY ןארידת)) (yyQUOT yyQUOT))
+                        (PP (IN ב)
+                            (NP (NNP-NY הלמר)))) (yyCM yyCM)
+                    (NP
+                        (NP (NNT-ZR יתב)
+                            (NP-ZY-H (H ה) (NN-ZY קוקיז)))
+                        (PP-CNJ
+                            (PP (IN ב)
+                                (NP (NNP-NY הפיח))) (CC ו)
+                            (PP (IN ב)
+                                (NP (NNP-NY דודשא))))) (yyCM yyCM)
+                    (NP
+                        (NP (NNT-ZR יניינב)
+                            (NP
+                                (NP-NY-H (H ה) (NN-NY היישעת))
+                                (ADJP-NY-H (H ה) (JJ-NY תיריווא))))
+                        (PP (IN ב)
+                            (NP (NNP-NY דול)))) (yyCM yyCM)
+                    (NP
+                        (NP (NNT-ZY תיב)
+                            (NP-ZY-H (H ה) (NN-ZY רפס)))
+                        (NP
+                            (NNP-ZY (NNT-NY תירק)
+                                (NP (NN-ZR םירעי))))
+                        (PP (IN ב)
+                            (NP
+                                (NNP-NY (NNT-NY תמר) (yyDASH yyDASH)
+                                    (NP
+                                        (NNP-ZY (H ה) (NN-ZY ןורש))))))) (CC ו)
+                    (NP (MOD דוע)
+                        (NP
+                            (NP (NN-ZR םיבר))
+                            (ADJP (JJ-ZR םירחא)))))))) (yyDOT yyDOT)))
+
+tree #154
+(
+ (S
+    (PP (IN לע)
+        (NP-NY-H
+            (NP (NN-NY-H-ZY3 ותעיבצ)) (POS לש)
+            (NP
+                (NP (NNT-ZY לעפמ)
+                    (NP (NNP-BY רובמט)))
+                (PP (IN ב)
+                    (NP (NNP-NY וכע)))))) (NP-SBJ *NONE*)
+    (VP (VB-NY3V הלביק))
+    (NP-OBJ (NN-ZY סרפ))
+    (PP (IN ב)
+        (NP (NNT-NY תנש)
+            (NP (CD-BR 1987))))
+    (PP (IN ב)
+        (NP
+            (NP (NN-NY תורחת))
+            (ADJP
+                (ADJX (MOD ןיב) (yyDASH yyDASH) (JJ-NY תימואל)))
+            (PP (IN ב)
+                (NP (NNT-ZY אשונ)
+                    (NP (yyQUOT yyQUOT)
+                        (NP
+                            (NP (NN-ZY בוציע))
+                            (PP (IN ב)
+                                (NP (NN-ZY עבצ)))) (yyQUOT yyQUOT)))) (yyCM yyCM)
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-NY3H תכרענ))
+                    (PP (IN ב)
+                        (NP
+                            (NP (NNP-NY טראגטוטש))
+                            (SBAR (REL ש)
+                                (S (NP-SBJ *T*)
+                                    (PREDP
+                                        (PP (IN ב)
+                                            (NP (NNP-NY הינמרג))))))))
+                    (NP (MOD ידמ)
+                        (NP (NN-NY הנש))))))) (yyDOT yyDOT)))
+
+tree #155
+*
+(
+ (S
+    (NP-SBJ
+        (NP-NY-H (H ה) (NN-NY השיג))
+        (PP (IN ל)
+            (NP (NN-ZY עבצ))))
+    (PRN (yyCM yyCM)
+        (S
+            (VP (VB-NY3H תרמוא))
+            (NP-SBJ (NNP-BY גרבנטור))) (yyCM yyCM))
+    (ADVP (RB-NY3 הניא))
+    (VP (VB-NY3H תנגועמ))
+    (PP (MOD קר)
+        (PP (IN ב)
+            (NP
+                (NP (NN-ZY םעט))
+                (ADJP (JJ-ZY בוט))))) (yyDOT yyDOT)))
+
+tree #156
+*
+(
+ (S
+    (VP (VB-ZR3H םיפסונ))
+    (PP (IN ל)
+        (NP (PRP-ZY3 אוה)))
+    (NP-SBJ
+        (NP (CDT-ZR השולש)
+            (NP
+                (NP (NN-ZR םיטקפסא))
+                (ADJP (JJ-ZR םיבושח))))
+        (ADJP-CNJ
+            (ADJP (JJ-ZY יגולויסיפ)) (yyCM yyCM)
+            (ADJP (JJ-ZY ילכש)) (CC ו)
+            (ADJP (JJ-ZY יגולוכיספ)))) (yyDOT yyDOT)))
+
+tree #157
+*
+(
+ (S
+    (NP-SBJ
+        (NP-ZY-H (H ה) (NN-ZY םוחת))
+        (ADJP-ZY-H (H ה) (JJ-ZY יגולויסיפ)))
+    (VP (VB-ZY3H קסוע))
+    (PP (IN ב)
+        (NP
+            (NP-ZR-H (H ה) (NN-ZR םידוגינ))
+            (PP (IN ןיב)
+                (NP
+                    (NP (NN-ZR םיעבצ))
+                    (ADJP-CNJ
+                        (ADJP (JJ-ZR םיהכ)) (CC ו)
+                        (ADJP (JJ-ZR םיריהב))))))) (yyDOT yyDOT)))
+
+tree #158
+*
+(
+ (S-CNJ
+    (S-CNJ
+        (S
+            (NP-SBJ
+                (NP (NN-ZR םידוגינ))
+                (ADJP (JJ-ZR םידח)))
+            (VP (VB-ZR3H םיכשומ))
+            (NP-OBJ (AT תא)
+                (NP-NY-H (H ה) (NN-NY ןיע)))) (CC ו)
+        (S (NP-SBJ *NONE*)
+            (VP (VB-ZR3H םיצמאמ))
+            (NP-OBJ (AT תוא)
+                (NP (PRP-NY3 איה))))) (yyCM yyCM) (CC ךא)
+    (S (NP-SBJ *PRO*)
+        (VP (VB-ZY3H ןתינ))
+        (VP-INF (VB-M ןנכתל)
+            (NP-OBJ
+                (NP (NN-ZR םירבעמ))
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*) (AUX-BR3T ויהי)
+                        (PREDP
+                            (ADJP
+                                (ADJP (JJ-ZR םיחונ))
+                                (PP (IN ל)
+                                    (NP-NY-H (H ה) (NN-NY ןיע)))))))))) (yyDOT yyDOT)))
+
+tree #159
+*
+(
+ (S
+    (NP-SBJ
+        (NP (NN-ZR םינוג))
+        (ADJP (JJ-ZR םימח))
+        (PRN (yyCM yyCM)
+            (PP (IN ומכ)
+                (NP (NP *NONE*)
+                    (ADJP-CNJ
+                        (ADJP (JJ-ZR םימודא)) (yyCM yyCM)
+                        (ADJP (JJ-ZR םימותכ)) (CC ו)
+                        (ADJP (JJ-ZR םימוח))))) (yyCM yyCM)))
+    (VP (VB-ZR3H םימרוג))
+    (PP-COM (IN ל)
+        (NP
+            (NP (NN-NY השוחת))
+            (PP (POS לש)
+                (NP (NN-NY תויוויטקא))))) (yyCM yyCM)
+    (PP (IN תמועל)
+        (NP
+            (NP (NN-ZR םינווג))
+            (ADJP (JJ-ZR םירק))
+            (PRN (yyCM yyCM)
+                (PP (IN ומכ)
+                    (NP (NP *NONE*)
+                        (ADJP-CNJ
+                            (ADJP (JJ-ZY לוחכ)) (CC ו)
+                            (ADJP (JJ-ZY קורי))))) (yyCM yyCM))
+            (SBAR (REL ה)
+                (S (NP-SBJ *T*)
+                    (VP (VB-ZR3H םימרוג))
+                    (PP-COM
+                        (PP (IN ל)
+                            (NP (NNT-NY תשוחת)
+                                (NP (NN-ZY עוגרמ)))) (yyCM yyCM)
+                        (PP (IN ל)
+                            (NP (NN-NY תויוויסאפ)))))))) (yyDOT yyDOT)))
+
+tree #160
+*
+(
+ (S
+    (NP-SBJ
+        (NP-ZR-H (H ה) (NN-ZR םינווג))
+        (ADJP-ZR-H (H ה) (JJ-ZR םיהכ)))
+    (VP (VB-ZR3H םימרוג))
+    (PP (IN ל)
+        (NP
+            (NP-ZR-H (H ה) (NN-ZR םימצע))
+            (SBAR (REL ש)
+                (S (NP-SBJ *T*)
+                    (PREDP
+                        (PP (IN ב)
+                            (NP (NN-NY-H-ZR3 םתברק))))))))
+    (VP-INF (VB-M תואריהל)
+        (ADJP
+            (ADJP (JJ-ZR םיבורק)) (RBR רתוי))) (yyCM yyCM)
+    (PP (IN דועב)
+        (SBAR (COM ש)
+            (S
+                (NP-SBJ
+                    (NP (NN-ZR םינוג))
+                    (ADJP (JJ-ZR םירק)))
+                (VP (VB-ZR3H םיקיחרמ))
+                (NP-OBJ (AT תא)
+                    (NP-ZR-H (H ה) (NN-ZR םימצע)))))) (yyDOT yyDOT)))
+
+tree #161
+*
+(
+ (S
+    (NP-SBJ
+        (NP (DT-BB-H לכ)
+            (NP-NR-H (H ה) (NN-NR תועפשה)))
+        (ADJP (JJ-BR-H וללה)))
+    (VP (VB-NR3H תוחקלנ))
+    (PP (IN ב)
+        (NP (NN-ZY ןובשח)))
+    (PP (IN ב)
+        (NP (NNT-NY תע)
+            (NP (NNT-ZY ןונכת)
+                (NP-NY-H (H ה) (NN-NY העיבצ))))) (yyDOT yyDOT)))
+
+tree #162
+*
+(
+ (S
+    (PP (IN ב)
+        (NP (NNT-ZY ןונכת)
+            (NP (NNT-NY תעיבצ)
+                (NP
+                    (NP (NNT-ZY רדח)
+                        (NP (NN-ZY לכוא)))
+                    (PP (IN ב)
+                        (NP (NNT-ZY תיב)
+                            (NP (NN-NY תשורח)))))))) (yyCM yyCM)
+    (INTJ
+        (ADVP (RB לשמל))) (yyCM yyCM)
+    (VP (VB-NY3H תבשחתמ))
+    (NP-SBJ (NNP-BY גרבנטור))
+    (PP-COM (IN ב)
+        (NP
+            (NP (NN-ZR םילוקיש))
+            (ADJP (JJ-ZR םיישונא)))) (yyDOT yyDOT)))
+
+tree #163
+*
+(
+ (S (NP-SBJ *PRO*)
+    (VP (VB-ZY3H בושח))
+    (PP (IN ל)
+        (NP (PRP-BY1 ינא)))
+    (VP-INF (VB-M תעדל)
+        (SBAR (IN םא)
+            (S
+                (NP-ZR-H-SBJ (H ה) (NN-ZR םילעופ))
+                (PP (IN ב)
+                    (NP-ZY-H (H ה) (NN-ZY םוקמ)))
+                (VP (VB-ZR3H םידבוע))
+                (PP (IN ב)
+                    (NP
+                        (NP (NN-NY הדובע))
+                        (ADJP-CNJ
+                            (ADJP (JJ-NY הליעפ)) (CC וא)
+                            (ADJP (JJ-NY הליבס)))))))) (yyDOT yyDOT)))
+
+tree #164
+*
+(
+ (S
+    (SBAR-COM (COM *NONE*)
+        (S
+            (S
+                (ADVP (RB םאתהב)) (NP-SBJ *PRO*)
+                (VP (VB-BY1T עבצא))
+                (NP-OBJ (AT תא)
+                    (NP (NNT-ZY רדח)
+                        (NP-ZY-H (H ה) (NN-ZY לכוא))))
+                (PP-CNJ
+                    (PP (IN ב)
+                        (NP
+                            (NP (NN-ZR םיעבצ))
+                            (ADJP (JJ-ZR םיעיגרמ)))) (CC וא)
+                    (PP (IN ב)
+                        (NP
+                            (NP (NN-ZR םיעבצ))
+                            (SBAR (REL ש)
+                                (S (NP-SBJ *T*)
+                                    (VP (VB-BR3T וררועי))
+                                    (NP-OBJ (AT תא)
+                                        (NP
+                                            (NP-ZR-H (H ה) (NN-ZR םידבוע))
+                                            (ADJP-ZR-H (H ה)
+                                                (ADJX (MOD טעמכ) (JJ-ZR םימודר)))
+                                            (PP (IN מ)
+                                                (NP (CDT-NR הנומש)
+                                                    (NP (NNT-NR תועש)
+                                                        (NP
+                                                            (NP (NN-NY הדובע))
+                                                            (PP (IN לע)
+                                                                (NP (DT-ZY ותוא)
+                                                                    (NP (NNT-ZY ספ)
+                                                                        (NP (NN-ZY רוציי))))))))))))))))) (yyQUOT yyQUOT))) (yyCM yyCM)
+    (NP-SBJ (PRP-NY3 איה))
+    (VP (VB-NY3H תרמוא)) (yyDOT yyDOT)))
+
+tree #165
+*
+(
+ (S
+    (NP-SBJ
+        (NP-ZY-H (H ה) (NN-ZY םוחת))
+        (ADJP-ZY-H (H ה) (JJ-ZY ינש)))
+    (PREDP (AGR-ZY אוה)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY םוחת))
+            (ADJP-ZY-H (H ה) (JJ-ZY ילכש)))) (yyDOT yyDOT)))
+
+tree #166
+*
+(
+ (S-CNJ
+    (S
+        (NP-NY-H-SBJ (H ה) (NN-NY תוינועבצ))
+        (VP (VB-NY3H תלעופ))
+        (PP (IN לע)
+            (NP-ZY-H (H ה) (NN-ZY חומ)))) (CC ו)
+    (S (NP-SBJ *NONE*)
+        (VP (VB-NY3H תרדשמ))
+        (NP-OBJ (NN-ZR םירסמ))) (yyDOT yyDOT)))
+
+tree #167
+*
+(
+ (S-CNJ
+    (S
+        (NP-SBJ
+            (NP (NN-ZY עבצ))
+            (ADJP (JJ-ZY םודא))) (yyCM yyCM)
+        (INTJ
+            (PP (IN ל)
+                (NP (NN-NY המגוד)))) (yyCM yyCM)
+        (VP (VB-ZY3H רדשמ))
+        (NP-OBJ (NN-NY הנכס))) (yyCM yyCM)
+    (S
+        (NP-SBJ
+            (NP (NN-NY תרנצ))
+            (ADJP (JJ-NY המודא)))
+        (VP (VB-NY3H תלמסמ))
+        (NP-OBJ (NNT-NY תרנצ)
+            (NP (NNT-ZY יוביכ)
+                (NP (NN-NY שא))))) (CC ו)
+    (S
+        (NP-SBJ
+            (NP (NN-NY תרנצ))
+            (ADJP (JJ-NY הלוחכ)))
+        (VP (VB-NY3H תלמסמ))
+        (NP-OBJ (NNT-NY תרנצ)
+            (NP (NN-ZR םימ)))) (yyDOT yyDOT)))
+
+tree #168
+*
+(
+ (S
+    (NP-SBJ (NNP-BY גרבנטור))
+    (VP (VB-NY3H תלדתשמ))
+    (VP-INF (VB-M דירפהל)
+        (PP (IN ב)
+            (NP (NNT-NY תרזע)
+                (NP-ZR-H (H ה) (NN-ZR םיעבצ))))
+        (PP-COM (IN ןיב)
+            (NP
+                (NP-NR-H (H ה) (NN-NR תויצקנופ))
+                (ADJP-NR-H (H ה) (JJ-NR תונוש))))) (yyDOT yyDOT)))
+
+tree #169
+*
+(
+ (S
+    (NP-SBJ
+        (NP (NN-ZY שומיש))
+        (ADJP (JJ-ZY ףסונ))
+        (PP (IN ב)
+            (NP (NN-ZR םיעבצ))))
+    (PREDP (AGR-ZY אוה)
+        (PP (IN ב)
+            (NP
+                (NP (NNT-NY תענה)
+                    (NP (NN-ZR םישנא)))
+                (PP (IN ל)
+                    (NP
+                        (NP (NN-NY תוליעפ))
+                        (ADJP (JJ-NY תמיוסמ))))))) (yyDOT yyDOT)))
+
+tree #170
+(
+ (S
+    (PP (IN ב)
+        (NP
+            (NP
+                (NNP-ZY
+                    (NP (NNT-ZY תיב)
+                        (NP-ZR-H (H ה) (NN-ZR םילוח)))
+                    (NP (NNP-BY דלישטור))))
+            (PP (IN ב)
+                (NP (NNP-NY הפיח)))))
+    (VP (VB-NY3V העבצ))
+    (NP-SBJ (NNP-BY גרבנטור))
+    (NP-OBJ
+        (NP (NN-ZY ןורדסמ))
+        (ADJP (JJ-ZY ךורא)) (yyCM yyCM)
+        (SBAR (REL ה)
+            (S (NP-SBJ *T*)
+                (VP (VB-ZY3H רשקמ))
+                (PP-COM (IN ןיב)
+                    (NP (CDT-ZR ינש)
+                        (NP (NNT-ZR יקלח)
+                            (NP (NNT-ZY תיב)
+                                (NP-ZR-H (H ה) (NN-ZR םילוח))))))))) (yyCM yyCM)
+    (PP (IN ב)
+        (NP
+            (NP (NN-ZR םינוג))
+            (PP (POS לש)
+                (NP (NN-ZY םותכ)))
+            (PP-CNJ
+                (PP (IN מ)
+                    (NP (NNT-ZY בוהצ)
+                        (NP (NNP-NY היינמח)))) (CC ו)
+                (PP (IN דע)
+                    (NP
+                        (NP (NN-ZY םותכ))
+                        (ADJP (JJ-ZY זע))))))) (yyDOT yyDOT)))
+
+tree #171
+*
+(
+ (S (yyQUOT yyQUOT)
+    (S
+        (NP-SBJ
+            (NP-ZR-H (H ה) (NN-ZR םירבעמ))
+            (ADJP-ZR-H (H ה) (JJ-ZR םייתגרדה))
+            (PP (IN מ)
+                (NP
+                    (NP (NP *NONE*)
+                        (ADJP (JJ-ZY ריהב)))
+                    (PP (IN ל)
+                        (NP (NP *NONE*)
+                            (ADJP (JJ-ZY ההכ)))))))
+        (VP (VB-ZR3H םימרוג))
+        (PP-COM (IN ל)
+            (NP (NNT-NY תשוחת)
+                (NP
+                    (NP (NN-NY תומדקתה))
+                    (PP (IN ב)
+                        (NP
+                            (NP-ZY-H (H ה) (NN-ZY ןורדסמ))
+                            (ADJP-ZY-H (H ה) (JJ-ZY ךורא)))))))) (yyDOT yyDOT)))
+
+tree #172
+*
+(
+ (S
+    (S
+        (PP (IN דבלמ) (PRP-NY3 תאז)) (yyCM yyCM)
+        (NP-SBJ
+            (NP-ZR-H (H ה) (NN-ZR םיעבצ))
+            (ADJP-ZR-H (H ה) (JJ-ZR םימח)))
+        (VP (VB-ZR3H םיכסונ))
+        (NP-OBJ
+            (NP (NN-NY השגרה))
+            (ADJP (JJ-NY המיענ))) (yyCM yyCM)
+        (PP (IN דוגינב)
+            (PP (IN ל)
+                (NP
+                    (NP (NNT-NY תשגרה)
+                        (NP-ZY-H (H ה) (NN-ZY רוכינ)))
+                    (SBAR (REL ה)
+                        (S (NP-SBJ *T*)
+                            (VP (VB-NY3H תפפוא))
+                            (NP-OBJ (AT תא)
+                                (NP (NN-ZY-H-BR1 ונבור)))
+                            (PP (IN ב)
+                                (NP
+                                    (NP-NY-H (H ה) (NN-NY הסינכ))
+                                    (PP (IN ל)
+                                        (NP (NNT-ZR יתב)
+                                            (NP (NN-ZR םילוח)))))))))))) (yyQUOT yyQUOT) (yyDOT yyDOT)))
+
+tree #173
+*
+(
+ (S
+    (NP-SBJ (MOD םג)
+        (NP
+            (NP-ZY-H (H ה) (NN-ZY םוחת))
+            (ADJP-ZY-H (H ה) (JJ-ZY יגולוכיספ))))
+    (VP (VB-ZY3H ןווכמ))
+    (NP (AT תא)
+        (NP (NNP-BY גרבנטור)))
+    (PP (IN ב)
+        (VP-INF (VB-M האוב)
+            (PP (IN ל)
+                (NP
+                    (NP (NN-ZY לעפמ))
+                    (ADJP (JJ-ZY שדח)))))) (yyDOT yyDOT)))
+
+tree #174
+*
+(
+ (S
+    (NP-SBJ (PRP-NY3 איה))
+    (VP (VB-NY3H תררבמ))
+    (SBAR-COM (COM *NONE*)
+        (SQ-CNJ
+            (SQ
+                (PREDP
+                    (NP (WDT והמ)))
+                (NP-SBJ
+                    (NP-ZY-H (H ה) (NN-ZY ךתח))
+                    (ADJP-CNJ
+                        (ADJP-ZY-H (H ה) (JJ-ZY יתרבח)) (CC ו)
+                        (ADJP-ZY-H (H ה) (JJ-ZY יתוברת)))
+                    (PP (POS לש)
+                        (NP-ZR-H (H ה) (NN-ZR םידבוע))))) (yyCM yyCM)
+            (SQ
+                (PREDP
+                    (NP (WDT והמ)))
+                (NP-SBJ (NNT-ZY גוס)
+                    (NP-NY-H (H ה) (NN-NY הדובע)))) (yyCM yyCM)
+            (SQ
+                (NP-OBJ (WDT-BR ולא)
+                    (NP (NN-ZR םיעבצ)))
+                (VP (VB-ZR3H םיפידעמ))
+                (NP-SBJ (NNT-ZR ילהנמ)
+                    (NP-NY-H (H ה) (NN-NY הרבח))))
+            (ADVP (CC ו) (RB דוע)))) (yyDOT yyDOT)))
+
+tree #175
+(
+ (S
+    (NP-SBJ
+        (NP (NN-ZY םוחת))
+        (ADJP (JJ-ZY הז)))
+    (VP (VB-ZY3V אב))
+    (PP (IN ל)
+        (NP (NNT-NR ידי)
+            (NP (NN-ZY יוטיב))))
+    (PP (MOD רקיעב)
+        (PP (IN ב)
+            (NP
+                (NP (NNT-NY תעיבצ)
+                    (NP
+                        (NP (NN-ZR םירתא))
+                        (ADJP (JJ-ZR םינשי)))) (yyCM yyCM)
+                (SBAR (REL ש)
+                    (S (NP-SBJ *T*)
+                        (VP (VB-ZR3H םיכוז))
+                        (PP (IN ל)
+                            (NP
+                                (NP (NN-ZY דובכ))
+                                (ADJP-CNJ
+                                    (ADJP (JJ-ZY דחוימ)) (CC ו)
+                                    (ADJP (JJ-ZY בושח)))
+                                (VP-INF-CNJ
+                                    (VP-INF (VB-M רמשל)
+                                        (PP (IN ב)
+                                            (NP (PRP-ZR3 םה)))
+                                        (NP-OBJ (AT תא)
+                                            (NP-ZY-H (H ה) (NN-ZY רבע)))) (CC ו)
+                                    (VP-INF (VB-M טילבהל)
+                                        (NP-OBJ (AT תא)
+                                            (NP-ZY-H (H ה) (NN-ZY דיתע)))))))))))) (yyDOT yyDOT)))

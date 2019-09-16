@@ -1,9 +1,12 @@
+from functools import reduce
 from itertools import product
+from typing import Dict
+
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
-from src.parser import Word
+from src.parser import Word, load_corpus_from_raw_files
 from sklearn.model_selection import cross_val_score
-
+import pprint
 from src.parser import load_corpus
 
 """
@@ -26,8 +29,31 @@ MAX_WORD_LENGTH = 20
 preffixes = ['m', 'e', 'h', 'w', 'k', 'l', 'b', 'me', 'mh', 'ke', 'we', 'wh', 'wl', 'wke', 'lke', 'mke', 'mlke',
              'wlke']
 
+patterns = ["", "Hif'il", "Hitpa'el", "Huf'al", "Nif'al", "Pa'al", "Pi'el", "Pu'al"]
 
-def feature_locations_of_letters(word):
+pattern_matchers = ['^(...)ti$', '^(...)t$', '$(...)^', '^(...)h$', '^(...)nw$', '^(...)tm$', '^(...)tn$', '^(...)w$',
+                    '^a(...)$',
+                    '^t(...)$', '^t(...)i$', '^i(...)$', '^n(...)$', '^t(...)w$', '^t(...)nh$', '^i(...)w$', '^(...)i$',
+                    '^(...)nh$',
+                    '^n(...)ti$', '^n(...)t$', '^n(...)$', '^n(...)h$', '^n(...)nw$', '^n(...)tm$', '^n(...)tn$',
+                    '^n(...)w$', '^t(...)i$',
+                    '^t(...)w$', '^n(...)im$', '^n(...)wt$', '^h(...)$', '^h(...)i$', '^h(...)w$', '^h(...)nh$',
+                    '^lh(...)$', '^h(...)$',
+                    '^h(...)ti$', '^h(...)t$', '^h..i.$', '^h..i.h$', '^h(...)nw$', '^h(...)tm$', '^h(...)tn$',
+                    '^h..i.w$', '^a..i.$',
+                    '^t..i.$', '^t..i.i$', '^i..i.$', '^n..i.$', '^t..i.w$', '^t..i.nh$', '^i..i.w$', '^m..i.$',
+                    '^m..i.h$', '^m..i.im$',
+                    '^m..i.wt$', '^h(...)$', '^h..i.i$', '^h..i.w$', '^h(...)nh$', '^lh..i.$', '^h(...)h$', '^h(...)w$',
+                    '^m(...)$',
+                    '^m(...)t$', '^m(...)im$', '^m(...)wt$', '^l(...)$', '^ht(...)ti$', '^ht(...)t$', '^ht(...)$',
+                    '^ht(...)h$',
+                    '^ht(...)nw$', '^at(...)$', '^tt(...)$', '^tt(...)i$', '^it(...)$', '^nt(...)$', '^tt(...)w$',
+                    '^tt(...)nh$',
+                    '^it(...)w$', '^mt(...)$', '^mt(...)t$', '^mt(...)im$', '^mt(...)wt$', '^ht(...)i$', '^ht(...)nh$',
+                    '^lht(...)$']
+
+
+def feature_locations_of_letters(word: Word):
     # Limiting word length to 20, we note feature i*L ( 0 < i <= 20, 1<= L <= 22 ) as " the ith letter is letter #L.
     # This yields a feature vector of size 20*22 = 440
     feat_vec = [0] * len(heb_alphabet) * MAX_WORD_LENGTH
@@ -47,11 +73,21 @@ def feature_bigrams_of_letters(word):
     return feat_vec
 
 
+def feature_pattern(word):
+    feat_vec = [0] * len(patterns)
+    feat_vec[patterns.index(word.pattern)] = 1
+    return feat_vec
+
+
 def feature_prefixes(word):
     return [1 if word.morpheme.startswith(x) else 0 for x in preffixes]
 
 
-feature_extractors = [feature_locations_of_letters, feature_prefixes]
+def feature_root(word):
+    return word.root
+
+
+feature_extractors = [feature_bigrams_of_letters, feature_pattern]
 
 
 def word_to_feature_vec(word):
@@ -76,10 +112,11 @@ def clean_corpus(corpus):
 
 
 if __name__ == "__main__":
+    # corpus = load_corpus_from_raw_files(r"..\data\haaretz_tagged_xmlFiles")
+    corpus = sorted(load_corpus(r"..\data\corpus.pkl"), key=lambda word: word.morpheme)
     clf = DecisionTreeClassifier()
-    corpus = load_corpus()
     X = corpus_to_feature_vectors(corpus)
     Y = get_word_tags(corpus)
-    clf.fit(X, Y)
+    # clf.fit(X, Y)
     # print(clf.predict([word_to_feature_vec(Word('iarx', 'verb', 1.0))]))
-    print(cross_val_score(clf, X, Y, cv=10))
+    print(np.average(cross_val_score(clf, X, Y, cv=10)))
