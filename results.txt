@@ -1,0 +1,32 @@
+simple : 
+	radical 1 : 0.84
+	radical 2 : 0.661
+	radical 3 : 0.85
+	radical 4 : 0.977
+	
+	combined = 0.52
+
+Simple + POS :
+	radical 1 : 0.815
+	radical 2 : 0.668
+	radical 3 : 0.871
+	
+	combined = 0.555
+	
+Simple + pattern :
+	radical 1 : 0.836
+	radical 2 : 0.681
+	radical 3 : 0.879
+	
+	combined = 0.572
+	
+Simple + POS + pattern :
+
+	whole root : 0.755 
+	
+	radical 1 : 0.842
+	radical 2 : 0.684
+	radical 3 : 0.880
+	
+	combined = 0.576
+	

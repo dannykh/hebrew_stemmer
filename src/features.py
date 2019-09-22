@@ -1,0 +1,113 @@
+from itertools import product
+from typing import List, Callable, T
+
+import pandas as pd
+from sklearn.base import TransformerMixin
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import LabelEncoder
+
+from src.parser import load_corpus, CSV_PATH, split_corpus_and_roots
+
+heb_alphabet = ["", 'a', 'b', 'g', 'd', 'h', 'w', 'z', 'x', 'v', 'i', 'k', 'l', 'm', 'n', 's', 'y', 'p', 'c', 'q', 'r',
+                'e', 't']
+heb_letter_bigrams = sorted(product(heb_alphabet, heb_alphabet))
+MAX_WORD_LENGTH = 20
+preffixes = ['m', 'e', 'h', 'w', 'k', 'l', 'b', 'me', 'mh', 'ke', 'we', 'wh', 'wl', 'wke', 'lke', 'mke', 'mlke',
+             'wlke']
+patterns = ["", "Hif'il", "Hitpa'el", "Huf'al", "Nif'al", "Pa'al", "Pi'el", "Pu'al"]
+
+
+def feature_bigrams_of_letters(word):
+    # Yields a feature vector in which entry i = 1 iff the ith bigram of Hebrew letters (sorted alphabetically) appears
+    # in the word
+    feat_vec = [0] * len(heb_letter_bigrams)
+    for i, big in enumerate(heb_letter_bigrams):
+        feat_vec[i] = 1 if ''.join(big) in word.morpheme else 0
+
+    return feat_vec
+
+
+class StringDataSplit(TransformerMixin):
+    def __init__(self, column: str, max_len: int, column_split_name=None):
+        super(TransformerMixin, self)
+        self.max_len = max_len
+        self.column = column
+        self.column_split_name = column_split_name if column_split_name is not None else column
+
+    def fit(self, X, y):
+        return self
+
+    def transform(self, X, y=None):
+        return pd.DataFrame({f"{self.column_split_name}_{i}": X[self.column].str.split("", expand=True).get(i) for i in
+                             range(1, self.max_len + 1)}).fillna("")
+
+
+class ColumnSelector(TransformerMixin):
+    def __init__(self, columns):
+        super(TransformerMixin, self)
+        self.columns = columns
+
+    def fit(self, X, y):
+        return self
+
+    def transform(self, X, y=None):
+        return X[self.columns]
+
+
+class MultiColumnLabelEncoder:
+    def __init__(self, columns=None):
+        self.columns = columns  # array of column names to encode
+
+    def fit(self, X, y=None):
+        return self  # not relevant here
+
+    def transform(self, X):
+        '''
+        Transforms columns of X specified in self.columns using
+        LabelEncoder(). If no columns specified, transforms all
+        columns in X.
+        '''
+        output = X.copy()
+        if self.columns is not None:
+            for col in self.columns:
+                output[col] = LabelEncoder().fit_transform(output[col])
+        else:
+            for colname, col in output.iteritems():
+                output[colname] = LabelEncoder().fit_transform(col)
+        return output
+
+    def fit_transform(self, X, y=None):
+        return self.fit(X, y).transform(X)
+
+
+class AlphabetEncoder:
+    def __init__(self, columns=None):
+        self.columns = columns  # array of column names to encode
+
+    def fit(self, X, y=None):
+        return self  # not relevant here
+
+    def transform(self, X):
+        '''
+        Transforms columns of X specified in self.columns using
+        LabelEncoder(). If no columns specified, transforms all
+        columns in X.
+        '''
+        return X.apply(lambda col: [heb_alphabet.index(c) for c in col])
+
+    def fit_transform(self, X, y=None):
+        return self.fit(X, y).transform(X)
+
+
+class RowRemover:
+    def __init__(self, criteria: Callable[[pd.DataFrame], pd.Series]):
+        self.criteria = criteria
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X, y=None):
+        return X[self.criteria(X)]
+
+    def fit_transform(self, X, y=None):
+        return self.fit(X).transform(X, y)

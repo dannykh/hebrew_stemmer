@@ -1,10 +1,13 @@
 import os
+import pprint
 import xml.etree.ElementTree as ET
 import pickle as pkl
-from typing import Dict, List
+from itertools import count
+from typing import Dict, List, Callable, Optional, Set
 from functools import reduce
+import pandas as pd
 
-DUMP_PATH = "../data/corpus.pkl"
+CSV_PATH = "../data/corpus.csv"
 
 CORPUS_MAX_SIZE = 10000  # words
 
@@ -43,14 +46,14 @@ def transliterate_string(heb_str):
     return ''.join([heb_char_trns[heb_chr] if heb_chr in heb_char_trns else heb_chr for heb_chr in heb_str])
 
 
+"""
+# Obsolete ! remnants of older implementation, kept for historical educational documentation
 class Word:
     def __init__(self, morpheme: str, pos: str, pattern: str = None, root: str = None):
         self.root = root
         self.morpheme = morpheme
         self.pos = pos
         self.pattern = pattern
-        self.count = 0
-        self.score = 0.0
 
     def __eq__(self, other: "Word"):
         return self.morpheme == other.morpheme and self.root == other.root and self.pos == other.pos \
@@ -66,6 +69,38 @@ class Word:
         return self.__repr__()
 
 
+class WordInCorpus(Word):
+    def __init__(self, word: Word):
+        super(Word, self).__init__(word.morpheme, word.pos, word.pattern, word.root)
+        self.count = 0
+
+
+class Corpus(object):
+    def __init__(self, init_words: Set[Word] = None):
+        self.words = set() if init_words is None else {WordInCorpus(word) for word in init_words}
+
+    def add_word(self, word: Word, count: int = 1):
+        self.words = self.words.get(word, 0) + count
+
+    def get_words(self, order_method: Callable[[List[Word]], List[Word]] = lambda lst: lst,
+                  **kwargs) -> List[Word]:
+        return list(order_method(list(self.words.keys())))
+
+    def get_word_counts(self):
+        return self.words
+
+    def __contains__(self, item: Word):
+        return type(item) is Word and item in self.words
+
+    def __getitem__(self, item: Word):
+        return self.words[item]
+
+    def as_dataframe(self):
+        columns = ["morpheme", "root", "pos", "pattern", "count"]
+        val_dct = [{column: getattr(word, column) for column in columns} for word in self.words]
+        return pd.DataFrame(val_dct, columns=columns)
+
+
 def parse_roots(file_name):
     with open("roots" + file_name + ".txt", "w", encoding="utf-8") as root_file:
         tree = ET.parse('../data/' + file_name + '.xml')
@@ -79,8 +114,10 @@ def parse_roots(file_name):
                         if item.tag == "base" and "root" in item[0].attrib:
                             root_file.write(word + " " + item[0].attrib["root"] + "\n")
 
+"""
 
-def get_words_from_article(morphologically_disambiguated_file_path: str) -> List[Word]:
+
+def get_words_from_article(morphologically_disambiguated_file_path: str) -> List[Dict[str, str]]:
     words = []
     try:
         morphos = ET.parse(morphologically_disambiguated_file_path).getroot()
@@ -90,33 +127,25 @@ def get_words_from_article(morphologically_disambiguated_file_path: str) -> List
 
     # Iterate words in text
     for token in morphos.findall('.//token'):
-        morpheme = transliterate_string(token.attrib['surface'])
+        morpheme = transliterate_string(token.attrib['surface']).strip()
         # Iterate possible word analysis
         for analysis in token.findall('analysis'):
             # skip analysis with 0 score
-            if "score" not in analysis.attrib or float(analysis.attrib["score"]) == 0:
-                continue
+            # if "score" not in analysis.attrib or float(analysis.attrib["score"]) == 0:
+            #     continue
             for base in analysis.findall("base"):
                 for pos in base.findall(".//"):
-                    word = Word(morpheme, pos.tag, pos.attrib["binyan"] if "binyan" in pos.attrib else "",
-                                transliterate_string(pos.attrib["root"]) if "root" in pos.attrib else None)
-                    # Skip if no root
-                    if word.root is None:
+                    if "root" not in pos.attrib:
                         continue
-                    words += [word]
-                    # if morpheme not in words:
-                    #     words[morpheme] = [word]
-                    # else:
-                    #     if word not in words[morpheme]:
-                    #         words[morpheme].update({word: 1})
-                    #     else:
-                    #         words[morpheme][word] += 1
+                    words.append({"morpheme": morpheme, "pos": pos.tag.strip(),
+                                  "pattern": pos.attrib["binyan"].strip() if "binyan" in pos.attrib else "",
+                                  "root": transliterate_string(pos.attrib["root"].strip())})
 
     return words
 
 
-def load_corpus_from_raw_files(dir_path: str) -> List[Word]:
-    corpus_words = []
+def load_corpus_from_raw_files(dir_path: str) -> pd.DataFrame:
+    words = []
     for file_root, _, files in os.walk(dir_path):
         # if len(words) > CORPUS_MAX_SIZE:
         #     break
@@ -124,52 +153,28 @@ def load_corpus_from_raw_files(dir_path: str) -> List[Word]:
             if '.xml' not in file_path:
                 continue
             try:
-                corpus_words += get_words_from_article(file_root + "/" + file_path)
-                # for morph, words in get_words_from_article(file_root + "/" + file_path).items():
-                #     if morph not in corpus_words:
-                #         corpus_words[morph] = words
-                #     else:
-                #         for word, count in words.items():
-                #             if word not in corpus_words[morph]:
-                #                 corpus_words[morph].update({word: count})
-                #             else:
-                #                 corpus_words[morph][word] += count
-            except IndentationError as e:
+                words += get_words_from_article(file_root + "/" + file_path)
+            except Exception as e:
                 print("Could not parse {}. {}".format(file_path, e))
 
-    return corpus_words
+    return pd.DataFrame(words, columns=["morpheme", "pos", "pattern", "root"])
 
 
-def load_and_pickle_corpus(dir_path, dump_path):
-    corpus = load_corpus_from_raw_files(dir_path)
-    with open(dump_path, 'wb') as fp:
-        pkl.dump(corpus, fp)
+def load_corpus_to_csv(dir_path: str, csv_path: str):
+    corpus_df = load_corpus_from_raw_files(dir_path)
+    corpus_df.to_csv(csv_path)
 
 
-def load_corpus(dump_path):
-    with open(dump_path, 'rb') as fp:
-        corpus = pkl.load(fp)
-    return corpus
+def load_corpus(csv_path: str) -> pd.DataFrame:
+    return pd.read_csv(csv_path, index_col=0)
+
+
+def split_corpus_and_roots(corpus: pd.DataFrame) -> (pd.DataFrame, pd.Series):
+    roots = corpus.root
+    return corpus.drop("root", 1), roots
 
 
 if __name__ == '__main__':
-    print([transliterate_string(x).replace(".","(.)") for x in
-           ["^...תי$", "^...ת$", "$...^", "^...ה$", "^...נו$", "^...תם$", "^...תן$", "^...ו$",
-            "^א...$", "^ת...$", "^ת...י$", "^י...$", "^נ...$", "^ת...ו$", "^ת...נה$", "^י...ו$",
-            "^...י$", "^...נה$", "^נ...תי$", "^נ...ת$", "^נ...$", "^נ...ה$", "^נ...נו$",
-            "^נ...תם$", "^נ...תן$", "^נ...ו$", "^ת...י$", "^ת...ו$", "^נ...ים$", "^נ...ות$",
-            "^ה...$", "^ה...י$", "^ה...ו$", "^ה...נה$", "^לה...$", "^ה...$", "^ה...תי$",
-            "^ה...ת$", "^ה..י.$", "^ה..י.ה$", "^ה...נו$", "^ה...תם$", "^ה...תן$", "^ה..י.ו$",
-            "^א..י.$", "^ת..י.$", "^ת..י.י$", "^י..י.$", "^נ..י.$", "^ת..י.ו$", "^ת..י.נה$",
-            "^י..י.ו$", "^מ..י.$", "^מ..י.ה$", "^מ..י.ים$", "^מ..י.ות$", "^ה...$", "^ה..י.י$",
-            "^ה..י.ו$", "^ה...נה$", "^לה..י.$", "^ה...ה$", "^ה...ו$", "^מ...$", "^מ...ת$",
-            "^מ...ים$", "^מ...ות$", "^ל...$", "^הת...תי$", "^הת...ת$", "^הת...$", "^הת...ה$",
-            "^הת...נו$", "^את...$", "^תת...$", "^תת...י$", "^ית...$", "^נת...$", "^תת...ו$",
-            "^תת...נה$", "^ית...ו$", "^מת...$", "^מת...ת$", "^מת...ים$", "^מת...ות$", "^הת...י$",
-            "^הת...נה$", "^להת...$"]])
-    corpus = load_corpus_from_raw_files(r"..\data\haaretz_tagged_xmlFiles")
-    load_and_pickle_corpus(r"..\data\haaretz_tagged_xmlFiles", r"..\data\corpus.pkl")
-    # get_words_from_article(r"..\data\haaretz_tagged_xmlFiles\1.xml")
-    # load_and_pickle_corpus()
-    # corpus = load_corpus()
-    # print("hey")
+    load_corpus_to_csv(r"..\data\haaretz_tagged_xmlFiles", CSV_PATH)
+    corpus = load_corpus(CSV_PATH)
+    pprint.pprint(corpus)
