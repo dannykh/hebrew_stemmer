@@ -32,14 +32,14 @@ def transliterate_string(heb_str):
         "נ": "n",
         "ן": "n",
         "ס": "s",
-        "ע": "y",
+        "ע": "&",
         "פ": "p",
         "ף": "p",
         "צ": "c",
         "ץ": "c",
         "ק": "q",
         "ר": "r",
-        "ש": "e",
+        "ש": "$",
         "ת": "t"
     }
 
@@ -133,12 +133,15 @@ def get_words_from_article(morphologically_disambiguated_file_path: str) -> List
             # skip analysis with 0 score
             # if "score" not in analysis.attrib or float(analysis.attrib["score"]) == 0:
             #     continue
+            prefix = analysis.find("prefix").attrib["surface"] if analysis.find("prefix") is not None else ""
             for base in analysis.findall("base"):
                 for pos in base.findall(".//"):
                     if "root" not in pos.attrib:
                         continue
-                    words.append({"morpheme": morpheme, "pos": pos.tag.strip(),
-                                  "pattern": pos.attrib["binyan"].strip() if "binyan" in pos.attrib else "",
+                    words.append({"morpheme": morpheme,
+                                  "pos": pos.tag.strip(),
+                                  "pattern": pos.get("binyan", "").strip(),
+                                  "prefix": transliterate_string(prefix),
                                   "root": transliterate_string(pos.attrib["root"].strip())})
 
     return words
@@ -157,7 +160,7 @@ def load_corpus_from_raw_files(dir_path: str) -> pd.DataFrame:
             except Exception as e:
                 print("Could not parse {}. {}".format(file_path, e))
 
-    return pd.DataFrame(words, columns=["morpheme", "pos", "pattern", "root"])
+    return pd.DataFrame(words, columns=["morpheme", "pos", "pattern", "prefix", "root"])
 
 
 def load_corpus_to_csv(dir_path: str, csv_path: str):

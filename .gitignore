@@ -109,4 +109,3 @@ venv.bak/
 /raw_data/**
 
 *.zip
-*.xml

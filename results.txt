@@ -29,4 +29,13 @@ Simple + POS + pattern :
 	radical 3 : 0.880
 	
 	combined = 0.576
-	
+
+Simple + POS + pattern + prefix:
+
+	whole root : 0.763
+
+	radical 1 : 0.879
+	radical 2 : 0.691
+	radical 3 : 0.888
+
+	combined = 0.6096

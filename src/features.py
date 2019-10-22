@@ -4,12 +4,12 @@ from typing import List, Callable, T
 import pandas as pd
 from sklearn.base import TransformerMixin
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
-from src.parser import load_corpus, CSV_PATH, split_corpus_and_roots
+max_word_len = 11
 
-heb_alphabet = ["", 'a', 'b', 'g', 'd', 'h', 'w', 'z', 'x', 'v', 'i', 'k', 'l', 'm', 'n', 's', 'y', 'p', 'c', 'q', 'r',
-                'e', 't']
+heb_alphabet = ["", 'a', 'b', 'g', 'd', 'h', 'w', 'z', 'x', 'v', 'i', 'k', 'l', 'm', 'n', 's', '&', 'p', 'c', 'q', 'r',
+                '$', 't']
 heb_letter_bigrams = sorted(product(heb_alphabet, heb_alphabet))
 MAX_WORD_LENGTH = 20
 preffixes = ['m', 'e', 'h', 'w', 'k', 'l', 'b', 'me', 'mh', 'ke', 'we', 'wh', 'wl', 'wke', 'lke', 'mke', 'mlke',
@@ -111,3 +111,31 @@ class RowRemover:
 
     def fit_transform(self, X, y=None):
         return self.fit(X).transform(X, y)
+
+
+
+morpheme_breakdown = Pipeline([
+    # Select raw features (remove POS)
+    ("select raw data", ColumnSelector(["morpheme"])),
+
+    # Expand morpheme to feature for every letter
+    ("expand morpheme", StringDataSplit("morpheme", max_word_len, "morph")),
+
+    # Encode categorical features
+    ("encode", OneHotEncoder(sparse=False, categories=[heb_alphabet for _ in range(0, max_word_len)]))
+])
+pos_encoder = Pipeline([
+    ("select POS", ColumnSelector(["pos"])),
+
+    ("encode", OneHotEncoder(sparse=False))
+])
+pattern_encoder = Pipeline([
+    ("select pattern", ColumnSelector(["pattern"])),
+
+    ("encode", OneHotEncoder(sparse=False))
+])
+prefix_encoder = Pipeline([
+    ("select prefix", ColumnSelector(["prefix"])),
+
+    ("encode", OneHotEncoder(sparse=False))
+])
