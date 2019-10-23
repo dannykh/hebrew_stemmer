@@ -3,7 +3,8 @@ from typing import List, Callable, T
 
 import pandas as pd
 from sklearn.base import TransformerMixin
-from sklearn.pipeline import Pipeline
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 max_word_len = 11
@@ -113,7 +114,6 @@ class RowRemover:
         return self.fit(X).transform(X, y)
 
 
-
 morpheme_breakdown = Pipeline([
     # Select raw features (remove POS)
     ("select raw data", ColumnSelector(["morpheme"])),
@@ -139,3 +139,18 @@ prefix_encoder = Pipeline([
 
     ("encode", OneHotEncoder(sparse=False))
 ])
+baseline_pipeline_steps = [
+
+    ("features", FeatureUnion([
+        ("morpheme breakdown", morpheme_breakdown),
+        ("pos encoder", pos_encoder),
+        ("pattern encoder", pattern_encoder),
+        ("prefix encoder", prefix_encoder),
+
+    ])),
+
+    # Use an SVC classifier
+    # ("SVC", LinearSVC())
+    # ("LogLinear",LogisticRegression(multi_class="auto",solver="liblinear"))
+    ("random forest", RandomForestClassifier(n_estimators=100)),
+]

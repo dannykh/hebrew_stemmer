@@ -1,0 +1,22 @@
+ -- <__main__.SimpleRadicalCombination object at 0x000001E7EA345C88> trained on regular :
+Cross val score for radical 1 : 0.9481147292233281
+Cross val score for radical 2 : 0.9147803167597788
+Cross val score for radical 3 : 0.9511631028691241
+Model score on regular test set : 0.8753056234718827
+Model score on irregular test set : 0.043010752688172046
+Model score on combined test set : 0.5064669843430906
+ -- <__main__.SimpleRadicalCombination object at 0x000001E7EA345C88> trained on irregular :
+Cross val score for radical 1 : 0.8769262165908499
+Cross val score for radical 2 : 0.8207725764473374
+Cross val score for radical 3 : 0.8293452175713181
+Model score on regular test set : 0.1980440097799511
+Model score on irregular test set : 0.728110599078341
+Model score on combined test set : 0.4329475833900613
+ -- <__main__.SimpleRadicalCombination object at 0x000001E7EA345C88> trained on combined :
+Cross val score for radical 1 : 0.9048945931188689
+Cross val score for radical 2 : 0.8465747666498002
+Cross val score for radical 3 : 0.8794798597879877
+Model score on regular test set : 0.8264058679706602
+Model score on irregular test set : 0.7188940092165899
+Model score on combined test set : 0.7787610619469026
+
